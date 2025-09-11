@@ -1005,17 +1005,9 @@ El objetivo es identificar las necesidades específicas y los retos operativos d
 
 <div align = "justify">
 
-+ NutriControl surge como una respuesta innovadora y necesaria frente a los desafíos estructurales que enfrentan los pequeños y medianos agricultores en Sudamérica, especialmente en regiones como Perú. En un contexto de estrés hídrico creciente, incremento en los costos de fertilizantes y limitaciones tecnológicas, esta solución permite optimizar el uso de recursos críticos mediante la automatización inteligente del riego y la fertilización. Al ofrecer mediciones en tiempo real de variables clave del suelo, NutriControl empodera a los agricultores para tomar decisiones basadas en datos, aumentando la eficiencia, la sostenibilidad y la resiliencia de sus cultivos frente a condiciones climáticas cada vez más impredecibles. <br><br>
++ . <br><br>
 
-+ La estrategia de AgroSense, basada en un modelo freemium accesible y escalable, permite democratizar el acceso a la agricultura de precisión, un espacio que históricamente ha estado reservado para grandes productores. Al ofrecer funciones básicas gratuitas y opciones de pago ajustadas al tamaño de las operaciones agrícolas, NutriControl se adapta a las capacidades económicas de su público objetivo, eliminando barreras de entrada. Esta propuesta de valor, combinada con un enfoque en facilidad de uso, operación offline y comunicación directa de beneficios, convierte a NutriControl en una herramienta especialmente diseñada para el agricultor rural sudamericano. <br><br>
-  
-+ La validación de las necesidades del mercado confirma que existe una brecha crítica en el acceso a soluciones tecnológicas asequibles, fáciles de implementar y que respondan a las limitaciones del entorno agrícola rural. NutriControl, al centrarse en resolver los principales “pain points” como el uso ineficiente del agua, la dependencia de fertilizantes caros y la falta de monitoreo del suelo, aborda de manera efectiva las causas raíz de la baja productividad agrícola. Además, su capacidad para reducir costos operativos y mejorar el rendimiento ofrece un impacto económico directo, aumentando así la probabilidad de adopción voluntaria por parte de los productores. <br><br>
-
-+ El desarrollo inicial de la app web y la landing page de NutriControl ha demostrado un avance sólido en la creación de una solución integral para la gestión agrícola. La integración de tecnologías emergentes como IoT y análisis de datos en tiempo real ha abierto nuevas posibilidades para optimizar los procesos agrícolas, mejorando la eficiencia en el uso de recursos y reduciendo costos. A través de la validación del mercado, se ha confirmado que NutriControl tiene el potencial de impactar positivamente en la productividad agrícola al ofrecer herramientas accesibles y fáciles de adoptar para los productores rurales, contribuyendo a la evolución del sector agroindustrial.
-
-+ Además, la implementación de la primera versión del backend y las interfaces iniciales de la aplicación web muestra un camino prometedor hacia la transformación digital del sector agrícola. La capacidad de la plataforma para integrar sensores IoT y análisis de datos, brindando información precisa sobre el estado de los cultivos y el suelo, posiciona a NutriControl como un facilitador de la agricultura inteligente. Este enfoque no solo mejora la rentabilidad de los agricultores, sino que también fomenta prácticas agrícolas más sostenibles, alineándose con las tendencias globales de eficiencia en el uso de recursos y sostenibilidad medioambiental.
-
-+ Finalmente, el proyecto NutriControl se alinea estratégicamente con tendencias globales y locales que promueven la sostenibilidad agrícola y la transformación digital del campo. En un escenario donde la presión por producir más con menos recursos se intensifica, la combinación de automatización, monitoreo inteligente y analítica de datos propuesta por AgroSense tiene un enorme potencial para escalar y consolidarse en el mercado sudamericano. A medida que la conciencia sobre la eficiencia hídrica y la agricultura sostenible crece, NutriControl se posiciona como un actor clave en la construcción de un agro más tecnológico, rentable y resiliente.
+.
 
 </div>
 
@@ -1025,11 +1017,9 @@ El objetivo es identificar las necesidades específicas y los retos operativos d
 
 <div align="center">
 
-  ![AboutTheTeam](Resources/Chapter%2006/Sprint%202/About%20The%20Team.png)
 
 </div>
 
-Enlace: [Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/EbohUAV7KdNHjEiSjs9976sB27gKmVFMiKjwErLhen4kjg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NarIHf)
 
 <br>
 
@@ -1059,95 +1049,24 @@ Enlace: [Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal
 
 # Anexos
 
-+ Repositorio GitHub de la Organización: [Ver Organización](https://github.com/Desarrollo-de-Soluciones-IoT-2510-2942)<br><br>
-+ Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/Desarrollo-de-Soluciones-IoT-2510-2942/Informe)<br><br>
-+ Repositorio GitHub del Backend: [Ver Repositorio](https://github.com/Desarrollo-de-Soluciones-IoT-2510-2942/BackEnd)<br><br>
-+ Repositorio GitHub de la Landing Page: [Ver Repositorio](https://github.com/Desarrollo-de-Soluciones-IoT-2510-2942/LandingPage)<br><br>
-+ Repositorio GitHub de la Aplicación Web: [Ver Repositorio](https://github.com/Desarrollo-de-Soluciones-IoT-2510-2942/FrontEnd)<br><br>
-+ Repositorio GitHub de la Aplicación Móvil: [Ver Repositorio](https://github.com/Desarrollo-de-Soluciones-IoT-2510-2942/MobileApp)<br><br>
-+ Landing Page: [Ver Landing Page](https://nutricontrol.netlify.app)<br><br>
-+ Aplicación Web: [Ver Aplicación Web](https://nutricontrol-agro.netlify.app)<br><br>
-+ Backend: [Ver Backend](https://nutricontrolapifilesadministration-bvf4bbbpgpb5h5dw.brazilsouth-01.azurewebsites.net/swagger/index.html)<br><br>
-+ Aplicación Móvil: [Ver Aplicación Móvil](https://drive.google.com/file/d/13Ij7g6mpJ5EW-KUbSwh-JenQr-5HtALu/view?usp=sharing)<br><br>
++ Repositorio GitHub de la Organización: [Ver Organización](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes)<br><br>
++ Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Project-Report-Verdeva)<br><br>
++ Repositorio GitHub del Backend: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Back-End-Verdeva)<br><br>
++ Repositorio GitHub de la Landing Page: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Landing-Page-Verdeva)<br><br>
++ Repositorio GitHub de la Aplicación Web: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva)<br><br>
++ Repositorio GitHub de la Aplicación Móvil: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva)<br><br>
++ Landing Page: [Ver Landing Page]()<br><br>
 
 ## Needfinding Interviews
 
-  <div align="center">
-    <img src="Resources/Chapter%2002/Interview%20Evidence/needfinding.PNG">
- </div>
-
-
-Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/EVe9zyPE2kRAr5_tAXckCn8BUuKVbU04Pw8xjXkNN28GKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tFnPPJ)
 
 ## Validation Interviews
 
-  <div align="center">
-    <img src="Resources/Chapter%2006/Sprint%202/Expo%20tb2.png">
- </div>
-
-Enlace: [Validation](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219639_upc_edu_pe/ER6LzcDhl-NAr-U44b7982MBl0jXl9YomI6wZ7RVtnggwQ?e=Rr5GEr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
+  
 ## Video Exposición del TB1
-
-  <div align="center">
-    <img src="Resources/Annexes/expo-tb1.jpeg">
- </div>
-
-
-Enlace: [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/ESxhm34RanRDtf_Jk1V6LKcByIap3iA1sJ-coejqHzlrLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1uicYK)
-
-
-## Video Exposición del TP1
-
-  <div align="center">
-    <img src="Resources/Annexes/expo-tp1.PNG">
- </div>
-
-
-Enlace: [TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/ERL-4bh2Fg9Bj2yyvw48tBUBobb8ErAIgB5SFZoIgh0WFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=d79h7a)
-
-## Video Exposición del TB2
-
-  <div align="center">
-    <img src="Resources/Chapter%2006/Tb2%20expo.png">
- </div>
-
-
-Enlace: [TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219639_upc_edu_pe/EewEtn0uQypKv7bsoRh87eUBugRc6GIDuI-Ht0UeXCJbOA?e=FQnJ8I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
 
 ## Video de Ejecución de la Primera Versión de la Aplicación Móvil
 
-  <div align="center">
-    <img src="Resources/Chapter 06/Sprint 2/MobileAppFirstVersion.jpg">
- </div>
-
-
-Enlace: [Mobile App Execution](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/EU8H8MznINFGrYhkzAwiyTQBvvb3cA3LLDSRdwSy5sfJtg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WeNG11)
-
 ## Video About The-Product:
 
-<div align="center">
-
-![AboutTheProduct](Resources/Annexes/AboutTheProduct.png)
- </div>
-
-Enlace: [Video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219639_upc_edu_pe/Ecxd7LAf8iFPhTbo0aqQUpMBayc_sYUCKfHiRfhcRWgIIQ?e=ZRy7bI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
 ## Video About The-Team:
-
-<div align="center">
-
-![AboutTheTeam](Resources/Chapter%2006/Sprint%202/About%20The%20Team.png)
- </div>
-
-Enlace: [Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/EbohUAV7KdNHjEiSjs9976sB27gKmVFMiKjwErLhen4kjg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NarIHf)
-
-## Video Exposición del TF1
-
-  <div align="center">
-    <img src="Resources/Chapter%2006/Tf1%20expo.png">
- </div>
-
-
-Enlace: [TF1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210297_upc_edu_pe/EVtsZh__Ms9Bq5VnwMK4dHsB-TnZLSnC9X2NaQCmaOTR2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=oMS1sy)
