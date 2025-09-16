@@ -1027,6 +1027,39 @@ Se presentan los User Persona correspondientes a cada segmento objetivo, elabora
 <div align="center"><img src="images/chapter2/UserPersona2.png" alt="User Persona 2"></div>
 
 ### 2.3.2. *User Task Matrix*
+Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta dos segmentos principales identificados a partir del análisis de entrevistas: los productores rurales tradicionales y los productores tecnificados de cultivos de alto valor.
+
+<b>José Ramírez (Productor rural tradicional)</b><br>
+<div align="center">
+
+| **TAREA DEL USUARIO**                          | **Frecuencia** | **Relevancia** |
+|------------------------------------------------|----------------|----------------|
+| Revisar la humedad y nutrientes del suelo      |     Media      |      Alta      |
+| Recibir notificaciones sobre riego             |     Alta       |      Alta      |
+| Programar horarios automáticos de riego        |     Baja       |      Media     |
+| Consultar reportes generales del terreno       |     Media      |      Media     |
+| Obtener recomendaciones básicas                |     Alta       |      Alta      |
+| Ajustar los sensores instalados                |     Baja       |      Media     |
+| Revisar el estado de cultivos en campo         |     Media      |      Alta      |
+| Supervisar el flujo de riego en campo          |     Baja       |      Media     |
+
+</div><br><br>
+
+<b>Julieta Torres(Productora tecnificada de cultivos de alto valor)</b><br>
+<div align="center">
+
+| **TAREA DEL USUARIO**                           | **Frecuencia** | **Relevancia** |
+|-------------------------------------------------|----------------|----------------|
+| Supervisar en tiempo real las condiciones del suelo |     Alta      |      Alta      |
+| Automatizar el riego y la aplicación de fertilizantes |     Alta      |      Alta      |
+| Revisar reportes históricos detallados          |     Media      |      Alta      |
+| Evaluar predicciones basadas en datos           |     Media      |      Alta      |
+| Ajustar las alertas y notificaciones            |     Baja       |      Media     |
+| Configurar y ajustar sensores avanzados         |     Baja       |      Alta      |
+| Conectar NutriControl con otros sistemas agrícolas |     Baja      |      Alta      |
+| Capacitar a su equipo en el uso de la herramienta |     Baja      |      Media     |
+
+</div><br><br>
 
 ### 2.3.3. *User Journey Mapping*
 
