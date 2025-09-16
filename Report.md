@@ -1084,6 +1084,14 @@ Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta d
 
 ### 2.3.5. *As-is Scenario Mapping*
 
+**As Is Scenario Map 1- Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
+
+<div align="center"><img src="images/chapter2/asis 1.png" alt="As-is Scenario 1"></div>
+
+**As Is Scenario Map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
+
+<div align="center"><img src="images/chapter2/asis 2.png" alt="As-is Scenario 2"></div>
+
 ## 2.4. *Ubiquitous Language*
 
 # Capítulo III: Requirements Specification
