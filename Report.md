@@ -639,7 +639,7 @@ NetBeat es una plataforma digital avanzada desarrollada por Netafim, empresa lí
 
 </div>
 
-  ![Imagen extraída de NetBeat([URL]())](images/chapter2/neatfeat.jpg)
+  ![Imagen extraída de NetBeat([URL]())](Images/chapter2/neatfeat.jpg)
 
 <br>
 <div align="justify">
@@ -649,7 +649,7 @@ Agrosmart es una plataforma brasileña especializada en agricultura digital que 
 
 </div>
 
-  ![Imagen extraída de AgroSmart([URL]())](images/chapter2/agrosmart.jpeg)
+  ![Imagen extraída de AgroSmart([URL]())](Images/chapter2/agrosmart.jpeg)
 <br><br>
 <div align="justify">
 
@@ -658,7 +658,7 @@ Taranis es una plataforma global de inteligencia agrícola que emplea imágenes 
 
 </div>
 
-  ![Imagen extraída de Taranis([URL]())](images/chapter2/taranis.jpg)
+  ![Imagen extraída de Taranis([URL]())](Images/chapter2/taranis.jpg)
 
 <br>
 
@@ -682,10 +682,10 @@ Taranis es una plataforma global de inteligencia agrícola que emplea imágenes 
         </tr>
         <tr>
             <th colspan="2">Logo</th>
-            <th><img src="images/chapter2/verdeva.jpeg" alt="Logo Verdeva"></th>
-            <th><img src="images/chapter2/neatfeat.jpg" alt="Logo NetBeat"></th>
-            <th><img src="images/chapter2/agrosmart.jpeg" alt="Logo AgroSmart"></th>
-            <th><img src="images/chapter2/taranis.jpg" alt="Logo Taranis"></th>
+            <th><img src="Images/chapter2/verdeva.jpeg" alt="Logo Verdeva"></th>
+            <th><img src="Images/chapter2/neatfeat.jpg" alt="Logo NetBeat"></th>
+            <th><img src="Images/chapter2/agrosmart.jpeg" alt="Logo AgroSmart"></th>
+            <th><img src="Images/chapter2/taranis.jpg" alt="Logo Taranis"></th>
         </tr>
     </thead>
     <tbody>
