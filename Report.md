@@ -1073,6 +1073,15 @@ Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta d
 
 ### 2.3.4. *Empathy Mapping*
 
+**Empathy map 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
+
+<div align="center"><img src="images/chapter2/empathy map1.jpeg" alt="Empathy Map 1"></div>
+
+**Empathy map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
+
+<div align="center"><img src="images/chapter2/empathymap2.jpeg" alt="Empathy Map 2"></div>
+
+
 ### 2.3.5. *As-is Scenario Mapping*
 
 ## 2.4. *Ubiquitous Language*
