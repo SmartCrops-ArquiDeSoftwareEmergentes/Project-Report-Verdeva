@@ -1022,11 +1022,11 @@ Se presentan los User Persona correspondientes a cada segmento objetivo, elabora
 
 **User Persona 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-[User Persona 1](<Images/chapter2/UserPersona.png>)
+![User Persona 1](<Images/chapter2/UserPersona.png>)
 
 **User Persona 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
-[User Persona 2](<Images/chapter2/UserPersona2.png>)
+![User Persona 2](<Images/chapter2/UserPersona2.png>)
 
 ### 2.3.2. *User Task Matrix*
 Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta dos segmentos principales identificados a partir del análisis de entrevistas: los productores rurales tradicionales y los productores tecnificados de cultivos de alto valor.
@@ -1067,17 +1067,17 @@ Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta d
 
 **User Journey map 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-[User journey map 1](<Images/chapter2/userjurneymap1.jpeg>)
+![User journey map 1](<Images/chapter2/userjurneymap1.jpeg>)
 
 **User Journey map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
-[User journey map 2](<Images/chapter2/userjourneymap2.jpeg>)
+![User journey map 2](<Images/chapter2/userjourneymap2.jpeg>)
 
 ### 2.3.4. *Empathy Mapping*
 
 **Empathy map 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-[Empathy map 1](<Images/chapter2/empathy map1.jpeg>)
+![Empathy map 1](<Images/chapter2/empathy map1.jpeg>)
 
 **Empathy map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
