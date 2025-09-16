@@ -639,7 +639,7 @@ NetBeat es una plataforma digital avanzada desarrollada por Netafim, empresa lí
 
 </div>
 
-  ![Imagen extraída de NetBeat([URL]())](Resources/Chapter%2002/Competitors/Netafim.png)
+  ![Imagen extraída de NetBeat([URL]())](images/chapter2/neatfeat.jpg)
 
 <br>
 <div align="justify">
@@ -649,7 +649,7 @@ Agrosmart es una plataforma brasileña especializada en agricultura digital que 
 
 </div>
 
-  ![Imagen extraída de AgroSmart([URL]())](Resources/Chapter%2002/Competitors/AgroSmart.png)
+  ![Imagen extraída de AgroSmart([URL]())](images/chapter2/agrosmart.jpeg)
 <br><br>
 <div align="justify">
 
@@ -658,7 +658,7 @@ Taranis es una plataforma global de inteligencia agrícola que emplea imágenes 
 
 </div>
 
-  ![Imagen extraída de Taranis([URL]())](Resources/Chapter%2002/Competitors/Taranis.png)
+  ![Imagen extraída de Taranis([URL]())](images/chapter2/taranis.jpg)
 
 <br>
 
@@ -1020,11 +1020,11 @@ Se presentan los User Persona correspondientes a cada segmento objetivo, elabora
 
 **User Persona 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-<div align="center"><img src="images/chapter2/UserPersona.png" alt="User Persona 1"></div>
+[User Persona 1](<Images/chapter2/UserPersona.png>)
 
 **User Persona 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
-<div align="center"><img src="images/chapter2/UserPersona2.png" alt="User Persona 2"></div>
+[User Persona 2](<Images/chapter2/UserPersona2.png>)
 
 ### 2.3.2. *User Task Matrix*
 Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta dos segmentos principales identificados a partir del análisis de entrevistas: los productores rurales tradicionales y los productores tecnificados de cultivos de alto valor.
@@ -1065,32 +1065,32 @@ Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta d
 
 **User Journey map 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-<div align="center"><img src="images/chapter2/userjurneymap1.jpeg" alt="User journey map 1"></div>
+[User journey map 1](<Images/chapter2/userjurneymap1.jpeg>)
 
 **User Journey map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
-<div align="center"><img src="images/chapter2/userjourneymap2.jpeg" alt="User journey map 2"></div>
+[User journey map 2](<Images/chapter2/userjourneymap2.jpeg>)
 
 ### 2.3.4. *Empathy Mapping*
 
 **Empathy map 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-<div align="center"><img src="images/chapter2/empathy map1.jpeg" alt="Empathy Map 1"></div>
+[Empathy map 1](<Images/chapter2/empathy map1.jpeg>)
 
 **Empathy map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
-<div align="center"><img src="images/chapter2/empathymap2.jpeg" alt="Empathy Map 2"></div>
+![Empathy map 2](<Images/chapter2/empathymap2.jpeg>)
 
 
 ### 2.3.5. *As-is Scenario Mapping*
 
 **As Is Scenario Map 1- Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
 
-<div align="center"><img src="images/chapter2/asis 1.png" alt="As-is Scenario 1"></div>
+![As-is Scenario 1](<Images/chapter2/asis 1.png>)
 
 **As Is Scenario Map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
 
-<div align="center"><img src="images/chapter2/asis 2.png" alt="As-is Scenario 2"></div>
+![As-is Scenario 2](<Images/chapter2/asis 2.png>)
 
 ## 2.4. *Ubiquitous Language*
 
