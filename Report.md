@@ -1015,6 +1015,8 @@ Se llevará a cabo tres entrevistas por cada segmento, sumando un total de seis.
 
 ## 2.3. *Needfinding*
 
+NeedFinding es un método cualitativo que se centra en los sentimientos y opiniones de los usuarios. Como su nombre lo indica, su propósito es reconocer, probar, analizar y evaluar las necesidades que pueden administrar el desarrollo y el desarrollo de cualquier proyecto. En este proyecto, hemos decidido usar entrevistas y estudios para interactuar con usuarios potenciales. Los siguientes son varios análisis, que son el resultado de estas entrevistas en artefactos posteriores.
+
 ### 2.3.1. *User Personas*
 Se presentan los User Persona correspondientes a cada segmento objetivo, elaborados a partir de los perfiles de usuarios ideales de cada grupo. 
 
@@ -1118,9 +1120,850 @@ A continuación, se presentan los términos propios del dominio del negocio:
 
 ## 3.2. *User Stories*
 
+***Epics***
+
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Historias de usuario relacionadas</th>
+  </tr>
+  <tr>
+    <td>EP-01</td>
+    <td>Presentación de NutriControl</td>
+    <td>Como usuario potencial, cuando ingrese a la Landing Page de NutriControl, quiero poder ver una presentación clara de la solución, incluyendo su funcionamiento, características y opciones de planes, para poder decidir si la plataforma satisface mis necesidades y si quiero registrarme.
+    </td>
+    <td>US-01, US-02, US-03</td>
+  </tr>
+  <tr>
+    <td>EP-02</td>
+    <td>Gestión de Usuarios</td>
+    <td>Como usuario, cuando ingrese a la plataforma NutriControl, quiero poder registrarme, iniciar sesión y gestionar mi información personal, de modo que pueda acceder a todos los beneficios de la solución y mantener mis datos actualizados en todo momento.
+    </td>
+    <td>US-04, US-05, US-06, US-22, US-23</td>
+  </tr>
+  <tr>
+    <td>EP-03</td>
+    <td>Gestión de Campos Agrícolas</td>
+    <td>Como productor agrícola, cuando ingrese a NutriControl, quiero poder gestionar mis campos agrícolas, lo que incluye agregar, editar y eliminar campos, para poder automatizarlos y tener un control eficiente de los recursos y las tareas en mis cultivos.
+    </td>
+    <td>US-07, US-08, US-09</td>
+  </tr>
+  <tr>
+    <td>EP-04</td>
+    <td>Gestión de Cultivos</td>
+    <td>Como productor agrícola, cuando acceda a la plataforma, quiero poder gestionar mis cultivos dentro de los campos agrícolas, permitiéndome agregar, editar y eliminar cultivos según mis necesidades, para optimizar el manejo de mis recursos agrícolas.
+    </td>
+    <td>US-10, US-11, US-12</td>
+  </tr>
+  <tr>
+    <td>EP-05</td>
+    <td>Gestión de Dispositivos IOT y Automatización</td>
+    <td>Como productor agrícola, cuando acceda a mis campos agrícolas en NutriControl, quiero poder conectar y gestionar dispositivos IOT que automatizan tareas como el riego y la fertilización, y recibir alertas sobre su estado, de modo que pueda optimizar el monitoreo y control de mis cultivos.
+    </td>
+    <td>US-13, US-14, US-16, US-18</td>
+  </tr>
+  <tr>
+    <td>EP-06</td>
+    <td>Inteligencia Agrícola y Optimización</td>
+    <td>Como agricultor, cuando necesite mejorar el rendimiento de mis cultivos, quiero recibir recomendaciones, alertas y análisis predictivos basados en datos inteligentes, para tomar decisiones más informadas sobre el riego, la fertilización y otros aspectos agrícolas, optimizando el uso de recursos y mejorando la producción.
+    </td>
+    <td>US-15, US-17, US-19, US-20, US-21</td>
+  </tr>
+  <tr>
+    <td>EP-07</td>
+    <td>Implementación Técnica</td>
+    <td>Como equipo de desarrollo, cuando construyamos la solución NutriControl, quiero establecer toda la base técnica necesaria (infraestructura, autenticación, integración IoT, motor de alertas, y frontend responsive) para garantizar el correcto funcionamiento, escalabilidad y mantenimiento del sistema.
+    </td>
+    <td>TS-01, TS-02, TS-03, TS-04, TS-05</td>
+  </tr>
+</table>
+
+***User Stories***
+
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>Relacionado con (Epic ID)</th>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Información de NutriControl</td>
+    <td>Como usuario potencial, cuando ingrese a la Landing Page de NutriControl, quiero poder visualizar información del funcionamiento de la solución y su propuesta de valor.</td>
+    <td>
+    Escenario 1: Visualizar la descripción general de NutriControl
+    <br><br>
+    Dado que el usuario potencial ingresa a la Landing Page,
+    Cuando acceda a la sección principal,
+    Entonces podrá visualizar información sobre el funcionamiento de NutriControl
+    Y entenderá su propuesta de valor.
+    <br><br>
+    Escenario 2: Navegación fluida a la sección de información
+    <br><br>
+    Dado que el usuario está en la Landing Page,
+    Cuando haga clic en el botón "¿Qué es NutriControl?",
+    Entonces deberá ser dirigido de forma fluida a la sección informativa
+    Y podrá regresar fácilmente al inicio.
+    </td>
+    <td>EP-01</td>
+  </tr>
+  <tr>
+    <td>US-02</td>
+    <td>Características de NutriControl</td>
+    <td>Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar características específicas de lo que NutriControl ofrece y ver si se adecuan a mis necesidades.</td>
+    <td>
+    Escenario 1: Visualizar las características principales
+    <br><br>
+    Dado que el usuario potencial navega por la Landing Page,
+    Cuando llegue a la sección de características,
+    Entonces podrá visualizar una lista de funcionalidades destacadas de NutriControl
+    Y entender para qué sirve cada una.
+    <br><br>
+    Escenario 2: Información expandida de características
+    <br><br>
+    Dado que el usuario esté interesado en una funcionalidad específica,
+    Cuando haga clic en "Más información" de una característica,
+    Entonces se desplegará una descripción detallada
+    Y podrá cerrar esa información para seguir navegando.
+    </td>
+    <td>EP-01</td>
+  </tr>
+  <tr>
+    <td>US-03</td>
+    <td>Sección de planes o membresías</td>
+    <td>Como usuario potencia, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar una sección de planes en los cuales ver los beneficios adicionales que tendría fuera de un plan 
+     Freemium. 
+    </td>
+    <td>
+    Escenario 1: Visualizar todos los tipos de planes
+    <br><br>
+    Dado que el usuario potencial está navegando por la Landing Page,
+    Cuando acceda a la sección de planes,
+    Entonces podrá visualizar todos los tipos de planes disponibles
+    Y comparar sus beneficios.
+    <br><br>
+    Escenario 2: Diferenciación clara entre planes
+    <br><br>
+    Dado que el usuario potencial observa los planes,
+    Cuando revise las características,
+    Entonces podrá identificar las diferencias entre el plan Freemium y los planes Premium
+    Y entender qué beneficios adicionales ofrece cada uno.
+    </td>
+    <td>EP-01</td>
+  </tr>
+  <tr>
+    <td>US-04</td>
+    <td>Registro de Usuario</td>
+    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder registrarme con un correo electrónico y contraseña para poder usar NutriControl.</td>
+    <td>
+    Escenario 1: Registro exitoso
+    <br><br>
+    Dado que un usuario nuevo quiere registrarse,
+    Cuando ingrese un correo electrónico válido y una contraseña segura,
+    Entonces podrá completar el registro
+    Y recibirá una confirmación de creación de cuenta.
+    <br><br>
+    Escenario 2: Error en el registro por datos inválidos
+    <br><br>
+    Dado que un usuario quiere registrarse,
+    Cuando ingrese un correo inválido o una contraseña débil,
+    Entonces el sistema mostrará un mensaje de error
+    Y le pedirá corregir los datos antes de continuar.
+    <br><br>
+    Escenario 3: Confirmación visual del registro
+    <br><br>
+    Dado que el usuario haya terminado el registro,
+    Cuando se envíe el formulario correctamente,
+    Entonces verá una pantalla de "Registro exitoso"
+    Y se le ofrecerá iniciar sesión de inmediato.
+    </td>
+    <td>EP-02</td>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Inicio de Sesión</td>
+    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder iniciar sesión con mis credenciales ya creadas en el registro de NutriControl.</td>
+    <td>
+    Escenario 1: Inicio de sesión exitoso
+    <br><br>
+    Dado que un usuario registrado ingresa a la App Web o App Móvil,
+    Cuando proporcione un correo y contraseña correctos,
+    Entonces accederá a su cuenta
+    Y verá el dashboard principal.
+    <br><br>
+    Escenario 2: Error de inicio de sesión por credenciales incorrectas
+    <br><br>
+Dado que un usuario intente iniciar sesión,
+Cuando ingrese credenciales incorrectas,
+Entonces recibirá un mensaje de error
+Y podrá intentar ingresar nuevamente.
+    </td>
+    <td>EP-02</td>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Recuperación de Contraseña</td>
+    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder recuperar o cambiar mi contraseña en caso la haya olvidado.</td>
+    <td>
+    Escenario 1: Solicitar recuperación de contraseña
+    <br><br>
+Dado que un usuario ha olvidado su contraseña,
+Cuando haga clic en "¿Olvidaste tu contraseña?",
+Entonces se le pedirá ingresar su correo electrónico
+Y recibirá instrucciones para cambiar su contraseña.
+    <br><br>
+    Escenario 2: Recuperación exitosa de contraseña
+    <br><br>
+Dado que un usuario haya solicitado recuperar su contraseña,
+Cuando ingrese una nueva contraseña válida a través del enlace recibido,
+Entonces el sistema actualizará su contraseña
+Y podrá iniciar sesión con la nueva clave.
+    </td>
+    <td>EP-02</td>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Adición de Campos Agrícolas</td>
+    <td>Como productor agrícola, cuando ingrese al inicio de NutriControl, quiero poder agregar los Campos Agrícolas que deseo automatizar.</td>
+    <td>
+    Escenario 1: Agregar un nuevo Campo Agrícola
+    <br><br>
+Dado que un productor agrícola haya iniciado sesión,
+Cuando seleccione la opción "Agregar Campo",
+Entonces podrá registrar un nuevo campo con nombre, ubicación y tamaño
+Y visualizarlo en la lista de campos.
+    <br><br>
+    Escenario 2: Validación de datos al registrar campo
+    <br><br>
+Dado que el productor quiera registrar un campo,
+Cuando deje algún campo obligatorio vacío,
+Entonces el sistema mostrará un mensaje de error
+Y no permitirá guardar el campo hasta completar los datos.
+    <br><br>
+    Escenario 3: Confirmación de campo agregado
+    <br><br>
+Dado que el productor haya agregado correctamente un nuevo campo,
+Cuando termine de registrar los datos,
+Entonces recibirá un mensaje de confirmación
+Y verá su campo reflejado en el mapa o lista de campos.
+    </td>
+    <td>EP-03</td>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Edición de Campos Agrícolas</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder editar la información de los Campos que poseo.</td>
+    <td>
+Escenario 1: Editar información de un campo existente
+    <br><br>
+Dado que el productor agrícola visualiza sus campos,
+Cuando seleccione un campo y haga clic en "Editar",
+Entonces podrá modificar la información como nombre, ubicación o tamaño
+Y guardar los cambios.
+    <br><br>
+Escenario 2: Validar cambios en el campo
+    <br><br>
+Dado que el productor modifique un campo,
+Cuando edite y guarde cambios inválidos (por ejemplo, nombre vacío),
+Entonces el sistema mostrará un mensaje de error
+Y no actualizará el campo hasta corregir los errores.
+    <br><br>
+Escenario 3: Confirmación de campo actualizado
+    <br><br>
+Dado que el productor termine de editar el campo,
+Cuando guarde los cambios,
+Entonces recibirá un mensaje de éxito
+Y verá los datos actualizados en la vista general.
+    </td>
+    <td>EP-03</td>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Eliminación de Campos Agrícolas</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder eliminar cualquier Campo Agrícola que posea.</td>
+    <td>
+Escenario 1: Eliminar un campo agrícola existente
+    <br><br>
+Dado que el productor visualiza la lista de sus campos,
+Cuando seleccione la opción "Eliminar" en un campo,
+Entonces se le pedirá una confirmación
+Y, si confirma, el campo será eliminado.
+    <br><br>
+Escenario 2: Cancelar la eliminación
+    <br><br>
+Dado que el productor haya presionado "Eliminar",
+Cuando vea el cuadro de confirmación,
+Entonces podrá cancelar la acción
+Y el campo permanecerá sin cambios.
+    </td>
+    <td>EP-03</td>
+  </tr>
+  <tr>
+    <td>US-10</td>
+    <td>Registro de Cultivos</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder agregar cultivos dentro de mis campos.</td>
+    <td>
+Escenario 1: Agregar un cultivo a un campo
+    <br><br>
+Dado que el productor visualiza sus campos agrícolas,
+Cuando seleccione un campo y haga clic en "Agregar Cultivo",
+Entonces podrá registrar un cultivo con nombre, fecha de siembra y variedad
+Y visualizarlo dentro del campo.
+    <br><br>
+Escenario 2: Validación de datos en registro de cultivo
+    <br><br>
+Dado que el productor intente registrar un cultivo,
+Cuando deje campos obligatorios vacíos o ingrese datos inválidos,
+Entonces el sistema mostrará un mensaje de error
+Y no permitirá guardar hasta completar correctamente.
+    <br><br>
+Escenario 3: Confirmación de cultivo agregado
+    <br><br>
+Dado que el productor haya registrado un cultivo correctamente,
+Cuando envíe el formulario,
+Entonces verá un mensaje de éxito
+Y el cultivo aparecerá en la lista de cultivos del campo seleccionado.
+    </td>
+    <td>EP-04</td>
+  </tr>
+  <tr>
+    <td>US-11</td>
+    <td>Edición de Cultivos</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Cultivos de los Campos, quiero poder editar la información de mis Cultivos.</td>
+    <td>
+Escenario 1: Editar un cultivo existente
+    <br><br>
+Dado que el productor visualiza los cultivos de sus campos,
+Cuando seleccione un cultivo y haga clic en "Editar",
+Entonces podrá modificar información como nombre, variedad o fecha de siembra
+Y guardar los cambios realizados.
+    <br><br>
+Escenario 2: Validar datos al editar un cultivo
+    <br><br>
+Dado que el productor edite un cultivo,
+Cuando ingrese información inválida o deje campos obligatorios vacíos,
+Entonces el sistema mostrará un mensaje de error
+Y no permitirá actualizar el cultivo hasta corregir los datos.
+    <br><br>
+Escenario 3: Confirmación de edición exitosa
+    <br><br>
+Dado que el productor haya realizado cambios en un cultivo,
+Cuando guarde los cambios,
+Entonces verá un mensaje de éxito
+Y los cambios se reflejarán en la lista de cultivos.
+    </td>
+    <td>EP-04</td>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Eliminación de Cultivos</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Campos de los Campos, quiero poder eliminar ciertos cultivos dentor de mis Campos Agrícolas.</td>
+    <td>
+Escenario 1: Eliminar un cultivo de un campo
+    <br><br>
+Dado que el productor visualiza los cultivos de sus campos,
+Cuando seleccione un cultivo y haga clic en "Eliminar",
+Entonces se le pedirá confirmar la eliminación
+Y al confirmar, el cultivo será eliminado del sistema.
+    <br><br>
+Escenario 2: Cancelar eliminación de cultivo
+    <br><br>
+Dado que el productor haya presionado "Eliminar" sobre un cultivo,
+Cuando vea el cuadro de confirmación,
+Entonces podrá cancelar la acción
+Y el cultivo permanecerá intacto.
+    </td>
+    <td>EP-04</td>
+  </tr>
+  <tr>
+    <td>US-13</td>
+    <td>Conectar y Adicionar Dispositivos IOT a mis Cultivos</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero registrar y adicionar a mis Campos los dispositivos IOT que están presentes en mis cultivos.</td>
+    <td>
+Escenario 1: Conectar un nuevo dispositivo IoT
+    <br><br>
+Dado que el productor quiere mejorar el monitoreo de sus cultivos,
+Cuando acceda a la opción "Conectar Dispositivo" en un campo,
+Entonces podrá registrar un dispositivo IoT ingresando su ID y tipo
+Y asociarlo a un cultivo específico.
+    <br><br>
+Escenario 2: Validar conexión de dispositivo
+    <br><br>
+Dado que el productor intenta conectar un dispositivo IoT,
+Cuando ingrese datos inválidos o el dispositivo ya esté registrado,
+Entonces el sistema mostrará un mensaje de error
+Y no permitirá completar la conexión hasta corregir.
+    <br><br>
+Escenario 3: Confirmación de dispositivo conectado
+    <br><br>
+Dado que el productor haya conectado correctamente un dispositivo,
+Cuando finalice el registro,
+Entonces verá un mensaje de éxito
+Y el dispositivo aparecerá en la lista de dispositivos asociados.
+    </td>
+    <td>EP-05</td>
+  </tr>
+  <tr>
+    <td>US-14</td>
+    <td>Desconectar Dispositivos IOT a mis Cultivos</td>
+    <td>Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero desactivar los dispositivos IOT que están presentes en mis cultivos.</td>
+    <td>
+Escenario 1: Desconectar un dispositivo IoT
+    <br><br>
+Dado que el productor desea desconectar un dispositivo de un cultivo,
+Cuando seleccione el dispositivo y presione "Desconectar",
+Entonces verá una confirmación de acción
+Y al confirmar, el dispositivo será desvinculado del cultivo.
+    <br><br>
+Escenario 2: Cancelar desconexión de dispositivo
+    <br><br>
+Dado que el productor presione "Desconectar" sobre un dispositivo,
+Cuando vea la ventana de confirmación,
+Entonces podrá cancelar la acción
+Y el dispositivo seguirá vinculado al cultivo.
+    </td>
+    <td>EP-05</td>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Alertas del pH del Suelo</td>
+    <td>Como agricultor rural, cuando no entiendo los niveles de pH del suelo, quiero recibir una alerta con una recomendación sencilla para saber qué hacer.</td>
+    <td>
+Escenario 1: Recibir alerta de pH bajo o alto
+    <br><br>
+Dado que el agricultor tiene dispositivos IoT conectados,
+Cuando los sensores detecten un nivel de pH fuera del rango ideal,
+Entonces recibirá una alerta en la aplicación
+Y un mensaje sencillo con recomendaciones prácticas.
+    <br><br>
+Escenario 2: Visualizar recomendaciones de acción
+    <br><br>
+Dado que el agricultor recibe una alerta de pH,
+Cuando abra la alerta desde la app,
+Entonces podrá visualizar instrucciones claras sobre qué acciones tomar
+Y enlaces o recursos para apoyo adicional.
+    </td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Alertas y Configuración del Riego Automático</td>
+    <td>Como agricultor rural, cuando necesito usar el riego automático, quiero recibir una alerta cuando el riego esté completado o necesite activar el riego en cierta determinada zona de mis cultivos.</td>
+    <td>
+Escenario 1: Recibir alerta de riego completado
+    <br><br>
+Dado que el agricultor tiene configurado el riego automático,
+Cuando el sistema detecte que el riego ha finalizado,
+Entonces recibirá una notificación en la aplicación
+Y podrá consultar el resumen de la actividad de riego.
+    <br><br>
+Escenario 2: Recibir alerta de necesidad de riego
+    <br><br>
+Dado que el agricultor está monitoreando su cultivo,
+Cuando el sistema detecte que una zona necesita riego,
+Entonces recibirá una alerta con el nombre de la zona afectada
+Y un botón rápido para activar el riego desde la app.
+    <br><br>
+Escenario 3: Configurar programación de riego automático
+    <br><br>
+Dado que el agricultor quiere personalizar su riego,
+Cuando entre a la configuración del dispositivo,
+Entonces podrá definir horarios, frecuencia y cantidad de agua a suministrar
+Y guardar esos parámetros para su riego automático.
+    </td>
+    <td>EP-05</td>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Recomendaciones y Toma de decisón de los Cultivos</td>
+    <td>Como agricultor rural, cuando necesito recomendaciones sobre la toma de decisiones, quiero recibir consejos sobre que hacer respecto al estado de cada cultivo.</td>
+    <td>
+Escenario 1: Recibir recomendaciones de cuidado
+    <br><br>
+Dado que el agricultor revisa el estado de sus cultivos,
+Cuando un cultivo muestre signos de estrés o necesidad de intervención,
+Entonces el sistema mostrará recomendaciones específicas de acción
+Y podrá aplicar los consejos directamente desde la app.
+    <br><br>
+Escenario 2: Recomendaciones automáticas basadas en clima
+    <br><br>
+Dado que el agricultor tiene sensores climáticos conectados,
+Cuando se detecten cambios drásticos de temperatura o humedad,
+Entonces recibirá alertas de acción preventiva
+Y sugerencias para proteger sus cultivos.
+    </td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Gestión del Riego y Fertilización</td>
+    <td>Como agricultor rural, cuando necesito gestionar el riego automático y fertilización, quiero poder entrar a manejar el estado de mis dispositivos de riego y fertilización para poder configurarlos según mis necesidades y recomendaciones.</td>
+    <td>
+Escenario 1: Activar o desactivar dispositivos de riego y fertilización
+    <br><br>
+Dado que el agricultor necesita controlar su sistema,
+Cuando acceda a la gestión de dispositivos,
+Entonces podrá activar o desactivar manualmente el riego o fertilización
+Y visualizar el estado actualizado en tiempo real.
+    <br><br>
+Escenario 2: Configurar fertilización personalizada
+    <br><br>
+Dado que el agricultor quiere optimizar su fertilización,
+Cuando acceda a la sección de configuración de fertilizantes,
+Entonces podrá definir tipo de fertilizante, frecuencia y cantidad aplicada
+Y asignarlo a cultivos específicos.
+    <br><br>
+Escenario 3: Recibir alertas de fertilización necesaria
+    <br><br>
+Dado que el sistema detecte bajos niveles de nutrientes,
+Cuando esto ocurra,
+Entonces enviará una alerta recomendando fertilización
+Y sugerirá el tipo de fertilizante más adecuado.
+    </td>
+    <td>EP-05</td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Ahorro de Recursos</td>
+    <td>Como agricultor tecnificado, cuando necesito reducir o minimizar recursos, quiero poder recibir recomendaciones de uso de los recursos como el agua o fertilizanes en mis cultivos.</td>
+    <td>
+Escenario 1: Recibir alertas de optimización de agua
+    <br><br>
+Dado que el agricultor desea minimizar el uso de agua,
+Cuando el sistema detecte un uso excesivo,
+Entonces enviará una alerta con recomendaciones de ahorro
+Y opciones de riego alternativo.
+    <br><br>
+Escenario 2: Recomendaciones de uso eficiente de fertilizantes
+    <br><br>
+Dado que el agricultor aplica fertilizantes a sus cultivos,
+Cuando el sistema analice los niveles de suelo,
+Entonces sugerirá ajustes de cantidad o frecuencia
+Y recomendará prácticas más eficientes.
+    <br><br>
+Escenario 3: Visualizar reportes de ahorro logrado
+    <br><br>
+Dado que el agricultor sigue las recomendaciones,
+Cuando consulte su historial de recursos,
+Entonces podrá visualizar cuánto agua y fertilizantes ha ahorrado
+Y compararlo con periodos anteriores.
+    </td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Análisis Predictivo de Cultivos</td>
+    <td>Como agricultor tecnificado, cuando conocer información de ayuda a futuro sobre mis cultivos, quiero poder revisar en base al registro de mis cultivos y técnicas empleadas, datos predictivos sobre que hacer en diferentes ocasiones.</td>
+    <td>
+Escenario 1: Visualizar predicciones de crecimiento de cultivos
+    <br><br>
+Dado que el agricultor tiene historial de cultivos registrado,
+Cuando consulte el módulo de predicción,
+Entonces verá estimaciones de producción y posibles fechas de cosecha
+Y sugerencias de cuidados preventivos.
+    <br><br>
+Escenario 2: Recibir predicciones basadas en técnicas agrícolas
+    <br><br>
+Dado que el agricultor aplica diferentes técnicas de cultivo,
+Cuando registre el tipo de técnica utilizada,
+Entonces el sistema ajustará las predicciones
+Y mostrará resultados proyectados basados en esas técnicas.
+    </td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-21</td>
+    <td>Recomendaciones de Cultivos</td>
+    <td>Como agricultor tecnificado, cuando necesito recibir recomendaciones sobre mis cultivos o técnicas, quiero poder visualizar información sobre recomendaciones para cada tipo de cultivo o terreno de campo agrícola.</td>
+    <td>
+Escenario 1: Visualizar recomendaciones específicas para cada cultivo
+    <br><br>
+Dado que el agricultor tiene cultivos registrados en NutriControl,
+Cuando acceda a la sección de recomendaciones,
+Entonces verá consejos personalizados para cada tipo de cultivo registrado
+Y podrá aplicar sugerencias de manejo o mejora.
+    <br><br>
+Escenario 2: Recibir alertas de mejora según tipo de terreno
+    <br><br>
+Dado que el agricultor tiene distintos tipos de terreno,
+Cuando seleccione un cultivo y su terreno asociado,
+Entonces el sistema mostrará recomendaciones específicas según las características del terreno
+Y estrategias de optimización de recursos.
+    </td>
+    <td>EP-06</td>
+  </tr>
+  <tr>
+    <td>US-22</td>
+    <td>Planes de Suscripción</td>
+    <td>Como usuario, cuando necesito adquirir más beneficios o elegir un plan de suscripción de acuerdo a mis necesidades, quiero poder visualizar detalles sobre planes premium o freemium sobre NutriControl y elegir la mejor opción para mis necesidades.</td>
+    <td>
+Escenario 1: Visualizar detalle de cada plan
+    <br><br>
+Dado que el usuario está en la sección de suscripción,
+Cuando vea los planes disponibles,
+Entonces podrá ver el detalle de beneficios, costos y condiciones de cada plan
+Y comparar entre diferentes opciones.
+    <br><br>
+Escenario 2: Seleccionar un plan para suscribirse
+    <br><br>
+Dado que el usuario quiere cambiar su suscripción,
+Cuando seleccione un plan premium o freemium,
+Entonces podrá confirmar su selección
+Y el sistema actualizará su cuenta al nuevo plan.
+    </td>
+    <td>EP-02</td>
+  </tr>
+  <tr>
+    <td>US-23</td>
+    <td>Configuración de Cuenta</td>
+    <td>Como usuario, cuando necesito cambiar información personal de mi cuenta o visualizar, quiero poder tener una sección de Perfil dentro de NutriControl para ver toda tipo de esa información.</td>
+    <td>
+Escenario 1: Editar información personal
+    <br><br>
+Dado que el usuario desea actualizar su información,
+Cuando acceda a la sección de configuración de cuenta,
+Entonces podrá editar datos como nombre, correo y teléfono
+Y guardar los cambios.
+    <br><br>
+Escenario 2: Cambiar contraseña
+    <br><br>
+Dado que el usuario quiere aumentar la seguridad de su cuenta,
+Cuando ingrese a la opción de cambiar contraseña,
+Entonces podrá definir una nueva contraseña
+Y recibir confirmación de cambio exitoso.
+    <br><br>
+Escenario 3: Visualizar información de perfil
+    <br><br>
+Dado que el usuario quiere ver su información registrada,
+Cuando entre a su perfil,
+Entonces verá todos los datos asociados a su cuenta
+Y podrá verificar que estén correctos.
+    </td>
+    <td>EP-02</td>
+  </tr>
+</table>
+
+
+
+<div align="justify">
+
+
+
+***Technical User Stories***
+
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>Relacionado con (Epic ID)</th>
+  </tr>
+<tr>
+    <td>TS-01</td>
+    <td>Configuración de Infraestructura y Base de Datos Inicial</td>
+    <td>Como equipo de desarrollo, cuando configuremos la infraestructura de NutriControl, quiero tener una base de datos organizada para almacenar usuarios, campos, cultivos, dispositivos IoT y sus configuraciones.</td>
+    <td>
+Escenario 1: Creación de base de datos con entidades principales
+    <br><br>
+Dado que estamos configurando el sistema,
+Cuando se cree la base de datos,
+Entonces deberá existir tablas para Usuarios, Campos Agrícolas, Cultivos, Dispositivos IoT y Suscripciones
+Y deben estar correctamente relacionadas.
+    <br><br>
+Escenario 2: Infraestructura lista para la aplicación
+    <br><br>
+Dado que el sistema debe ser escalable,
+Cuando termine la configuración de infraestructura,
+Entonces el backend estará desplegado en un servidor seguro
+Y será accesible mediante una API REST.
+    </td>
+    <td>EP-07</td>
+  </tr>
+  <tr>
+    <td>TS-02</td>
+    <td>Desarrollo del Módulo de Autenticación y Gestión de Cuenta</td>
+    <td>Como equipo técnico, cuando los usuarios deseen ingresar o gestionar sus cuentas, quiero contar con módulos para el registro, login, recuperación de contraseña y configuración de cuenta.</td>
+    <td>
+Escenario 1: Registro de nuevos usuarios
+    <br><br>
+Dado que los usuarios nuevos desean acceder,
+Cuando llenen su formulario de registro,
+Entonces se deberá guardar su información de manera segura
+Y el sistema enviará una confirmación de registro.
+    <br><br>
+Escenario 2: Inicio de sesión y recuperación de contraseña
+    <br><br>
+Dado que el usuario puede olvidar su clave,
+Cuando solicite una recuperación,
+Entonces se enviará un enlace seguro a su correo
+Y podrá cambiar su contraseña exitosamente.
+    <br><br>
+Escenario 3: Actualización de información personal
+    <br><br>
+Dado que el usuario desea modificar sus datos,
+Cuando entre a la configuración de su cuenta,
+Entonces podrá actualizar su nombre, correo, teléfono y contraseña
+Y recibirá un mensaje de éxito.
+    </td>
+    <td>EP-07</td>
+  </tr>
+  <tr>
+    <td>TS-03</td>
+    <td>Integración de Dispositivos IoT a Campos y Cultivos</td>
+    <td>Como equipo técnico, cuando los agricultores quieran asociar dispositivos IoT a sus campos, quiero que puedan registrar, visualizar, editar y eliminar dispositivos conectados a sus cultivos.
+    </td>
+    <td>
+Escenario 1: Asociación de dispositivos IoT a campos
+    <br><br>
+Dado que los dispositivos deben controlarse por campo,
+Cuando el agricultor registre un dispositivo,
+Entonces se asociará a un campo agrícola específico
+Y quedará visible en su panel de control.
+    <br><br>
+Escenario 2: Desactivación y eliminación de dispositivos
+    <br><br>
+Dado que el agricultor puede reemplazar un dispositivo,
+Cuando elimine o desactive un dispositivo,
+Entonces el sistema eliminará su relación con el campo
+Y actualizará la información en tiempo real.
+    </td>
+    <td>EP-07</td>
+  </tr>
+  <tr>
+    <td>TS-04</td>
+    <td>Implementación de Motor de Alertas y Recomendaciones</td>
+    <td>Como equipo de backend, cuando se detecten cambios importantes en el estado de cultivos o dispositivos, quiero generar alertas automáticas y enviar recomendaciones al agricultor.</td>
+    <td>
+Escenario 1: Generación de alertas automáticas
+    <br><br>
+Dado que el pH del suelo o el nivel de riego puede variar,
+Cuando un dispositivo IoT detecte un valor fuera del rango ideal,
+Entonces el sistema generará una alerta
+Y enviará una recomendación de acción al agricultor.
+    <br><br>
+Escenario 2: Motor de recomendaciones predictivas
+    <br><br>
+Dado que los agricultores necesitan apoyo en su toma de decisiones,
+Cuando se acumulen suficientes datos históricos,
+Entonces el sistema podrá recomendar acciones predictivas
+Y mostrarlas en el panel de control del agricultor.
+    </td>
+    <td>EP-07</td>
+  </tr>
+  <tr>
+    <td>TS-05</td>
+    <td>Desarrollo de Frontend Web y Móvil para Visualización y Gestión</td>
+    <td>Como equipo de frontend, cuando los usuarios accedan a NutriControl vía web o móvil, quiero que puedan navegar de forma intuitiva por sus campos, cultivos, dispositivos, suscripciones y perfil.</td>
+    <td>
+Escenario 1: Visualización clara de campos, cultivos y dispositivos
+    <br><br>
+Dado que el usuario necesita gestionar su producción,
+Cuando acceda a la aplicación,
+Entonces podrá ver una lista de campos y cultivos registrados
+Y detalles de los dispositivos asociados.
+    <br><br>
+Escenario 2: Acceso a planes de suscripción y perfil
+    <br><br>
+Dado que el usuario necesita administrar su cuenta,
+Cuando navegue a la sección de suscripción o perfil,
+Entonces podrá visualizar detalles de su plan actual
+Y editar su información personal de manera sencilla.
+    <br><br>
+Escenario 3: Aplicación responsive y amigable
+    <br><br>
+Dado que los usuarios utilizarán diversos dispositivos,
+Cuando accedan desde móvil, tablet o PC,
+Entonces la plataforma se adaptará correctamente
+Y ofrecerá una experiencia fluida y rápida.
+    </td>
+    <td>EP-07</td>
+  </tr>
+</table>
+
+</div>
+
 ## 3.3. *Impact Mapping*
 
 ## 3.4. *Product Backlog*
+
+Con el objetivo de simplificar la complejidad de las tareas, hemos empleado la escala de Fibonacci (1/2/3/5/8) para elaborar nuestro product backlog.
+
+**User Story Base:**
+
+Seleccionamos esta User Story como base de referencia para la valorización de las demás User Stories.
+
+<div align = "justify">
+
+<table>
+  <thead>
+    <tr>
+      <th><strong># Orden</strong></th>
+      <th><strong>User Story ID</strong></th>
+      <th><strong>Título</strong></th>
+      <th><strong>Descripción</strong></th>
+      <th><strong>Story Points (1 / 2 / 3 / 5 / 8 / 13 /…)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13</td>
+      <td>US-13</td>
+      <td style="text-align: justify;">Conectar y Adicionar Dispositivos IOT a mis Cultivos</td>
+      <td style="text-align: justify;">Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero registrar y adicionar a mis Campos los dispositivos IOT que están presentes en mis cultivos para poder automatizar el monitoreo y control de mis cultivos.</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+
+
+**Product Backlog:**
+
+<div align = "justify">
+
+| Orden | User Story ID | Título                                            | Descripción                                                                                       | Story Points |
+|-------|---------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------|
+| 1     | US-01         | Información de NutriControl                       | Como usuario potencial, cuando ingrese a la Landing Page de NutriControl, quiero poder visualizar información del funcionamiento de la solución y su propuesta de valor. | 3            |
+| 2     | US-02         | Características de NutriControl                   | Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar características específicas de lo que NutriControl ofrece y ver si se adecuan a mis necesidades. | 3            |
+| 3     | US-03         | Sección de planes o membresías                    | Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar una sección de planes en los cuales ver los beneficios adicionales que tendría fuera de un plan Freemium. | 5            |
+| 4     | US-04         | Registro de Usuario                               | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder registrarme con un correo electrónico y contraseña para poder usar NutriControl. | 5            |
+| 5     | US-05         | Inicio de Sesión                                  | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder iniciar sesión con mis credenciales ya creadas en el registro de NutriControl. | 5            |
+| 6     | US-06         | Recuperación de Contraseña                        | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder recuperar o cambiar mi contraseña en caso la haya olvidado. | 3            |
+| 7     | US-07         | Adición de Campos Agrícolas                       | Como productor agrícola, cuando ingrese al inicio de NutriControl, quiero poder agregar los Campos Agrícolas que deseo automatizar. | 5            |
+| 8     | US-08         | Edición de Campos Agrícolas                       | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder editar la información de los Campos que poseo. | 3            |
+| 9     | US-09         | Eliminación de Campos Agrícolas                   | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder eliminar cualquier Campo Agrícola que posea. | 3            |
+| 10    | US-10         | Registro de Cultivos                              | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder agregar cultivos dentro de mis campos. | 5            |
+| 11    | US-11         | Edición de Cultivos                               | Como productor agrícola, cuando ingrese a ver mis Cultivos de los Campos, quiero poder editar la información de mis Cultivos. | 3            |
+| 12    | US-12         | Eliminación de Cultivos                           | Como productor agrícola, cuando ingrese a ver mis Campos de los Campos, quiero poder eliminar ciertos cultivos dentro de mis Campos Agrícolas. | 3            |
+| 13    | US-13         | Conectar y Adicionar Dispositivos IOT a mis Cultivos | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero registrar y adicionar a mis Campos los dispositivos IOT que están presentes en mis cultivos. | 8            |
+| 14    | US-14         | Desconectar Dispositivos IOT a mis Cultivos        | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero desactivar los dispositivos IOT que están presentes en mis cultivos. | 5            |
+| 15    | US-15         | Alertas del pH del Suelo                          | Como agricultor rural, cuando no entiendo los niveles de pH del suelo, quiero recibir una alerta con una recomendación sencilla para saber qué hacer. | 5            |
+| 16    | US-16         | Alertas y Configuración del Riego Automático      | Como agricultor rural, cuando necesito usar el riego automático, quiero recibir una alerta cuando el riego esté completado o necesite activar el riego en cierta determinada zona de mis cultivos. | 8            |
+| 17    | US-17         | Recomendaciones y Toma de decisión de los Cultivos | Como agricultor rural, cuando necesito recomendaciones sobre la toma de decisiones, quiero recibir consejos sobre qué hacer respecto al estado de cada cultivo. | 5            |
+| 18    | US-18         | Gestión del Riego y Fertilización                 | Como agricultor rural, cuando necesito gestionar el riego automático y fertilización, quiero poder entrar a manejar el estado de mis dispositivos de riego y fertilización para poder configurarlos según mis necesidades y recomendaciones. | 8            |
+| 19    | US-19         | Ahorro de Recursos                                | Como agricultor tecnificado, cuando necesito reducir o minimizar recursos, quiero poder recibir recomendaciones de uso de los recursos como el agua o fertilizantes en mis cultivos. | 5            |
+| 20    | US-20         | Análisis Predictivo de Cultivos                   | Como agricultor tecnificado, cuando conozca información de ayuda a futuro sobre mis cultivos, quiero poder revisar en base al registro de mis cultivos y técnicas empleadas, datos predictivos sobre qué hacer en diferentes ocasiones. | 8            |
+| 21    | US-21         | Recomendaciones de Cultivos                       | Como agricultor tecnificado, cuando necesito recibir recomendaciones sobre mis cultivos o técnicas, quiero poder visualizar información sobre recomendaciones para cada tipo de cultivo o terreno de campo agrícola. | 5            |
+| 22    | US-22         | Planes de Suscripción                             | Como usuario, cuando necesito adquirir más beneficios o elegir un plan de suscripción de acuerdo a mis necesidades, quiero poder visualizar detalles sobre planes premium o freemium sobre NutriControl y elegir la mejor opción para mis necesidades. | 5            |
+| 23    | US-23         | Configuración de Cuenta                           | Como usuario, cuando necesito cambiar información personal de mi cuenta o visualizar, quiero poder tener una sección de Perfil dentro de NutriControl para ver toda tipo de esa información. | 5            |
+| 24    | TS-01         | Configuración de Infraestructura y Base de Datos Inicial | Como desarrollador, quiero configurar la infraestructura y la base de datos inicial para soportar el crecimiento y la estabilidad de NutriControl. | 13           |
+| 25    | TS-02         | Desarrollo del Módulo de Autenticación y Gestión de Cuenta | Como desarrollador, quiero crear el módulo de autenticación y gestión de cuentas para garantizar que los usuarios puedan registrarse, iniciar sesión y recuperar sus contraseñas. | 8            |
+| 26    | TS-03         | Integración de Dispositivos IoT a Campos y Cultivos | Como desarrollador, quiero integrar dispositivos IoT a los campos y cultivos de los usuarios para permitir la automatización del riego y otras tareas. | 13           |
+| 27    | TS-04         | Implementación de Motor de Alertas y Recomendaciones | Como desarrollador, quiero crear un motor de alertas y recomendaciones para que los usuarios reciban notificaciones sobre el estado de sus cultivos, su pH, y sus necesidades de riego. | 13           |
+| 28    | TS-05         | Desarrollo de Frontend Web y Móvil para Visualización y Gestión | Como desarrollador, quiero desarrollar el frontend web y móvil para que los usuarios puedan visualizar y gestionar toda la información relacionada con sus cultivos y campos agrícolas. | 13           |
+
+
+
+</div>
 
 # Capítulo IV: *Solution Software Design*
 
