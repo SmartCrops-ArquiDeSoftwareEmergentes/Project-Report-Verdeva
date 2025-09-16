@@ -567,7 +567,7 @@ Para explicar con mayor claridad el valor de Verdeva, utilizamos el modelo 5W y 
 #### 1.2.2.4. *Lean UX Canvas*
 
 
-![image](<Images/Lean Ux Canvas.png>)
+![image](<Images/chapter1/Lean Ux Canvas.png>)
 
 
 
@@ -682,10 +682,10 @@ Taranis es una plataforma global de inteligencia agrícola que emplea imágenes 
         </tr>
         <tr>
             <th colspan="2">Logo</th>
-            <th><img src="Resources/Chapter%2002/Competitors%20Table/Verdeva.jpeg" alt="Logo Verdeva"></th>
-            <th><img src="Resources/Chapter%2002/Competitors%20Table/Netafin.png" alt="Logo NetBeat"></th>
-            <th><img src="Resources/Chapter%2002/Competitors%20Table/AgroSmart.png" alt="Logo AgroSmart"></th>
-            <th><img src="Resources/Chapter%2002/Competitors%20Table/Taranis.png" alt="Logo Taranis"></th>
+            <th><img src="images/chapter2/verdeva.jpeg" alt="Logo Verdeva"></th>
+            <th><img src="images/chapter2/neatfeat.jpg" alt="Logo NetBeat"></th>
+            <th><img src="images/chapter2/agrosmart.jpeg" alt="Logo AgroSmart"></th>
+            <th><img src="images/chapter2/taranis.jpg" alt="Logo Taranis"></th>
         </tr>
     </thead>
     <tbody>
@@ -930,11 +930,101 @@ El objetivo es identificar las necesidades específicas y los retos operativos d
 
 ### 2.2.2. Registro de entrevistas
 
+<div align="justify">
+
+Se llevará a cabo tres entrevistas por cada segmento, sumando un total de seis. Cada entrevista estará en formato MP4 y será independiente, ya que las preguntas y respuestas varían según el entrevistado de cada segmento.
+
+**Segmento 1: Productores Rurales Tradicionales**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Diego</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Cano Acero</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>23 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>La molina</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Zoom</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Mejorar la calidad del cultivo, optimizar el uso del agua y garantizar la producción de arándanos de alta calidad.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Enfrenta dificultades al aplicar teorías agrícolas que no siempre se ajustan a las condiciones reales del campo. El cambio climático ha afectado la calidad del cultivo por el exceso de calor y la pérdida de nutrientes. Además, la mala conectividad limita el uso de herramientas digitales en tiempo real y la falta de información compartida con otros agricultores dificulta la prevención de plagas.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td> celular, laptop , sensores de ph y Riego por goteo</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/chapter2/Evidencia-DiegoCano.png" alt="Diego Cano"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>11:04 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Diego Cano, joven agricultor de 23 años, trabaja desde hace tres años en el cultivo de arándanos en unas 3 hectáreas que le fueron asignadas. Aunque no es propietario, está familiarizado con prácticas avanzadas en agricultura como el riego por goteo, fertirriego, uso de sensores y análisis de suelo. Resalta el impacto del cambio climático en su zona, con temperaturas elevadas y menor disponibilidad de agua. Usa tecnología en campo, pero limitada al uso por computadora, ya que la señal móvil es deficiente. Expresa interés en herramientas digitales que le proporcionen retroalimentación en tiempo real sobre el estado del cultivo, dosificación precisa de fertilizantes y alertas preventivas frente a plagas observadas por agricultores cercanos. Recalca la importancia de herramientas confiables, fáciles de usar y compartidas entre el personal.</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+</div>
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. *Needfinding*
 
 ### 2.3.1. *User Personas*
+Se presentan los User Persona correspondientes a cada segmento objetivo, elaborados a partir de los perfiles de usuarios ideales de cada grupo. 
+
+**User Persona 1 - Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
+
+<div align="center"><img src="images/chapter2/UserPersona.png" alt="User Persona 1"></div>
+
+**User Persona 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
+
+<div align="center"><img src="images/chapter2/UserPersona2.png" alt="User Persona 2"></div>
 
 ### 2.3.2. *User Task Matrix*
 
