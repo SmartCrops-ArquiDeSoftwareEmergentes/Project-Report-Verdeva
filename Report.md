@@ -1094,6 +1094,24 @@ Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta d
 
 ## 2.4. *Ubiquitous Language*
 
+A continuación, se presentan los términos propios del dominio del negocio:
+
+| **Término**              | **Definición**                                                                 |
+|---------------------------|--------------------------------------------------------------------------------|
+| **Crop**                  | Conjunto de plantas sembradas en un área determinada, supervisadas con sensores. |
+| **Cultivation Zone**      | Espacio delimitado donde se gestionan y controlan los cultivos.                |
+| **Environmental Variable**| Elemento del ambiente como temperatura, humedad o luz solar que influye en el desarrollo del cultivo. |
+| **Precision Agriculture** | Enfoque que usa tecnología y análisis de datos para mejorar el aprovechamiento de recursos agrícolas. |
+| **Irrigation System**     | Conjunto de herramientas y equipos que permiten administrar de manera óptima el riego según condiciones ambientales. |
+| **Real-time Monitoring**  | Seguimiento constante de la información del campo para facilitar decisiones rápidas. |
+| **Decision Support**      | Sistemas o métodos que ayudan al agricultor a decidir con base en datos confiables. |
+| **Soil Moisture**         | Nivel de agua disponible en el suelo, esencial para calcular cuándo regar.     |
+| **Data-driven Agriculture** | Modelo agrícola donde las decisiones se guían principalmente por el análisis de información recolectada. |
+| **Field Activity Log**    | Registro ordenado de todas las labores y eventos vinculados a un cultivo en particular. |
+
+<div style="page-break-after: always;"></div>
+
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. *To-Be Scenario Mapping*
