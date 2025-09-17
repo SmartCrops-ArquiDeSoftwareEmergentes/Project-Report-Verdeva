@@ -2072,15 +2072,14 @@ Se identificaron varias relaciones clave entre los distintos bounded contexts. L
 ### 4.2.5.  *Context Mapping.* 
 
 ## 4.3.     *Software Architecture.* 
-
 ### 4.3.1.  *Software Architecture System Landscape* Diagram. 
-
+![alt text](structurizr-verdeva_landscape.png)
 ### 4.3.1.  *Software Architecture Context Level* Diagrams. 
-
+![alt text](structurizr-verdeva_context.png)
 ### 4.3.2.  *Software Architecture Container Level* Diagrams. 
-
+![alt text](structurizr-verdeva_container.png)
 ### 4.3.3.  *Software Architecture Deployment* Diagrams. 
-
+![alt text](structurizr-Deployment-001.png)
 
 # Conclusiones
 
