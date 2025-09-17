@@ -1966,6 +1966,13 @@ Y ofrecerá una experiencia fluida y rápida.
 
 ## 3.3. *Impact Mapping*
 
+El impact map es una herramienta estratégica que ayuda a alinear el desarrollo de una aplicación con los objetivos empresariales. Parte de un objetivo clave, identifica los comportamientos esperados de los usuarios, define las acciones necesarias dentro de la app y determina las funcionalidades que las habilitan. Esto permite evaluar el impacto de cada característica y construir un plan de acción enfocado, asegurando que cada mejora contribuya directamente al logro de metas.
+
+
+**Productores rurales tradicionales (pequeños y medianos agricultores) y Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación) :**
+
+![Impact Mapping](<Images/chapter3/Impact map.png>)
+
 ## 3.4. *Product Backlog*
 
 Con el objetivo de simplificar la complejidad de las tareas, hemos empleado la escala de Fibonacci (1/2/3/5/8) para elaborar nuestro product backlog.
