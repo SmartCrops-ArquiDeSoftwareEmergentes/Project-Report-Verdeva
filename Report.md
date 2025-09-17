@@ -1118,6 +1118,14 @@ A continuación, se presentan los términos propios del dominio del negocio:
 
 ## 3.1. *To-Be Scenario Mapping*
 
+**To-Be Scenario Map 1- Segmento de : Productores rurales tradicionales (pequeños y medianos agricultores)**
+
+![To-Be Scenario 1](<Images/chapter3/tobe1.png>)
+
+**To-Be Scenario Map 2 - Segmento de: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
+
+![To-Be Scenario 2](<Images/chapter3/tobe2.png>)
+
 ## 3.2. *User Stories*
 
 ***Epics***
