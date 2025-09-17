@@ -1968,8 +1968,35 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 # Capítulo IV: *Solution Software Design*
 
 ## 4.1. *Strategic-Level Domain-Driven Design*
-
 ### 4.1.1. *Design Purpose*
+
+<div align="justify">
+
+El propósito fundamental del proceso de diseño de la arquitectura de software para Verdeva es crear una solución tecnológica integral que aborde de manera efectiva la problemática central identificada:
+
+**Las significativas barreras de eficiencia en la gestión agrícola que enfrentan los pequeños y medianos productores en Sudamérica, particularmente en el Perú, donde la escasez de agua, el incremento de precios de fertilizantes y la ausencia de herramientas de monitoreo en tiempo real limitan la productividad, sostenibilidad y rentabilidad de sus cultivos.**
+
+**Segmentos de usuarios objetivo:**
+
+• **Productores rurales tradicionales (pequeños y medianos agricultores):**
+Buscamos proporcionarles una herramienta tecnológica accesible que automatice el riego y la fertilización mediante sensores inteligentes, permitiendo optimizar el uso de agua y fertilizantes sin requerir conocimientos técnicos avanzados. Esto mejorará su eficiencia operativa, reducirá costos y aumentará la productividad en contextos de recursos limitados y alta vulnerabilidad climática.
+
+• **Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación):**
+El diseño considera la necesidad de contar con una plataforma robusta que proporcione monitoreo en tiempo real de variables críticas del suelo (pH, humedad, nutrientes), automatización precisa del riego por goteo, y reportes históricos con análisis predictivos que permitan mantener estándares de calidad internacional y optimizar la rentabilidad.
+
+**Desde la perspectiva del negocio, el diseño arquitectónico busca materializar la misión de SmartCrops:**
+
+Revolucionar la agricultura mediante tecnologías IoT inteligentes que permitan a los productores optimizar el uso de recursos críticos, aumentar la productividad de sus cultivos y adoptar prácticas sostenibles frente a los desafíos del cambio climático y la escasez hídrica.
+
+**Además, el diseño se orienta a alcanzar los objetivos de negocio planteados en el proceso Lean UX, tales como:**
+
+• Reducción del 40% en el consumo de agua y fertilizantes mediante automatización inteligente.
+• Incremento del 25% en la productividad de los cultivos a través de decisiones basadas en datos en tiempo real.
+• Mejora en la adopción tecnológica del 70% de usuarios en piloto durante los primeros tres meses.
+• Disminución de la carga operativa diaria y aumento de la eficiencia en la gestión agrícola.
+• Fortalecimiento de la competitividad y sostenibilidad del sector agrícola sudamericano.
+
+</div>
 
 ### 4.1.2. *Attribute-Driven Design Inputs*
 
