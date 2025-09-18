@@ -1218,7 +1218,63 @@ Se llevará a cabo tres entrevistas por cada segmento, sumando un total de seis.
 </table>
 
 
-
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Diego</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>24 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Mejorar la eficiencia en el uso de insumos (agua y fertilizantes), reducir costos operativos y optimizar la trazabilidad para cumplir normativas y obtener certificaciones.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>NLa falta de automatización, el uso de métodos manuales en riego y fertilización, y la ausencia de herramientas digitales que integren datos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Riego por goteo con activación y dosificación manual. No se usan sensores ni sistemas automatizados para monitoreo o ajuste del riego.</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Rodrigo Chirinos</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter2/EntrevistaDiego.png" alt="Diego"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/EXaMhQA1sc5KlTQTX-t8LQ4B4heWH2fwSJ56RF0PLAlYBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oVD9FR" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>9 min y 27 segundos</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    La empresa se enfoca en la producción de arándanos (40 hectáreas) y aguacates (80 hectáreas) en el Valle de Cañete, ubicado en Lima. No utilizan tecnología avanzada de agricultura de precisión, sino que se basan en supervisiones manuales y emplean hojas de Excel para controlar el riego y los fertilizantes. Aplican un sistema de riego por goteo que funciona manualmente, sin contar con sensores o mecanismos automáticos. Su meta fundamental es optimizar la trazabilidad para cumplir con regulaciones y obtener certificaciones, así como perfeccionar la eficiencia en el uso de recursos, como fertilizantes y agua, y reducir los costos operativos. La falta de herramientas tecnológicas integradas y la dependencia de procesos manuales les causan frustración, lo que aumenta la posibilidad de cometer errores al aplicar insumos. Buscan una solución que ofrezca exactitud, la integración sencilla con sensores de IoT y que posibilite tomar decisiones fundamentadas en datos. Valoran soluciones modulares y escalables que se ajusten a su clase de cultivo y dimensión de operación sin necesidad de realizar grandes desembolsos al inicio.
+    </td>
+  </tr>
+</tbody>
+</table>
 
 
 </div>
