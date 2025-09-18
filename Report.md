@@ -2155,15 +2155,232 @@ Revolucionar la agricultura mediante tecnologías IoT inteligentes que permitan 
 
 #### 4.1.2.1. *Primary Functionality (Primary User Stories)*
 
+Dentro del conjunto de requisitos levantados para la solución NutriControl, se han identificado ciertos Epics y User Stories críticos que impactan directamente en la arquitectura del sistema. Estos requisitos se relacionan con la gestión de usuarios, la integración de dispositivos IoT, el motor de alertas y recomendaciones, así como la visualización y control de los cultivos.
+
+Su relevancia radica en que determinan las decisiones tecnológicas clave (infraestructura, seguridad, comunicación en tiempo real, procesamiento de datos, interfaces de usuario y escalabilidad).
+
+A continuación, se detallan los Epics y User Stories seleccionados:
+
+|**Epic / User Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
+|---|---|---|---|---|
+|**TS-01**|Configuración de Infraestructura y Base de Datos Inicial|Como equipo de desarrollo, cuando configuremos la infraestructura de NutriControl, quiero tener una base de datos organizada para almacenar usuarios, campos, cultivos, dispositivos IoT y sus configuraciones.|Escenario 1: Creación de base de datos con entidades principales  <br>  <br>Dado que estamos configurando el sistema, Cuando se cree la base de datos, Entonces deberá existir tablas para Usuarios, Campos Agrícolas, Cultivos, Dispositivos IoT y Suscripciones Y deben estar correctamente relacionadas.  <br>  <br>Escenario 2: Infraestructura lista para la aplicación  <br>  <br>Dado que el sistema debe ser escalable, Cuando termine la configuración de infraestructura, Entonces el backend estará desplegado en un servidor seguro Y será accesible mediante una API REST.|EP-07|
+|**TS-02**|Desarrollo del Módulo de Autenticación y Gestión de Cuenta|Como equipo técnico, cuando los usuarios deseen ingresar o gestionar sus cuentas, quiero contar con módulos para el registro, login, recuperación de contraseña y configuración de cuenta.|Escenario 1: Registro de nuevos usuarios<br><br>Dado que los usuarios nuevos desean acceder, Cuando llenen su formulario de registro, Entonces se deberá guardar su información de manera segura Y el sistema enviará una confirmación de registro.<br><br>Escenario 2: Inicio de sesión y recuperación de contraseña<br><br>Dado que el usuario puede olvidar su clave, Cuando solicite una recuperación, Entonces se enviará un enlace seguro a su correo Y podrá cambiar su contraseña exitosamente.<br><br>Escenario 3: Actualización de información personal<br><br>Dado que el usuario desea modificar sus datos, Cuando entre a la configuración de su cuenta, Entonces podrá actualizar su nombre, correo, teléfono y contraseña Y recibirá un mensaje de éxito.|EP-07|
+|**US-13**|Conectar y Adicionar Dispositivos IoT a mis Cultivos|Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero registrar y adicionar a mis Campos los dispositivos IOT que están presentes en mis cultivos.|Escenario 1: Conectar un nuevo dispositivo IoT<br><br>Dado que el productor quiere mejorar el monitoreo de sus cultivos, Cuando acceda a la opción "Conectar Dispositivo" en un campo, Entonces podrá registrar un dispositivo IoT ingresando su ID y tipo Y asociarlo a un cultivo específico.<br><br>Escenario 2: Validar conexión de dispositivo<br><br>Dado que el productor intenta conectar un dispositivo IoT, Cuando ingrese datos inválidos o el dispositivo ya esté registrado, Entonces el sistema mostrará un mensaje de error Y no permitirá completar la conexión hasta corregir.<br><br>Escenario 3: Confirmación de dispositivo conectado<br><br>Dado que el productor haya conectado correctamente un dispositivo, Cuando finalice el registro, Entonces verá un mensaje de éxito Y el dispositivo aparecerá en la lista de dispositivos asociados.|EP-05|
+|**TS-03**|Integración de Dispositivos IoT a Campos y Cultivos|Como equipo técnico, cuando los agricultores quieran asociar dispositivos IoT a sus campos, quiero que puedan registrar, visualizar, editar y eliminar dispositivos conectados a sus cultivos.|Escenario 1: Asociación de dispositivos IoT a campos  <br>  <br>Dado que los dispositivos deben controlarse por campo, Cuando el agricultor registre un dispositivo, Entonces se asociará a un campo agrícola específico Y quedará visible en su panel de control.  <br>  <br>Escenario 2: Desactivación y eliminación de dispositivos  <br>  <br>Dado que el agricultor puede reemplazar un dispositivo, Cuando elimine o desactive un dispositivo, Entonces el sistema eliminará su relación con el campo Y actualizará la información en tiempo real.|EP-07|
+|**TS-04**|Implementación de Motor de Alertas y Recomendaciones|Como equipo de backend, cuando se detecten cambios importantes en el estado de cultivos o dispositivos, quiero generar alertas automáticas y enviar recomendaciones al agricultor.|Escenario 1: Generación de alertas automáticas  <br>  <br>Dado que el pH del suelo o el nivel de riego puede variar, Cuando un dispositivo IoT detecte un valor fuera del rango ideal, Entonces el sistema generará una alerta Y enviará una recomendación de acción al agricultor.  <br>  <br>Escenario 2: Motor de recomendaciones predictivas  <br>  <br>Dado que los agricultores necesitan apoyo en su toma de decisiones, Cuando se acumulen suficientes datos históricos, Entonces el sistema podrá recomendar acciones predictivas Y mostrarlas en el panel de control del agricultor.|EP-07|
+|**TS-05**|Desarrollo de Frontend Web y Móvil para Visualización y Gestión|Como equipo de frontend, cuando los usuarios accedan a NutriControl vía web o móvil, quiero que puedan navegar de forma intuitiva por sus campos, cultivos, dispositivos, suscripciones y perfil.|Escenario 1: Visualización clara de campos, cultivos y dispositivos  <br>  <br>Dado que el usuario necesita gestionar su producción, Cuando acceda a la aplicación, Entonces podrá ver una lista de campos y cultivos registrados Y detalles de los dispositivos asociados.  <br>  <br>Escenario 2: Acceso a planes de suscripción y perfil  <br>  <br>Dado que el usuario necesita administrar su cuenta, Cuando navegue a la sección de suscripción o perfil, Entonces podrá visualizar detalles de su plan actual Y editar su información personal de manera sencilla.  <br>  <br>Escenario 3: Aplicación responsive y amigable  <br>  <br>Dado que los usuarios utilizarán diversos dispositivos, Cuando accedan desde móvil, tablet o PC, Entonces la plataforma se adaptará correctamente Y ofrecerá una experiencia fluida y rápida.|EP-07|
+
 #### 4.1.2.2. *Quality attribute Scenarios*
+
+|**Atributo**|**Fuente**|**Estímulo**|**Artefacto**|**Entorno**|**Respuesta**|**Medida**|
+|---|---|---|---|---|---|---|
+|**Rendimiento**|Usuario agrícola|Solicita visualizar en tiempo real el estado de humedad de sus cultivos|Módulo de IoT + Backend|Conectividad normal en campo agrícola|El sistema procesa y despliega los datos en el dashboard en menos de 2 segundos|Tiempo de respuesta ≤ 2 s|
+|**Disponibilidad**|Dispositivo IoT|Un sensor de riego deja de enviar datos por falla de conectividad|Motor de monitoreo IoT|Red inestable en zona rural|El sistema genera alerta y reintenta la conexión de forma automática|Tasa de recuperación ≤ 30 s|
+|**Seguridad**|Usuario malintencionado|Intenta acceder a datos de otros agricultores sin autorización|Backend de Autenticación|Sistema en operación normal|El sistema bloquea el acceso y registra el intento en logs de seguridad|100% de accesos no autorizados bloqueados|
+|**Usabilidad**|Productor agrícola|Accede desde la aplicación móvil para registrar un nuevo campo|Frontend Web/Móvil|Usuario en campo con conectividad limitada|La interfaz responde de forma simple e intuitiva en menos de 3 pasos|Flujo completado en ≤ 3 interacciones|
+|**Escalabilidad**|Nuevos usuarios concurrentes|500 agricultores se conectan simultáneamente para revisar alertas|Infraestructura Cloud + Base de Datos|Carga alta y simultánea|El sistema distribuye la carga y mantiene tiempos de respuesta aceptables|Soporta ≥ 500 usuarios concurrentes con tiempo de respuesta ≤ 3 s|
+|**Mantenibilidad**|Equipo de desarrollo|Se requiere actualizar el módulo de alertas por nuevas reglas de riego|Backend de Alertas|Sistema en operación con despliegue continuo|La nueva versión se despliega sin afectar la operación actual|Tiempo de despliegue ≤ 10 min con downtime = 0|
 
 #### 4.1.2.3. *Constraints*
 
+En el desarrollo de _NutriControl_ se identificaron restricciones (**constraints**) que no son negociables y que deben cumplirse obligatoriamente. Estas restricciones son impuestas por las condiciones del negocio, la naturaleza de la agroindustria y los lineamientos del cliente, y afectan tanto la infraestructura como la seguridad, la integración con IoT y la escalabilidad de la solución.  
+A continuación, se especifican los constraints identificados, representados como **Technical Stories**:
+
+|**Technical Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
+|---|---|---|---|---|
+|**TS-C01**|Infraestructura Cloud Obligatoria|La solución debe desplegarse sobre infraestructura en la nube (AWS, Azure o GCP) y no en servidores locales.|- El sistema debe correr 100% en la nube.- No se aceptan servidores on-premise.- Debe permitir configuración de escalabilidad automática.|Epic Infraestructura|
+|**TS-C02**|Integración IoT Estandarizada|Los dispositivos IoT deben comunicarse usando protocolos estándar (MQTT, HTTP/REST).|- Solo se aceptan dispositivos compatibles con protocolos estándar.- La comunicación debe ser validada en pruebas de integración.- El sistema debe rechazar dispositivos no compatibles.|Epic IoT|
+|**TS-C03**|Autenticación Segura|El sistema debe implementar autenticación basada en credenciales cifradas y soportar OAuth2/JWT.|- Toda autenticación debe usar cifrado seguro.- Los tokens deben expirar en tiempo configurable.- Intentos fallidos deben registrarse en logs.|Epic Gestión de Usuarios|
+|**TS-C04**|Alta Disponibilidad|La plataforma debe garantizar al menos 99.5% de uptime anual.|- Se debe contar con monitoreo activo.- El sistema debe tener mecanismos de failover.- Uptime ≥ 99.5% verificado con métricas de monitoreo.|Epic Infraestructura|
+|**TS-C05**|Soporte Multiplataforma|La solución debe contar con aplicación Web y Móvil (Android/iOS) con sincronización de datos.|- Los datos deben sincronizarse entre web y móvil en tiempo real.- Deben existir versiones funcionales en Android, iOS y Web.- Las funcionalidades deben ser equivalentes en todas las plataformas.|Epic Frontend|
+|**TS-C06**|Cumplimiento Normativo|El sistema debe cumplir con normativas locales de protección de datos (ej. Ley de Protección de Datos Personales en Perú).|- Toda la información personal debe almacenarse cifrada.- El sistema debe incluir gestión de consentimiento de usuarios.- Deben generarse reportes de cumplimiento legal.|Epic Seguridad|
+|**TS-C07**|Escalabilidad Horizontal|La arquitectura debe permitir agregar instancias de servicios sin afectar la operación.|- El sistema debe soportar balanceo de carga automático.- Nuevas instancias deben integrarse sin downtime.- Debe soportar al menos 500 usuarios concurrentes.|Epic Infraestructura|
+|**TS-C08**|Despliegue Continuo|Los cambios deben realizarse con integración y despliegue continuo (CI/CD), evitando downtime.|- Todo despliegue debe pasar por pipeline CI/CD.- Actualizaciones sin downtime.- Rollback disponible en caso de error.|Epic Infraestructura|
+
 ### 4.1.3.   *Architectural Drivers Backlog.* 
+
+Durante el proceso de análisis y priorización de requisitos, el equipo llevó a cabo un Quality Attribute Workshop en el cual se identificaron y seleccionaron los principales Architectural Drivers de la solución NutriControl. Estos drivers incluyen:
+
+·       Functional Drivers, representados por User Stories críticas para la solución.
+
+·       Quality Attribute Drivers, correspondientes a escenarios de atributos de calidad priorizados por su impacto en la experiencia de los usuarios y en la arquitectura.
+
+·       Constraints, que representan restricciones impuestas por el negocio, los clientes o el entorno tecnológico.
+
+A continuación, se presenta el Architectural Drivers Backlog, organizado según su importancia para los stakeholders y su impacto en la complejidad técnica de la arquitectura.
+
+|**Driver ID**|**Título de Driver**|**Descripción**|**Importancia para Stakeholders**|**Impacto en Architecture Technical Complexity**|
+|---|---|---|---|---|
+|**FD-01**|Integración de Dispositivos IoT|Permitir que los agricultores registren, conecten y gestionen dispositivos IoT en sus campos para monitoreo y automatización.|High|High|
+|**FD-02**|Motor de Alertas y Recomendaciones|Implementar un sistema que genere alertas y recomendaciones basadas en el estado de cultivos, humedad y pH del suelo.|High|High|
+|**FD-03**|Autenticación y Gestión de Usuarios|Garantizar registro, inicio de sesión seguro y recuperación de credenciales.|High|Medium|
+|**QAD-01**|Rendimiento en Tiempo Real|El sistema debe mostrar datos de sensores en menos de 2 segundos.|High|High|
+|**QAD-02**|Disponibilidad|La plataforma debe garantizar al menos 99.5% de disponibilidad.|High|High|
+|**QAD-03**|Seguridad|Toda autenticación y datos sensibles deben manejarse con cifrado y controles de acceso.|High|High|
+|**QAD-04**|Escalabilidad Horizontal|El sistema debe soportar crecimiento en usuarios y dispositivos sin pérdida de rendimiento.|High|High|
+|**QAD-05**|Usabilidad Móvil/Web|La solución debe ser accesible y sencilla para agricultores en campo, incluso con conectividad limitada.|Medium|Medium|
+|**QAD-06**|Mantenibilidad|El sistema debe permitir actualizaciones con despliegue continuo y mínimo downtime.|Medium|Medium|
+|**CS-01**|Infraestructura Cloud Obligatoria|La solución debe operar 100% en la nube (AWS, Azure o GCP).|High|Medium|
+|**CS-02**|Integración IoT Estandarizada|Comunicación IoT solo mediante protocolos estándar (MQTT, HTTP/REST).|High|Medium|
+|**CS-03**|Cumplimiento Normativo|El sistema debe cumplir normativas locales de protección de datos.|High|Medium|
+|**CS-04**|Soporte Multiplataforma|La solución debe funcionar en Web, Android e iOS con sincronización en tiempo real.|Medium|Medium|
+|**CS-05**|Despliegue Continuo|Todo despliegue debe realizarse mediante pipelines CI/CD sin downtime.|Medium|Medium|
 
 ### 4.1.4.   *Architectural Design Decisions.*
 
+El equipo de desarrollo llevó a cabo un **Quality Attribute Workshop (QAW)** para analizar y priorizar los _Architectural Drivers_ de la solución **NutriControl**.  
+En este proceso:
+
+- Se revisaron los **Functional Drivers** críticos (IoT, motor de alertas, autenticación).
+    
+- Se analizaron los **Quality Attribute Drivers** más relevantes (rendimiento en tiempo real, disponibilidad, seguridad y escalabilidad).
+    
+- Se incorporaron los **Constraints** obligatorios (infraestructura cloud, integración IoT estandarizada, cumplimiento normativo).
+    
+
+Durante las iteraciones del taller, se identificaron **tácticas y patrones arquitectónicos** candidatos para cada driver, evaluando sus **pros y contras** respecto al impacto en los stakeholders y la complejidad técnica.  
+A continuación, se presenta la **Candidate Pattern Evaluation Matrix**, seguida de las decisiones de diseño.
+
+|Driver ID|Título de Driver|Pattern 1: Arquitectura Monolítica||Pattern 2: Microservicios en la nube||Pattern 3: Serverless / FaaS||
+|---|---|---|---|---|---|---|---|
+|**FD-01**|Integración de Dispositivos IoT|**Pro:** Simplicidad inicial.Menor costo de desarrollo.Menos servicios por mantener.|**Con:** Escalabilidad limitada.Dificultad de integrar múltiples dispositivos IoT.Baja tolerancia a fallos.|**Pro:** Servicios independientes para IoT.Escalabilidad horizontal.Soporta protocolos estándar (MQTT/REST).|**Con:** Mayor complejidad de orquestación.Requiere DevOps avanzado.|**Pro:** Despliegue rápido de funciones específicas.Pago por uso.Alta elasticidad.|**Con:** Latencia no siempre predecible.Dependencia fuerte del proveedor cloud.|
+|**FD-02**|Motor de Alertas y Recomendaciones|**Pro:** Fácil de implementar en monolito con base de datos única.|**Con:** No soporta análisis en tiempo real a gran escala.Dificultad para procesar grandes volúmenes de datos históricos.|**Pro:** Microservicio dedicado a alertas y otro a recomendaciones.Escalable.Soporta procesamiento distribuido en streaming.|**Con:** Mayor esfuerzo de integración.Requiere herramientas como Kafka o RabbitMQ.|**Pro:** Funciones serverless para alertas event-driven.Bajo costo para picos de carga.Escalable bajo demanda.|**Con:** Limitado para procesos predictivos complejos.Dificultad en persistencia de estado.|
+|**QAD-01**|Rendimiento en Tiempo Real|**Pro:** Menor latencia en llamadas internas.|**Con:** El monolito no escala eficientemente con miles de dispositivos IoT.|**Pro:** Balanceo de carga por microservicio.Procesamiento paralelo.Latencia ≤ 2s con caché distribuido.|**Con:** Configuración técnica más compleja.Costos mayores de infraestructura.|**Pro:** Serverless autoescalable.Bajo tiempo de respuesta en cargas pequeñas.|**Con:** Latencia variable en picos altos.Límites de ejecución impuestos por el proveedor.|
+|**QAD-03**|Seguridad|**Pro:** Centralización de seguridad en un solo sistema.|**Con:** Riesgo de vulnerabilidades críticas afectando todo el sistema.|**Pro:** Microservicio de autenticación con OAuth2/JWT.Segregación de responsabilidades.Logs por servicio.|**Con:** Se requiere sincronización de tokens y mayor configuración.|**Pro:** Autenticación serverless delegada a servicios cloud (Cognito, Firebase).Cifrado integrado.|**Con:** Dependencia total del proveedor.Menor control sobre auditoría avanzada.|
+
+### Decisiones de diseño
+
+1. **Integración de Dispositivos IoT (FD-01)**  
+    Se eligió el **patrón de Microservicios en la nube**, debido a que:
+    
+    - Escala horizontalmente para soportar múltiples dispositivos IoT.
+        
+    - Permite aislar fallos por servicio.
+        
+    - Soporta protocolos estándar (MQTT, HTTP/REST) cumpliendo con el _Constraint CS-02_.  
+        Aunque implica mayor complejidad en DevOps, esta se mitiga con pipelines CI/CD (_CS-05_).
+        
+2. **Motor de Alertas y Recomendaciones (FD-02)**  
+    Se optó por **Microservicios con procesamiento distribuido (Kafka/Stream Processing)** porque:
+    
+    - Permiten generar alertas en tiempo real (_QAD-01_).
+        
+    - Escalan para manejar grandes volúmenes de datos históricos y predictivos.
+        
+    - Facilitan incorporar modelos de machine learning para recomendaciones futuras.  
+        Serverless fue descartado por sus limitaciones en persistencia de estado.
+        
+3. **Rendimiento en Tiempo Real (QAD-01)**  
+    Se seleccionó la **arquitectura de Microservicios con caché distribuido (Redis/Memcached)**, garantizando respuesta ≤ 2 segundos.
+    
+    - Escalable para ≥ 500 usuarios concurrentes (_QAD-04_).
+        
+    - Cumple con las métricas del atributo de calidad.
+        
+4. **Seguridad (QAD-03)**  
+    Se definió usar **OAuth2/JWT en un microservicio dedicado de autenticación**.
+    
+    - Aísla la seguridad del resto de servicios.
+        
+    - Garantiza cifrado de credenciales y tokens configurables.
+        
+    - Permite auditoría y trazabilidad de intentos de acceso no autorizados.  
+        Alternativas como autenticación serverless fueron descartadas por la dependencia excesiva en el proveedor cloud.
+        
+5. **Constraints principales**
+    
+    - Toda la infraestructura se desplegará en **Cloud (AWS)** (_CS-01_).
+        
+    - La integración IoT será con protocolos **MQTT/HTTP estándar** (_CS-02_).
+        
+    - Se aplicará **CI/CD con despliegue continuo** (_CS-05_).
+        
+    - Se garantizará cumplimiento con la **Ley de Protección de Datos Personales (Perú)** (_CS-03_).
+
 ### 4.1.5.  *Quality Attribute Scenario Refinements.*
+
+Al finalizar el proceso del **Quality Attribute Workshop**, el equipo priorizó y refinó los escenarios de atributos de calidad más relevantes para el éxito de **NutriControl**.  
+Estos escenarios aseguran que el sistema cumpla con los objetivos de negocio: **monitoreo confiable en tiempo real, soporte a la toma de decisiones agrícolas, seguridad de la información y escalabilidad de la solución en entornos de campo**.
+
+A continuación, se presentan los escenarios refinados en orden de prioridad:
+
+|Scenario(s)|Visualización de datos de sensores en el dashboard|
+|---|---|
+|**Business Goals**|Proveer información confiable en tiempo real para decisiones agrícolas|
+|**Relevant Quality Attributes**|Rendimiento, Escalabilidad|
+|**Stimulus**|Un usuario solicita visualizar nivel de humedad en dashboard|
+|**Stimulus Source**|Usuario agrícola|
+|**Environment**|Conectividad normal en campo agrícola|
+|**Artifact (if Known)**|Backend + IoT + Dashboard|
+|**Response**|El sistema procesa y muestra datos|
+|**Response Measure**|≤ 2 segundos|
+|**Questions**|¿Cómo se garantiza baja latencia en red rural?|
+|**Issues**|Uso de caché distribuido y balanceadores|
+
+|Scenario(s)|Fallo en dispositivo IoT|
+|---|---|
+|**Business Goals**|Asegurar continuidad de monitoreo|
+|**Relevant Quality Attributes**|Disponibilidad, Confiabilidad|
+|**Stimulus**|Un sensor deja de enviar datos|
+|**Stimulus Source**|Dispositivo IoT|
+|**Environment**|Red inestable en zona rural|
+|**Artifact (if Known)**|Motor de Monitoreo IoT|
+|**Response**|El sistema alerta y reintenta conexión|
+|**Response Measure**|Recuperación ≤ 30 segundos|
+|**Questions**|¿Qué pasa si nunca se reconecta?|
+|**Issues**|Estrategia de reintentos con backoff exponencial|
+
+|Scenario(s)|Intento de acceso no autorizado a datos|
+|---|---|
+|**Business Goals**|Proteger información sensible y cumplir normativa|
+|**Relevant Quality Attributes**|Seguridad, Privacidad|
+|**Stimulus**|Usuario malintencionado intenta acceso|
+|**Stimulus Source**|Actor externo|
+|**Environment**|Operación normal|
+|**Artifact (if Known)**|Backend de Autenticación|
+|**Response**|Bloquea acceso y registra intento|
+|**Response Measure**|100% accesos no autorizados bloqueados|
+|**Questions**|¿Se notificará al agricultor?|
+|**Issues**|Definición de políticas de logs y auditoría|
+
+|Scenario(s)|Registro de un nuevo campo agrícola en app|
+|---|---|
+|**Business Goals**|Garantizar facilidad de uso en zonas rurales|
+|**Relevant Quality Attributes**|Usabilidad, Accesibilidad|
+|**Stimulus**|Productor registra campo en app|
+|**Stimulus Source**|Usuario final|
+|**Environment**|Conectividad limitada|
+|**Artifact (if Known)**|Frontend Web/Móvil|
+|**Response**|Interfaz responde y confirma en ≤ 3 pasos|
+|**Response Measure**|Flujo completado ≤ 3 interacciones|
+|**Questions**|¿Qué mecanismos offline se usarán?|
+|**Issues**|Implementación de almacenamiento local|
+
+|Scenario(s)|Incremento de usuarios concurrentes|
+|---|---|
+|**Business Goals**|Soportar crecimiento sin degradación|
+|**Relevant Quality Attributes**|Escalabilidad, Rendimiento|
+|**Stimulus**|500 usuarios concurrentes se conectan|
+|**Stimulus Source**|Usuarios concurrentes|
+|**Environment**|Carga alta|
+|**Artifact (if Known)**|Cloud Infraestructura + BD|
+|**Response**|Sistema distribuye carga|
+|**Response Measure**|≤ 3 segundos con 500 usuarios|
+|**Questions**|¿Cuál será el límite máximo soportado?|
+|**Issues**|Configuración de autoescalado y stress testing|
+
+|Scenario(s)|Actualización del motor de alertas|
+|---|---|
+|**Business Goals**|Facilitar mantenimiento sin downtime|
+|**Relevant Quality Attributes**|Mantenibilidad, Disponibilidad|
+|**Stimulus**|Equipo despliega nueva versión|
+|**Stimulus Source**|Equipo de desarrollo|
+|**Environment**|Sistema en operación|
+|**Artifact (if Known)**|Backend de Alertas|
+|**Response**|Nueva versión sin afectar operación|
+|**Response Measure**|≤ 10 min despliegue, downtime = 0|
+|**Questions**|¿Cómo se manejará rollback en caso de error?|
+|**Issues**|Pipelines CI/CD y pruebas de regresión|
 
 ## 4.2.      *Strategic-Level Domain-Driven Design.* 
 
