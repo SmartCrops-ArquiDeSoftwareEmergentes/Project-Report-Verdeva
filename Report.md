@@ -306,6 +306,7 @@ Nuestra visión del futuro agrícola es clara: un ecosistema donde cada hectáre
 | Chirinos Zúñiga, Rodrigo Manuel | Tengo 21 años, soy un estudiante de la carrera de Ingeniería de Software, considero que soy una persona responsable y de escucha activa. Estoy comprometido con mis compañeros en realizar un buen trabajo y así aprender todos en el proceso. También tengo conocimientos en programación en C++, HTML, CSS y JavaScript.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |    ![alt text](image-1.png)                                   |
 | Pinto Fuentes Rivera, Alvaro Felipe | Hola, mi nombre es Alvaro, soy un estudiante del octavo ciclo de la carrera Ingeniería de Software. Me gusta mucho leer, sobre todo el género de fantasía y ciencia ficción, mi frase favorita de un libro es el credo "Vida antes que muerte, fuerza antes que debilidad y viaje antes que destino", también soy un gran fan del cine y pasó la mayor parte de mi tiempo libre escribiendo por diversión. Poseo un nivel bueno de programación en los lenguajes de C# y C++, creo que podré resultar de gran ayuda para resolver cualquier tipo de problema durante el desarrollo del proyecto, así como podré brindar ideas creativas para el equipo.                                                                                             |           ![alt text](image-2.png)           |
 | Espinoza Saenz, Christian Renato (U202213208) | Mi nombre es Christian Espinoza, soy un estudiante de 21 años que cursa el 8vo ciclo de la carrera Ingeniería de Software. Poseo ideas únicas e innovadoras para que el trabajo logre sobresalir. Tengo experiencia en la creación de distintos tipos de diagramas, editar diferentes tipos de multimedia como videos, y un conocimiento general en programación de C++, HTML, CSS y SQL. Además, se me facilita desarrollar interfaces intuitivas en el frontend, lo cual será beneficioso para el proyecto.                                                                                                                                                                                                                                                 |          ![alt text](image-3.png)           |
+| Litano Liza, Joel Alexander (U20181A732) | Mi nombre es Joel Litano, soy estudiante de 8vo ciclo de la carrera de Ingeniería de Software. Estoy comprometido con el desarrollo del proyecto, brindando mis aptitudes al equipo y aportando especialemnte en desarrollo WEB, con ASP .net, automatizaciones y procesos de inteligencia artificial con python, C# y C++.                                                                                                                                                                                                                                                  |          ![alt text](image-4.png)           |
 
 </div>
 
@@ -2460,7 +2461,83 @@ A continuación, se presentan los escenarios refinados en orden de prioridad:
 
 ### 4.2.1.   *EventStorming.* 
 
+<div align="justify">
+
+Esta es la técnica colaborativa utilizada para modelar sistemas complejos y entender el dominio del problema, donde
+explicamos y evidenciamos el proceso con el fin de plantear una primera aproximación al modelado general e
+identificando el mayor nivel de detalle posible. Este fue desarrollado en las siguientes fases:
+
+1. **Unstructured Exploration:**  En esta fase, el equipo exploró libremente el dominio del problema, compartiendo conocimientos y capturando ideas sin
+una estructura formal. El objetivo fue generar una visión amplia y completa del sistema, sentando las bases para las
+siguientes fases del modelado.
+   </br>
+   ![Step1](Images/chapter4/EventStorming/Step1.png)
+
+2. **Timelines:**  En esta fase, el equipo organizó los eventos identificados en un flujo cronológico, visualizando su secuencia y las
+interacciones entre ellos. Esto ayudó a identificar dependencias y puntos críticos, facilitando la comprensión del
+sistema y la planificación de las siguientes etapas del modelado.
+   </br>
+   ![Step2](Images/chapter4/EventStorming/Step2.png)
+
+3. **Pain Points:** En esta fase, el equipo identificó los problemas o desafíos clave dentro del dominio del sistema. Se enfocaron en
+los puntos críticos donde los usuarios o procesos pueden enfrentar dificultades o ineficiencias. 
+   </br>
+   ![Step3](Images/chapter4/EventStorming/Step3.png)
+
+4. **Pivotal Points:** En esta fase, el equipo identificó los eventos clave que tienen un impacto significativo en el sistema y que podrían
+cambiar el curso de las decisiones o procesos.
+   </br>
+   ![Step4](Images/chapter4/EventStorming/Step4.png)
+
+5. **Commands:** En esta fase, el equipo identificó las acciones que deben ser ejecutados dentro del sistema para que los eventos
+ocurran o los procesos se inicien. Estos comandos son decisiones o instrucciones claras que desencadenan eventos
+específicos y ayudan a guiar el flujo de trabajo en el sistema. 
+   </br>
+   ![Step5](Images/chapter4/EventStorming/Step5.png)
+
+</div>
+
 ### 4.2.2.   *Candidate Context Discovery.* 
+
+
+<div align="justify">
+
+En esta sección, el equipo, a partir del dominio modelado con EventStorming, explicó y evidenció el proceso realizado
+durante la sesión de Candidate Context Discovery, cuyo objetivo fue identificar los bounded contexts.La sesión duró 1
+hora con 50 minutos, y se utilizó la herramienta miro, complementando la explicación con capturas de los cambios
+progresivos en EventStorming.
+
+6. **Policies:**  En esta fase, el equipo identificó las reglas o políticas que rigen el comportamiento del sistema. Estas políticas son
+restricciones, normativas o criterios que deben ser seguidos para tomar decisiones dentro del proceso. 
+   </br>
+   ![Step1](Images/chapter4/Candidate-Context-Discovery/Step6.png)
+
+7. ** Read Models:**  En esta fase , el equipo se centró en identificar los modelos de lectura que permiten consultar y visualizar la
+información almacenada en el sistema.
+   </br>
+   ![Step2](Images/chapter4/Candidate-Context-Discovery/Step7.png)
+
+3. **External Systems:** En esta fase, el equipo identificó y analizó los sistemas externos con los que el sistema principal interactúa. Estos
+pueden incluir aplicaciones, bases de datos, servicios de terceros o plataformas externas que proporcionan o
+reciben información del sistema. 
+   </br>
+   ![Step3](Images/chapter4/Candidate-Context-Discovery/Step8.png)
+
+4. **Aggregates:** En esta fase, el equipo definió las entidades principales que agrupan y gestionan los datos relacionados como una
+unidad. Los Aggregates aseguran la consistencia de los datos y aplican las reglas de negocio dentro de sus límites. 
+   </br>
+   ![Step4](Images/chapter4/Candidate-Context-Discovery/Step9.png)
+
+5. **Bounded Contexts:** En esta fase, el equipo identificó los límites dentro de los cuales un modelo específico es
+aplicable y coherente. Cada Bounded Context define un área del sistema con su propio conjunto de reglas,
+terminología y lógica de negocio. 
+   </br>
+   ![Step5](Images/chapter4/Candidate-Context-Discovery/Step10.png)
+
+
+**Enlace a los diagramas en Miro:**   https://miro.com/app/board/uXjVI-UYdMU=/?share_link_id=788988253384
+   </br>
+</div>
 
 ### 4.2.3.   *Domain Message Flows Modeling.* 
 
