@@ -866,7 +866,7 @@ Se han realizado entrevistas detalladas enfocadas en individuos que representan 
 
 **Segmento 1: Productores Rurales Tradicionales** 
 
-El objetivo de realizar estas entrevistas es comprender a profundidad las necesidades, prácticas actuales y limitaciones de los productores rurales tradicionales, validar la propuesta de valor de NutriControl, y definir las funcionalidades prioritarias para garantizar que la solución sea relevante, accesible y efectiva en mejorar la productividad agrícola mientras se enfrentan desafíos como el cambio climático y la escasez hídrica.
+El objetivo de realizar estas entrevistas es comprender a profundidad las necesidades, prácticas actuales y limitaciones de los productores rurales tradicionales, validar la propuesta de valor de Verdeva, y definir las funcionalidades prioritarias para garantizar que la solución sea relevante, accesible y efectiva en mejorar la productividad agrícola mientras se enfrentan desafíos como el cambio climático y la escasez hídrica.
 
 
 **Preguntas de introducción:**
@@ -897,7 +897,7 @@ El objetivo de realizar estas entrevistas es comprender a profundidad las necesi
 
 **Segmento 2: Productores Tecnificados de Cultivos de Alto Valor** 
 
-El objetivo es identificar las necesidades específicas y los retos operativos de este segmento avanzado, con el fin de personalizar la propuesta de NutriControl. Esto incluye entender los niveles actuales de tecnificación, el impacto económico de sus decisiones agrícolas, y las funcionalidades clave que una solución tecnológica debe ofrecer para optimizar la eficiencia, garantizar estándares de calidad y trazabilidad, y mejorar la rentabilidad en un entorno competitivo de exportación.
+El objetivo es identificar las necesidades específicas y los retos operativos de este segmento avanzado, con el fin de personalizar la propuesta de Verdeva. Esto incluye entender los niveles actuales de tecnificación, el impacto económico de sus decisiones agrícolas, y las funcionalidades clave que una solución tecnológica debe ofrecer para optimizar la eficiencia, garantizar estándares de calidad y trazabilidad, y mejorar la rentabilidad en un entorno competitivo de exportación.
 
 **Preguntas de introducción:**
 
@@ -920,7 +920,7 @@ El objetivo es identificar las necesidades específicas y los retos operativos d
 7. ¿Qué tan importante es para su empresa la trazabilidad de los insumos y el historial del cultivo?
 8. ¿Cómo gestionan actualmente la toma de decisiones en base a los datos del terreno o clima?
 9. ¿Qué tipo de reportes o métricas son más útiles en su gestión diaria o estratégica?
-10. ¿Qué valoraría más de una solución como NutriControl: automatización, precisión o ahorro?
+10. ¿Qué valoraría más de una solución como Verdeva: automatización, precisión o ahorro?
 11. ¿Qué características o integraciones consideran imprescindibles en una plataforma tecnológica agrícola?
 12. ¿Estarían dispuestos a adoptar una solución modular que se adapte al tipo de cultivo, terreno o tamaño de operación?
 13. ¿Desea agregar algo más que considere importante sobre su trabajo o sobre el uso de nuevas herramientas?
@@ -1144,6 +1144,80 @@ Se llevará a cabo tres entrevistas por cada segmento, sumando un total de seis.
 </table>
 
 
+**Segmento 2: Productores tecnificados de cultivos de alto valor (orientados al mercado de exportación)**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Álvaro</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Acero</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ica</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones Usadas</td>
+    <td>Excel, WhatsApp</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Optimizar la producción agrícola, asegurar el bienestar de los cultivos y mejorar el uso del agua.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>No contar con herramientas digitales para monitoreo, depender de la experiencia y recomendaciones externas, y las variaciones climáticas que afectan la producción.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Riego por goteo, programación manual de válvulas, fertilización según asesoría, Excel para trazabilidad</td>
+  </tr>
+  <tr>
+    <td>Browsers</td>
+    <td>Uso ocasional de navegadores en laptop como chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christian Espinoza</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Images/chapter2/AlvaroAcero.png" alt="Álvaro Acero"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/Ef7wQZukSLRFmy4pYLBRumABOneJxIZeOKF7mdzGk39CaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ixXWyG" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>5 min y 34 segundos</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Álvaro Acero, de 25 años, es el encargado técnico y operativo del predio agrícola de su familia en Ica. Tiene 6 años de experiencia trabajando con los cultivos actuales y maneja un total de 35 hectáreas, donde produce principalmente papa, maíz y espárrago. Cuenta con un sistema de riego por goteo, aunque la programación es manual, y realiza la fertilización en base a la experiencia y recomendaciones de asesores externos. Para la trazabilidad utiliza Excel. Su motivación principal es optimizar la producción y asegurar el buen manejo del agua, aunque enfrenta frustraciones por no tener acceso a herramientas digitales de precisión, depender de criterios subjetivos y por las variaciones climáticas de la zona. Muestra interés en soluciones tecnológicas que le permitan tener datos claros para la toma de decisiones, siempre que sean prácticas y fáciles de implementar.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+
 
 
 </div>
@@ -1196,7 +1270,7 @@ Para construir una matriz de tareas adecuada al proyecto, se tomaron en cuenta d
 | Evaluar predicciones basadas en datos           |     Media      |      Alta      |
 | Ajustar las alertas y notificaciones            |     Baja       |      Media     |
 | Configurar y ajustar sensores avanzados         |     Baja       |      Alta      |
-| Conectar NutriControl con otros sistemas agrícolas |     Baja      |      Alta      |
+| Conectar Verdeva con otros sistemas agrícolas |     Baja      |      Alta      |
 | Capacitar a su equipo en el uso de la herramienta |     Baja      |      Media     |
 
 </div><br><br>
@@ -1277,22 +1351,22 @@ A continuación, se presentan los términos propios del dominio del negocio:
   </tr>
   <tr>
     <td>EP-01</td>
-    <td>Presentación de NutriControl</td>
-    <td>Como usuario potencial, cuando ingrese a la Landing Page de NutriControl, quiero poder ver una presentación clara de la solución, incluyendo su funcionamiento, características y opciones de planes, para poder decidir si la plataforma satisface mis necesidades y si quiero registrarme.
+    <td>Presentación de Verdeva</td>
+    <td>Como usuario potencial, cuando ingrese a la Landing Page de Verdeva, quiero poder ver una presentación clara de la solución, incluyendo su funcionamiento, características y opciones de planes, para poder decidir si la plataforma satisface mis necesidades y si quiero registrarme.
     </td>
     <td>US-01, US-02, US-03</td>
   </tr>
   <tr>
     <td>EP-02</td>
     <td>Gestión de Usuarios</td>
-    <td>Como usuario, cuando ingrese a la plataforma NutriControl, quiero poder registrarme, iniciar sesión y gestionar mi información personal, de modo que pueda acceder a todos los beneficios de la solución y mantener mis datos actualizados en todo momento.
+    <td>Como usuario, cuando ingrese a la plataforma Verdeva, quiero poder registrarme, iniciar sesión y gestionar mi información personal, de modo que pueda acceder a todos los beneficios de la solución y mantener mis datos actualizados en todo momento.
     </td>
     <td>US-04, US-05, US-06, US-22, US-23</td>
   </tr>
   <tr>
     <td>EP-03</td>
     <td>Gestión de Campos Agrícolas</td>
-    <td>Como productor agrícola, cuando ingrese a NutriControl, quiero poder gestionar mis campos agrícolas, lo que incluye agregar, editar y eliminar campos, para poder automatizarlos y tener un control eficiente de los recursos y las tareas en mis cultivos.
+    <td>Como productor agrícola, cuando ingrese a Verdeva, quiero poder gestionar mis campos agrícolas, lo que incluye agregar, editar y eliminar campos, para poder automatizarlos y tener un control eficiente de los recursos y las tareas en mis cultivos.
     </td>
     <td>US-07, US-08, US-09</td>
   </tr>
@@ -1306,7 +1380,7 @@ A continuación, se presentan los términos propios del dominio del negocio:
   <tr>
     <td>EP-05</td>
     <td>Gestión de Dispositivos IOT y Automatización</td>
-    <td>Como productor agrícola, cuando acceda a mis campos agrícolas en NutriControl, quiero poder conectar y gestionar dispositivos IOT que automatizan tareas como el riego y la fertilización, y recibir alertas sobre su estado, de modo que pueda optimizar el monitoreo y control de mis cultivos.
+    <td>Como productor agrícola, cuando acceda a mis campos agrícolas en Verdeva, quiero poder conectar y gestionar dispositivos IOT que automatizan tareas como el riego y la fertilización, y recibir alertas sobre su estado, de modo que pueda optimizar el monitoreo y control de mis cultivos.
     </td>
     <td>US-13, US-14, US-16, US-18</td>
   </tr>
@@ -1320,7 +1394,7 @@ A continuación, se presentan los términos propios del dominio del negocio:
   <tr>
     <td>EP-07</td>
     <td>Implementación Técnica</td>
-    <td>Como equipo de desarrollo, cuando construyamos la solución NutriControl, quiero establecer toda la base técnica necesaria (infraestructura, autenticación, integración IoT, motor de alertas, y frontend responsive) para garantizar el correcto funcionamiento, escalabilidad y mantenimiento del sistema.
+    <td>Como equipo de desarrollo, cuando construyamos la solución Verdeva, quiero establecer toda la base técnica necesaria (infraestructura, autenticación, integración IoT, motor de alertas, y frontend responsive) para garantizar el correcto funcionamiento, escalabilidad y mantenimiento del sistema.
     </td>
     <td>TS-01, TS-02, TS-03, TS-04, TS-05</td>
   </tr>
@@ -1338,20 +1412,20 @@ A continuación, se presentan los términos propios del dominio del negocio:
   </tr>
   <tr>
     <td>US-01</td>
-    <td>Información de NutriControl</td>
-    <td>Como usuario potencial, cuando ingrese a la Landing Page de NutriControl, quiero poder visualizar información del funcionamiento de la solución y su propuesta de valor.</td>
+    <td>Información de Verdeva</td>
+    <td>Como usuario potencial, cuando ingrese a la Landing Page de Verdeva, quiero poder visualizar información del funcionamiento de la solución y su propuesta de valor.</td>
     <td>
-    Escenario 1: Visualizar la descripción general de NutriControl
+    Escenario 1: Visualizar la descripción general de Verdeva
     <br><br>
     Dado que el usuario potencial ingresa a la Landing Page,
     Cuando acceda a la sección principal,
-    Entonces podrá visualizar información sobre el funcionamiento de NutriControl
+    Entonces podrá visualizar información sobre el funcionamiento de Verdeva
     Y entenderá su propuesta de valor.
     <br><br>
     Escenario 2: Navegación fluida a la sección de información
     <br><br>
     Dado que el usuario está en la Landing Page,
-    Cuando haga clic en el botón "¿Qué es NutriControl?",
+    Cuando haga clic en el botón "¿Qué es Verdeva?",
     Entonces deberá ser dirigido de forma fluida a la sección informativa
     Y podrá regresar fácilmente al inicio.
     </td>
@@ -1359,14 +1433,14 @@ A continuación, se presentan los términos propios del dominio del negocio:
   </tr>
   <tr>
     <td>US-02</td>
-    <td>Características de NutriControl</td>
-    <td>Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar características específicas de lo que NutriControl ofrece y ver si se adecuan a mis necesidades.</td>
+    <td>Características de Verdeva</td>
+    <td>Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de Verdeva, quiero poder visualizar características específicas de lo que Verdeva ofrece y ver si se adecuan a mis necesidades.</td>
     <td>
     Escenario 1: Visualizar las características principales
     <br><br>
     Dado que el usuario potencial navega por la Landing Page,
     Cuando llegue a la sección de características,
-    Entonces podrá visualizar una lista de funcionalidades destacadas de NutriControl
+    Entonces podrá visualizar una lista de funcionalidades destacadas de Verdeva
     Y entender para qué sirve cada una.
     <br><br>
     Escenario 2: Información expandida de características
@@ -1381,7 +1455,7 @@ A continuación, se presentan los términos propios del dominio del negocio:
   <tr>
     <td>US-03</td>
     <td>Sección de planes o membresías</td>
-    <td>Como usuario potencia, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar una sección de planes en los cuales ver los beneficios adicionales que tendría fuera de un plan 
+    <td>Como usuario potencia, cuando navegue dentro de las secciones de la Landing Page de Verdeva, quiero poder visualizar una sección de planes en los cuales ver los beneficios adicionales que tendría fuera de un plan 
      Freemium. 
     </td>
     <td>
@@ -1404,7 +1478,7 @@ A continuación, se presentan los términos propios del dominio del negocio:
   <tr>
     <td>US-04</td>
     <td>Registro de Usuario</td>
-    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder registrarme con un correo electrónico y contraseña para poder usar NutriControl.</td>
+    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder registrarme con un correo electrónico y contraseña para poder usar Verdeva.</td>
     <td>
     Escenario 1: Registro exitoso
     <br><br>
@@ -1432,7 +1506,7 @@ A continuación, se presentan los términos propios del dominio del negocio:
   <tr>
     <td>US-05</td>
     <td>Inicio de Sesión</td>
-    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder iniciar sesión con mis credenciales ya creadas en el registro de NutriControl.</td>
+    <td>Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder iniciar sesión con mis credenciales ya creadas en el registro de Verdeva.</td>
     <td>
     Escenario 1: Inicio de sesión exitoso
     <br><br>
@@ -1474,7 +1548,7 @@ Y podrá iniciar sesión con la nueva clave.
   <tr>
     <td>US-07</td>
     <td>Adición de Campos Agrícolas</td>
-    <td>Como productor agrícola, cuando ingrese al inicio de NutriControl, quiero poder agregar los Campos Agrícolas que deseo automatizar.</td>
+    <td>Como productor agrícola, cuando ingrese al inicio de Verdeva, quiero poder agregar los Campos Agrícolas que deseo automatizar.</td>
     <td>
     Escenario 1: Agregar un nuevo Campo Agrícola
     <br><br>
@@ -1828,7 +1902,7 @@ Y mostrará resultados proyectados basados en esas técnicas.
     <td>
 Escenario 1: Visualizar recomendaciones específicas para cada cultivo
     <br><br>
-Dado que el agricultor tiene cultivos registrados en NutriControl,
+Dado que el agricultor tiene cultivos registrados en Verdeva,
 Cuando acceda a la sección de recomendaciones,
 Entonces verá consejos personalizados para cada tipo de cultivo registrado
 Y podrá aplicar sugerencias de manejo o mejora.
@@ -1845,7 +1919,7 @@ Y estrategias de optimización de recursos.
   <tr>
     <td>US-22</td>
     <td>Planes de Suscripción</td>
-    <td>Como usuario, cuando necesito adquirir más beneficios o elegir un plan de suscripción de acuerdo a mis necesidades, quiero poder visualizar detalles sobre planes premium o freemium sobre NutriControl y elegir la mejor opción para mis necesidades.</td>
+    <td>Como usuario, cuando necesito adquirir más beneficios o elegir un plan de suscripción de acuerdo a mis necesidades, quiero poder visualizar detalles sobre planes premium o freemium sobre Verdeva y elegir la mejor opción para mis necesidades.</td>
     <td>
 Escenario 1: Visualizar detalle de cada plan
     <br><br>
@@ -1866,7 +1940,7 @@ Y el sistema actualizará su cuenta al nuevo plan.
   <tr>
     <td>US-23</td>
     <td>Configuración de Cuenta</td>
-    <td>Como usuario, cuando necesito cambiar información personal de mi cuenta o visualizar, quiero poder tener una sección de Perfil dentro de NutriControl para ver toda tipo de esa información.</td>
+    <td>Como usuario, cuando necesito cambiar información personal de mi cuenta o visualizar, quiero poder tener una sección de Perfil dentro de Verdeva para ver toda tipo de esa información.</td>
     <td>
 Escenario 1: Editar información personal
     <br><br>
@@ -1912,7 +1986,7 @@ Y podrá verificar que estén correctos.
 <tr>
     <td>TS-01</td>
     <td>Configuración de Infraestructura y Base de Datos Inicial</td>
-    <td>Como equipo de desarrollo, cuando configuremos la infraestructura de NutriControl, quiero tener una base de datos organizada para almacenar usuarios, campos, cultivos, dispositivos IoT y sus configuraciones.</td>
+    <td>Como equipo de desarrollo, cuando configuremos la infraestructura de Verdeva, quiero tener una base de datos organizada para almacenar usuarios, campos, cultivos, dispositivos IoT y sus configuraciones.</td>
     <td>
 Escenario 1: Creación de base de datos con entidades principales
     <br><br>
@@ -2004,7 +2078,7 @@ Y mostrarlas en el panel de control del agricultor.
   <tr>
     <td>TS-05</td>
     <td>Desarrollo de Frontend Web y Móvil para Visualización y Gestión</td>
-    <td>Como equipo de frontend, cuando los usuarios accedan a NutriControl vía web o móvil, quiero que puedan navegar de forma intuitiva por sus campos, cultivos, dispositivos, suscripciones y perfil.</td>
+    <td>Como equipo de frontend, cuando los usuarios accedan a Verdeva vía web o móvil, quiero que puedan navegar de forma intuitiva por sus campos, cultivos, dispositivos, suscripciones y perfil.</td>
     <td>
 Escenario 1: Visualización clara de campos, cultivos y dispositivos
     <br><br>
@@ -2085,13 +2159,13 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 
 | Orden | User Story ID | Título                                            | Descripción                                                                                       | Story Points |
 |-------|---------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------|
-| 1     | US-01         | Información de NutriControl                       | Como usuario potencial, cuando ingrese a la Landing Page de NutriControl, quiero poder visualizar información del funcionamiento de la solución y su propuesta de valor. | 3            |
-| 2     | US-02         | Características de NutriControl                   | Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar características específicas de lo que NutriControl ofrece y ver si se adecuan a mis necesidades. | 3            |
-| 3     | US-03         | Sección de planes o membresías                    | Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de NutriControl, quiero poder visualizar una sección de planes en los cuales ver los beneficios adicionales que tendría fuera de un plan Freemium. | 5            |
-| 4     | US-04         | Registro de Usuario                               | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder registrarme con un correo electrónico y contraseña para poder usar NutriControl. | 5            |
-| 5     | US-05         | Inicio de Sesión                                  | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder iniciar sesión con mis credenciales ya creadas en el registro de NutriControl. | 5            |
+| 1     | US-01         | Información de Verdeva                       | Como usuario potencial, cuando ingrese a la Landing Page de Verdeva, quiero poder visualizar información del funcionamiento de la solución y su propuesta de valor. | 3            |
+| 2     | US-02         | Características de Verdeva                   | Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de Verdeva, quiero poder visualizar características específicas de lo que Verdeva ofrece y ver si se adecuan a mis necesidades. | 3            |
+| 3     | US-03         | Sección de planes o membresías                    | Como usuario potencial, cuando navegue dentro de las secciones de la Landing Page de Verdeva, quiero poder visualizar una sección de planes en los cuales ver los beneficios adicionales que tendría fuera de un plan Freemium. | 5            |
+| 4     | US-04         | Registro de Usuario                               | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder registrarme con un correo electrónico y contraseña para poder usar Verdeva. | 5            |
+| 5     | US-05         | Inicio de Sesión                                  | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder iniciar sesión con mis credenciales ya creadas en el registro de Verdeva. | 5            |
 | 6     | US-06         | Recuperación de Contraseña                        | Como usuario, cuando ingrese a la App Web o descargue el App Móvil, quiero poder recuperar o cambiar mi contraseña en caso la haya olvidado. | 3            |
-| 7     | US-07         | Adición de Campos Agrícolas                       | Como productor agrícola, cuando ingrese al inicio de NutriControl, quiero poder agregar los Campos Agrícolas que deseo automatizar. | 5            |
+| 7     | US-07         | Adición de Campos Agrícolas                       | Como productor agrícola, cuando ingrese al inicio de Verdeva, quiero poder agregar los Campos Agrícolas que deseo automatizar. | 5            |
 | 8     | US-08         | Edición de Campos Agrícolas                       | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder editar la información de los Campos que poseo. | 3            |
 | 9     | US-09         | Eliminación de Campos Agrícolas                   | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder eliminar cualquier Campo Agrícola que posea. | 3            |
 | 10    | US-10         | Registro de Cultivos                              | Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero poder agregar cultivos dentro de mis campos. | 5            |
@@ -2106,9 +2180,9 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 | 19    | US-19         | Ahorro de Recursos                                | Como agricultor tecnificado, cuando necesito reducir o minimizar recursos, quiero poder recibir recomendaciones de uso de los recursos como el agua o fertilizantes en mis cultivos. | 5            |
 | 20    | US-20         | Análisis Predictivo de Cultivos                   | Como agricultor tecnificado, cuando conozca información de ayuda a futuro sobre mis cultivos, quiero poder revisar en base al registro de mis cultivos y técnicas empleadas, datos predictivos sobre qué hacer en diferentes ocasiones. | 8            |
 | 21    | US-21         | Recomendaciones de Cultivos                       | Como agricultor tecnificado, cuando necesito recibir recomendaciones sobre mis cultivos o técnicas, quiero poder visualizar información sobre recomendaciones para cada tipo de cultivo o terreno de campo agrícola. | 5            |
-| 22    | US-22         | Planes de Suscripción                             | Como usuario, cuando necesito adquirir más beneficios o elegir un plan de suscripción de acuerdo a mis necesidades, quiero poder visualizar detalles sobre planes premium o freemium sobre NutriControl y elegir la mejor opción para mis necesidades. | 5            |
-| 23    | US-23         | Configuración de Cuenta                           | Como usuario, cuando necesito cambiar información personal de mi cuenta o visualizar, quiero poder tener una sección de Perfil dentro de NutriControl para ver toda tipo de esa información. | 5            |
-| 24    | TS-01         | Configuración de Infraestructura y Base de Datos Inicial | Como desarrollador, quiero configurar la infraestructura y la base de datos inicial para soportar el crecimiento y la estabilidad de NutriControl. | 13           |
+| 22    | US-22         | Planes de Suscripción                             | Como usuario, cuando necesito adquirir más beneficios o elegir un plan de suscripción de acuerdo a mis necesidades, quiero poder visualizar detalles sobre planes premium o freemium sobre Verdeva y elegir la mejor opción para mis necesidades. | 5            |
+| 23    | US-23         | Configuración de Cuenta                           | Como usuario, cuando necesito cambiar información personal de mi cuenta o visualizar, quiero poder tener una sección de Perfil dentro de Verdeva para ver toda tipo de esa información. | 5            |
+| 24    | TS-01         | Configuración de Infraestructura y Base de Datos Inicial | Como desarrollador, quiero configurar la infraestructura y la base de datos inicial para soportar el crecimiento y la estabilidad de Verdeva. | 13           |
 | 25    | TS-02         | Desarrollo del Módulo de Autenticación y Gestión de Cuenta | Como desarrollador, quiero crear el módulo de autenticación y gestión de cuentas para garantizar que los usuarios puedan registrarse, iniciar sesión y recuperar sus contraseñas. | 8            |
 | 26    | TS-03         | Integración de Dispositivos IoT a Campos y Cultivos | Como desarrollador, quiero integrar dispositivos IoT a los campos y cultivos de los usuarios para permitir la automatización del riego y otras tareas. | 13           |
 | 27    | TS-04         | Implementación de Motor de Alertas y Recomendaciones | Como desarrollador, quiero crear un motor de alertas y recomendaciones para que los usuarios reciban notificaciones sobre el estado de sus cultivos, su pH, y sus necesidades de riego. | 13           |
@@ -2155,7 +2229,7 @@ Revolucionar la agricultura mediante tecnologías IoT inteligentes que permitan 
 
 #### 4.1.2.1. *Primary Functionality (Primary User Stories)*
 
-Dentro del conjunto de requisitos levantados para la solución NutriControl, se han identificado ciertos Epics y User Stories críticos que impactan directamente en la arquitectura del sistema. Estos requisitos se relacionan con la gestión de usuarios, la integración de dispositivos IoT, el motor de alertas y recomendaciones, así como la visualización y control de los cultivos.
+Dentro del conjunto de requisitos levantados para la solución Verdeva, se han identificado ciertos Epics y User Stories críticos que impactan directamente en la arquitectura del sistema. Estos requisitos se relacionan con la gestión de usuarios, la integración de dispositivos IoT, el motor de alertas y recomendaciones, así como la visualización y control de los cultivos.
 
 Su relevancia radica en que determinan las decisiones tecnológicas clave (infraestructura, seguridad, comunicación en tiempo real, procesamiento de datos, interfaces de usuario y escalabilidad).
 
@@ -2163,12 +2237,12 @@ A continuación, se detallan los Epics y User Stories seleccionados:
 
 |**Epic / User Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
 |---|---|---|---|---|
-|**TS-01**|Configuración de Infraestructura y Base de Datos Inicial|Como equipo de desarrollo, cuando configuremos la infraestructura de NutriControl, quiero tener una base de datos organizada para almacenar usuarios, campos, cultivos, dispositivos IoT y sus configuraciones.|Escenario 1: Creación de base de datos con entidades principales  <br>  <br>Dado que estamos configurando el sistema, Cuando se cree la base de datos, Entonces deberá existir tablas para Usuarios, Campos Agrícolas, Cultivos, Dispositivos IoT y Suscripciones Y deben estar correctamente relacionadas.  <br>  <br>Escenario 2: Infraestructura lista para la aplicación  <br>  <br>Dado que el sistema debe ser escalable, Cuando termine la configuración de infraestructura, Entonces el backend estará desplegado en un servidor seguro Y será accesible mediante una API REST.|EP-07|
+|**TS-01**|Configuración de Infraestructura y Base de Datos Inicial|Como equipo de desarrollo, cuando configuremos la infraestructura de Verdeva, quiero tener una base de datos organizada para almacenar usuarios, campos, cultivos, dispositivos IoT y sus configuraciones.|Escenario 1: Creación de base de datos con entidades principales  <br>  <br>Dado que estamos configurando el sistema, Cuando se cree la base de datos, Entonces deberá existir tablas para Usuarios, Campos Agrícolas, Cultivos, Dispositivos IoT y Suscripciones Y deben estar correctamente relacionadas.  <br>  <br>Escenario 2: Infraestructura lista para la aplicación  <br>  <br>Dado que el sistema debe ser escalable, Cuando termine la configuración de infraestructura, Entonces el backend estará desplegado en un servidor seguro Y será accesible mediante una API REST.|EP-07|
 |**TS-02**|Desarrollo del Módulo de Autenticación y Gestión de Cuenta|Como equipo técnico, cuando los usuarios deseen ingresar o gestionar sus cuentas, quiero contar con módulos para el registro, login, recuperación de contraseña y configuración de cuenta.|Escenario 1: Registro de nuevos usuarios<br><br>Dado que los usuarios nuevos desean acceder, Cuando llenen su formulario de registro, Entonces se deberá guardar su información de manera segura Y el sistema enviará una confirmación de registro.<br><br>Escenario 2: Inicio de sesión y recuperación de contraseña<br><br>Dado que el usuario puede olvidar su clave, Cuando solicite una recuperación, Entonces se enviará un enlace seguro a su correo Y podrá cambiar su contraseña exitosamente.<br><br>Escenario 3: Actualización de información personal<br><br>Dado que el usuario desea modificar sus datos, Cuando entre a la configuración de su cuenta, Entonces podrá actualizar su nombre, correo, teléfono y contraseña Y recibirá un mensaje de éxito.|EP-07|
 |**US-13**|Conectar y Adicionar Dispositivos IoT a mis Cultivos|Como productor agrícola, cuando ingrese a ver mis Campos Agrícolas, quiero registrar y adicionar a mis Campos los dispositivos IOT que están presentes en mis cultivos.|Escenario 1: Conectar un nuevo dispositivo IoT<br><br>Dado que el productor quiere mejorar el monitoreo de sus cultivos, Cuando acceda a la opción "Conectar Dispositivo" en un campo, Entonces podrá registrar un dispositivo IoT ingresando su ID y tipo Y asociarlo a un cultivo específico.<br><br>Escenario 2: Validar conexión de dispositivo<br><br>Dado que el productor intenta conectar un dispositivo IoT, Cuando ingrese datos inválidos o el dispositivo ya esté registrado, Entonces el sistema mostrará un mensaje de error Y no permitirá completar la conexión hasta corregir.<br><br>Escenario 3: Confirmación de dispositivo conectado<br><br>Dado que el productor haya conectado correctamente un dispositivo, Cuando finalice el registro, Entonces verá un mensaje de éxito Y el dispositivo aparecerá en la lista de dispositivos asociados.|EP-05|
 |**TS-03**|Integración de Dispositivos IoT a Campos y Cultivos|Como equipo técnico, cuando los agricultores quieran asociar dispositivos IoT a sus campos, quiero que puedan registrar, visualizar, editar y eliminar dispositivos conectados a sus cultivos.|Escenario 1: Asociación de dispositivos IoT a campos  <br>  <br>Dado que los dispositivos deben controlarse por campo, Cuando el agricultor registre un dispositivo, Entonces se asociará a un campo agrícola específico Y quedará visible en su panel de control.  <br>  <br>Escenario 2: Desactivación y eliminación de dispositivos  <br>  <br>Dado que el agricultor puede reemplazar un dispositivo, Cuando elimine o desactive un dispositivo, Entonces el sistema eliminará su relación con el campo Y actualizará la información en tiempo real.|EP-07|
 |**TS-04**|Implementación de Motor de Alertas y Recomendaciones|Como equipo de backend, cuando se detecten cambios importantes en el estado de cultivos o dispositivos, quiero generar alertas automáticas y enviar recomendaciones al agricultor.|Escenario 1: Generación de alertas automáticas  <br>  <br>Dado que el pH del suelo o el nivel de riego puede variar, Cuando un dispositivo IoT detecte un valor fuera del rango ideal, Entonces el sistema generará una alerta Y enviará una recomendación de acción al agricultor.  <br>  <br>Escenario 2: Motor de recomendaciones predictivas  <br>  <br>Dado que los agricultores necesitan apoyo en su toma de decisiones, Cuando se acumulen suficientes datos históricos, Entonces el sistema podrá recomendar acciones predictivas Y mostrarlas en el panel de control del agricultor.|EP-07|
-|**TS-05**|Desarrollo de Frontend Web y Móvil para Visualización y Gestión|Como equipo de frontend, cuando los usuarios accedan a NutriControl vía web o móvil, quiero que puedan navegar de forma intuitiva por sus campos, cultivos, dispositivos, suscripciones y perfil.|Escenario 1: Visualización clara de campos, cultivos y dispositivos  <br>  <br>Dado que el usuario necesita gestionar su producción, Cuando acceda a la aplicación, Entonces podrá ver una lista de campos y cultivos registrados Y detalles de los dispositivos asociados.  <br>  <br>Escenario 2: Acceso a planes de suscripción y perfil  <br>  <br>Dado que el usuario necesita administrar su cuenta, Cuando navegue a la sección de suscripción o perfil, Entonces podrá visualizar detalles de su plan actual Y editar su información personal de manera sencilla.  <br>  <br>Escenario 3: Aplicación responsive y amigable  <br>  <br>Dado que los usuarios utilizarán diversos dispositivos, Cuando accedan desde móvil, tablet o PC, Entonces la plataforma se adaptará correctamente Y ofrecerá una experiencia fluida y rápida.|EP-07|
+|**TS-05**|Desarrollo de Frontend Web y Móvil para Visualización y Gestión|Como equipo de frontend, cuando los usuarios accedan a Verdeva vía web o móvil, quiero que puedan navegar de forma intuitiva por sus campos, cultivos, dispositivos, suscripciones y perfil.|Escenario 1: Visualización clara de campos, cultivos y dispositivos  <br>  <br>Dado que el usuario necesita gestionar su producción, Cuando acceda a la aplicación, Entonces podrá ver una lista de campos y cultivos registrados Y detalles de los dispositivos asociados.  <br>  <br>Escenario 2: Acceso a planes de suscripción y perfil  <br>  <br>Dado que el usuario necesita administrar su cuenta, Cuando navegue a la sección de suscripción o perfil, Entonces podrá visualizar detalles de su plan actual Y editar su información personal de manera sencilla.  <br>  <br>Escenario 3: Aplicación responsive y amigable  <br>  <br>Dado que los usuarios utilizarán diversos dispositivos, Cuando accedan desde móvil, tablet o PC, Entonces la plataforma se adaptará correctamente Y ofrecerá una experiencia fluida y rápida.|EP-07|
 
 #### 4.1.2.2. *Quality attribute Scenarios*
 
@@ -2183,7 +2257,7 @@ A continuación, se detallan los Epics y User Stories seleccionados:
 
 #### 4.1.2.3. *Constraints*
 
-En el desarrollo de _NutriControl_ se identificaron restricciones (**constraints**) que no son negociables y que deben cumplirse obligatoriamente. Estas restricciones son impuestas por las condiciones del negocio, la naturaleza de la agroindustria y los lineamientos del cliente, y afectan tanto la infraestructura como la seguridad, la integración con IoT y la escalabilidad de la solución.  
+En el desarrollo de _Verdeva_ se identificaron restricciones (**constraints**) que no son negociables y que deben cumplirse obligatoriamente. Estas restricciones son impuestas por las condiciones del negocio, la naturaleza de la agroindustria y los lineamientos del cliente, y afectan tanto la infraestructura como la seguridad, la integración con IoT y la escalabilidad de la solución.  
 A continuación, se especifican los constraints identificados, representados como **Technical Stories**:
 
 |**Technical Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Epic ID)**|
@@ -2199,7 +2273,7 @@ A continuación, se especifican los constraints identificados, representados com
 
 ### 4.1.3.   *Architectural Drivers Backlog.* 
 
-Durante el proceso de análisis y priorización de requisitos, el equipo llevó a cabo un Quality Attribute Workshop en el cual se identificaron y seleccionaron los principales Architectural Drivers de la solución NutriControl. Estos drivers incluyen:
+Durante el proceso de análisis y priorización de requisitos, el equipo llevó a cabo un Quality Attribute Workshop en el cual se identificaron y seleccionaron los principales Architectural Drivers de la solución Verdeva. Estos drivers incluyen:
 
 ·       Functional Drivers, representados por User Stories críticas para la solución.
 
@@ -2228,7 +2302,7 @@ A continuación, se presenta el Architectural Drivers Backlog, organizado según
 
 ### 4.1.4.   *Architectural Design Decisions.*
 
-El equipo de desarrollo llevó a cabo un **Quality Attribute Workshop (QAW)** para analizar y priorizar los _Architectural Drivers_ de la solución **NutriControl**.  
+El equipo de desarrollo llevó a cabo un **Quality Attribute Workshop (QAW)** para analizar y priorizar los _Architectural Drivers_ de la solución **Verdeva**.  
 En este proceso:
 
 - Se revisaron los **Functional Drivers** críticos (IoT, motor de alertas, autenticación).
@@ -2299,7 +2373,7 @@ A continuación, se presenta la **Candidate Pattern Evaluation Matrix**, seguida
 
 ### 4.1.5.  *Quality Attribute Scenario Refinements.*
 
-Al finalizar el proceso del **Quality Attribute Workshop**, el equipo priorizó y refinó los escenarios de atributos de calidad más relevantes para el éxito de **NutriControl**.  
+Al finalizar el proceso del **Quality Attribute Workshop**, el equipo priorizó y refinó los escenarios de atributos de calidad más relevantes para el éxito de **Verdeva**.  
 Estos escenarios aseguran que el sistema cumpla con los objetivos de negocio: **monitoreo confiable en tiempo real, soporte a la toma de decisiones agrícolas, seguridad de la información y escalabilidad de la solución en entornos de campo**.
 
 A continuación, se presentan los escenarios refinados en orden de prioridad:
@@ -2417,11 +2491,11 @@ Para trazar la forma en que los mensajes se transmiten entre los elementos del s
 ### 4.2.4.   *Bounded Context Canvases.* 
 
 <div align = "justify">
-Los bounded contexts de NutriControl se exponen en esta sección mediante un proceso iterativo que tiene como base el Bounded Context Canvas. El diseño de cada contexto fue documentado, incluyendo su definición general y las reglas más importantes del negocio.
+Los bounded contexts de Verdeva se exponen en esta sección mediante un proceso iterativo que tiene como base el Bounded Context Canvas. El diseño de cada contexto fue documentado, incluyendo su definición general y las reglas más importantes del negocio.
 
 **Proceso de Diseño Iterativo**
 
- - Context Overview Definition: Se definieron los límites de cada bounded context basándose en las áreas funcionales clave de NutriControl, asegurando que cada contexto mantuviera su dirección y consistencia con su objetivo.Los bounded context definidos fueron:  
+ - Context Overview Definition: Se definieron los límites de cada bounded context basándose en las áreas funcionales clave de Verdeva, asegurando que cada contexto mantuviera su dirección y consistencia con su objetivo.Los bounded context definidos fueron:  
  *Plans & Membership Management*, *User Registration & Authentication**, *User Profile Management**, *Automated Irrigation Control*, *Field Registration & Management**, **Sensors and Systems Setup* y *Crop Monitoring & Field Data Management*.
 
  - Business Rules Distillation & Ubiquitous Language Capture: En cada bounded context se registraron las reglas de negocio y el lenguaje común utilizado por los usuarios. En Automated Irrigation Control se adoptaron términos como “irrigation cycle scheduling” y “automatic sensor activation”; en Crop Monitoring & Farm Data Management se estandarizó el uso de conceptos como “harvest record” y “field data analysis”; y en Sensors and Systems Setup se definieron términos como “sensor calibration” y “device registration”.
