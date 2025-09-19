@@ -60,7 +60,7 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1| 20/04/2025 |Antonio Salazar Jhan Clinton|  Capítulo I: Introducción, Capítulo II: Requirement Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Solution Software Design |
+|TB1| 17/09/2025 |Pinto Fuentes Rivera, Alvaro Felipe, Espinoza Saenz, Christian Renato, Chirinos Zúñiga, Rodrigo Manuel, Litano Liza, Joel Alexander, Isla Quispe, Luis Fernando|  Capítulo I: Introducción, Capítulo II: Requirement Elicitation & Analysis, Capítulo III: Requirements Specification, Capítulo IV: Solution Software Design |
 </div>
 
 ---
