@@ -235,11 +235,11 @@ del ABET – EAC - Student Outcome 5.
       <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Durante el desarrollo del TB1, me encargué de la presentación del Startup Profile y Solution Profile del proyecto Verdeva, comunicando de manera clara y estructurada la visión, misión y propuesta de valor de SmartCrops. Facilité sesiones de trabajo colaborativo para el desarrollo del Lean UX Canvas, donde expliqué conceptos técnicos de manera accesible para todos los miembros del equipo. Además, conduje la entrevista con productores rurales tradicionales, adaptando mi comunicación al contexto y nivel educativo del entrevistado para obtener información valiosa sobre sus necesidades reales.<br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong> Durante el TB1, conduje entrevistas clave con productores rurales tradicionales (Diego Cano y Alvaro Acero), adaptando mi comunicación para generar confianza y obtener información valiosa sobre sus prácticas agrícolas actuales. Presenté los hallazgos del needfinding al equipo, explicando de manera clara los insights obtenidos de las User Personas, User Journey Maps y Empathy Maps. Facilité sesiones de trabajo para el desarrollo de artefactos del Capítulo III, comunicando efectivamente los conceptos de To-Be Scenario Mapping e Impact Mapping a diferentes miembros del equipo con distintos niveles de experiencia técnica.<br><br>
       <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong> Se ajustó la exposición de los conceptos clave de las historias de usuario, el backlog del producto, los Modelos de Flujos de Mensajes de Dominio y los Lienzos de Contextos Limitados al grado de conocimiento de la audiencia, garantizando que cada persona pudiera comprender las nociones sin considerar su nivel técnico. <br><br>
-      <strong>Litano Liza, Joel Alexander:</strong><br><br>
+      <strong>Litano Liza, Joel Alexander:</strong> Durante el desarrollo del TB1, lideré la presentación del Strategic-Level Domain-Driven Design (sección 4.2), donde comuniqué de manera efectiva los conceptos de EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping. Adapté mi comunicación técnica para explicar a compañeros con diferentes niveles de experiencia en Domain-Driven Design, utilizando ejemplos prácticos del dominio agrícola de Verdeva. Facilité sesiones colaborativas de EventStorming donde guié al equipo en la identificación de eventos de dominio, comandos, agregados y bounded contexts, asegurando que todos comprendieran la metodología y pudieran participar activamente en el proceso de diseño estratégico.<br><br>
       <strong>Isla Quispe, Luis Fernando:</strong>> Durante el desarrollo del TB1, me encargué de la presentación del _Startup Profile_ y _Solution Profile_ del proyecto Verdeva, comunicando de manera clara y estructurada la visión, misión y propuesta de valor de SmartCrops. Expliqué los insumos de la sección 4.1.2 (_Primary Functionality, Quality Attribute Scenarios y Constraints_) a mis compañeros, facilitando la comprensión de conceptos técnicos complejos. Además, adapté mi discurso al momento de exponer ante el profesor y mis compañeros, priorizando la claridad y la conexión entre los atributos de calidad y las decisiones arquitectónicas.<br><br>
     </td>
     <td>
-      <strong>TB1:</strong> .<br><br>
+      <strong>TB1:</strong> El equipo demostró una comunicación oral efectiva y adaptable durante el desarrollo del TB1, evidenciando la capacidad de transmitir conceptos técnicos complejos a audiencias con diferentes niveles de conocimiento. La diversidad de contribuciones orales, desde la presentación de perfiles de startup hasta la facilitación de sesiones de EventStorming y la conducción de entrevistas con productores rurales, demuestra la habilidad del equipo para adaptar su discurso según el contexto y la audiencia. Cada integrante logró comunicar efectivamente su área de especialización, utilizando ejemplos prácticos y terminología apropiada, lo que facilitó la comprensión y colaboración dentro del equipo multidisciplinario. La capacidad de explicar metodologías técnicas como Domain-Driven Design, Lean UX y arquitectura de software de manera accesible evidencia el dominio conceptual y las competencias comunicativas desarrolladas durante el proyecto.<br><br>
     </td>	
   </tr>
   <tr>
@@ -249,11 +249,11 @@ del ABET – EAC - Student Outcome 5.
       <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Redacté de manera integral el Startup Profile (sección 1.1) y Solution Profile (sección 1.2), incluyendo la descripción de la startup, antecedentes y problemática, y todo el proceso Lean UX. Desarrollé la documentación técnica del Lean UX Canvas, articulando de forma clara las hipótesis de negocio, assumptions y problem statements. Creé diagramas C4 con documentación técnica detallada para la arquitectura del sistema. Además, transcribí y analicé entrevistas del primer segmento objetivo, adaptando el lenguaje técnico para diferentes audiencias dentro del reporte académico.<br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong> Desarrollé de manera integral el Capítulo II (Needfinding) documentando User Personas, User Task Matrix, User Journey Maps, Empathy Maps y As-is Scenario Mapping con análisis detallado para cada segmento objetivo. Redacté el Ubiquitous Language con terminología técnica precisa del dominio agrícola. Creé toda la documentación del Capítulo III (Requirements Specification), incluyendo To-Be Scenario Mapping e Impact Mapping, estructurando la información de manera clara y técnicamente rigurosa. Transcribí y documenté entrevistas de productores rurales tradicionales, adaptando el contenido para diferentes audiencias técnicas y académicas dentro del reporte.<br><br>
       <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong> Los documentos elaborados, que incluían gráficos y resúmenes nítidos, se diseñaron para ser entendibles en términos amplios, tanto para individuos con un profundo conocimiento técnico como para aquellos sin esta formación. <br><br>
-      <strong>Litano Liza, Joel Alexander:</strong><br><br>
+      <strong>Litano Liza, Joel Alexander:</strong> Desarrollé de manera integral la sección 4.2 Strategic-Level Domain-Driven Design, documentando detalladamente el proceso de EventStorming con sus cinco fases (Unstructured Exploration, Timelines, Pain Points, Pivotal Points, Commands), Candidate Context Discovery con sus etapas de identificación de políticas, read models, sistemas externos, agregados y bounded contexts, Domain Message Flows Modeling con cuatro escenarios críticos del sistema, Bounded Context Canvases y Context Mapping. Redacté la documentación técnica utilizando terminología especializada de DDD adaptada al contexto agrícola, estructurando la información de manera jerárquica y clara para facilitar la comprensión tanto de stakeholders técnicos como de miembros del equipo con menor experiencia en metodologías de diseño estratégico.<br><br>
       <strong>Isla Quispe, Luis Fernando:</strong><br>Para la entrega de la sección 4.1 (_Attribute-Driven Design Inputs, Architectural Drivers Backlog, Design Decisions y Quality Attribute Scenario Refinements_), redacté la documentación de forma clara, estructurada y con terminología técnica precisa. Organicé la información en apartados jerarquizados, lo que permitió a mis compañeros comprender fácilmente las relaciones entre los escenarios de atributos de calidad y las decisiones arquitectónicas. Asimismo, adapté la redacción para que sea entendible tanto para un lector técnico (profesor) como para los miembros del equipo con menor experiencia en diseño de software, asegurando que el documento sirva de base para futuras iteraciones.<br>
     </td>
     <td>
-      <strong>TB1:</strong> .<br><br>
+      <strong>TB1:</strong> El equipo demostró excelencia en comunicación escrita técnica, produciendo documentación integral y estructurada que abarca desde la conceptualización del startup hasta el diseño arquitectónico detallado del sistema. La calidad de la documentación generada evidencia la capacidad de cada integrante para adaptar su escritura técnica a diferentes audiencias, desde stakeholders académicos hasta potenciales usuarios finales del sector agrícola. La coherencia en el uso de terminología especializada, la estructuración jerárquica de la información y la claridad en la presentación de conceptos complejos como Domain-Driven Design, arquitectura de software y metodologías ágiles demuestra un alto nivel de competencia en comunicación escrita técnica. El equipo logró crear un documento académico riguroso que sirve tanto como reporte de investigación como guía técnica para futuras iteraciones del proyecto, evidenciando la capacidad de comunicar efectivamente a través de diferentes formatos y niveles de complejidad técnica.<br><br>
     </td>
   </tr>
 </table>
@@ -2647,6 +2647,51 @@ Se identificaron varias relaciones clave entre los distintos bounded contexts. L
 
 
 ### 4.2.5.  *Context Mapping.* 
+
+<div align="justify">
+
+El Context Mapping define las relaciones entre los diferentes Bounded Contexts identificados en nuestro sistema Verdeva. Estas relaciones establecen cómo se comunican e interactúan los contextos, asegurando una integración cohesiva pero manteniendo la independencia necesaria.
+
+Después de analizar detenidamente los siete bounded contexts (User Registration & Authentication, User Profile Management, Plans & Membership Management, Field Registration & Management, Sensors and Systems Setup, Crop Monitoring & Field Data Management, y Automated Irrigation Control), hemos establecido las siguientes relaciones entre ellos:
+
+**Relación 1: Sensors and Systems Setup ↔ Crop Monitoring & Field Data Management**
+
+Patrón: **Shared Kernel**
+Explicación: Estos dos contextos comparten un núcleo común de datos de sensores (temperatura, humedad, luminosidad, pH) que deben mantenerse sincronizados para garantizar la consistencia entre el monitoreo de cultivos y la configuración de sensores. Ambos equipos trabajan estrechamente para mantener la coherencia de los datos compartidos y las estructuras de datos comunes.
+
+**Relación 2: Field Registration & Management → Crop Monitoring & Field Data Management**
+
+Patrón: **Customer/Supplier**
+Explicación: Field Registration & Management actúa como Supplier que proporciona información de campos registrados y cultivos asociados al Crop Monitoring & Field Data Management (Customer). Este último depende del primero para obtener los datos de contexto necesarios para asociar correctamente las métricas de monitoreo a campos específicos.
+
+**Relación 3: Sensors and Systems Setup → Automated Irrigation Control**
+
+Patrón: **Conformist**
+Explicación: El sistema de riego automatizado debe conformarse con los datos proporcionados por la configuración de sensores tal como se generan, sin transformaciones. Los datos de humedad, pH y nutrientes del suelo deben ser consumidos directamente para activar correctamente los sistemas de riego automático según las reglas predefinidas.
+
+**Relación 4: Automated Irrigation Control ← Field Registration & Management**
+
+Patrón: **Anti-corruption Layer**
+Explicación: El control de riego automatizado implementa una capa anti-corrupción para traducir los datos complejos de registro de campos (tipos de cultivo, características del terreno, zonas de riego) en instrucciones claras y específicas para los sistemas de riego, protegiendo la lógica de automatización de la complejidad del modelo de gestión de campos.
+
+**Relación 5: User Registration & Authentication → User Profile Management**
+
+Patrón: **Customer/Supplier**
+Explicación: El sistema de autenticación actúa como Supplier proporcionando identidades validadas y credenciales de seguridad al User Profile Management (Customer), que utiliza esta información para gestionar perfiles de usuario y configuraciones personalizadas.
+
+**Relación 6: Plans & Membership Management ↔ User Profile Management**
+
+Patrón: **Partnership**
+Explicación: Ambos contextos colaboran estrechamente para proporcionar una experiencia cohesiva de gestión de usuarios. La información de suscripciones y planes debe estar sincronizada con los perfiles de usuario para habilitar funcionalidades específicas según el nivel de membresía.
+
+**Relación 7: User Profile Management → Crop Monitoring & Field Data Management**
+
+Patrón: **Conformist**
+Explicación: El sistema de monitoreo de cultivos debe adaptarse a las preferencias y configuraciones de usuario definidas en User Profile Management, consumiendo estos datos tal como se proporcionan para personalizar alertas, reportes y recomendaciones según las necesidades específicas de cada agricultor.
+
+Estas relaciones aseguran que cada bounded context mantenga su autonomía mientras facilita la integración necesaria para el funcionamiento cohesivo del sistema Verdeva, garantizando que los datos fluyan correctamente entre contextos sin crear dependencias excesivas o acoplamientos innecesarios.
+
+</div>
 
 ## 4.3.     *Software Architecture.* 
 ### 4.3.1.  *Software Architecture System Landscape* Diagram. 
