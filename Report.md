@@ -229,31 +229,31 @@ del ABET – EAC - Student Outcome 5.
     <th>Conclusiones</th>
   </tr>
   <tr>
-    <td>.</td>
+    <td>Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
     <td>
       <strong>TB1:</strong><br>
-      <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong><br><br>
+      <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Durante el desarrollo del TB1, me encargué de la presentación del Startup Profile y Solution Profile del proyecto Verdeva, comunicando de manera clara y estructurada la visión, misión y propuesta de valor de SmartCrops. Facilité sesiones de trabajo colaborativo para el desarrollo del Lean UX Canvas, donde expliqué conceptos técnicos de manera accesible para todos los miembros del equipo. Además, conduje la entrevista con productores rurales tradicionales, adaptando mi comunicación al contexto y nivel educativo del entrevistado para obtener información valiosa sobre sus necesidades reales.<br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
       <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong><br><br>
       <strong>Litano Liza, Joel Alexander:</strong><br><br>
       <strong>Isla Quispe, Luis Fernando:</strong><br><br>
     </td>
     <td>
-      <strong>TB1:</strong><br><br>
+      <strong>TB1:</strong> La comunicación oral efectiva fue fundamental para coordinar el trabajo en equipo y validar información con usuarios reales. Se demostró la capacidad de adaptar el mensaje según la audiencia, desde presentaciones técnicas al equipo hasta entrevistas con agricultores, logrando una comunicación bidireccional efectiva que enriqueció el proyecto.<br><br>
     </td>	
   </tr>
   <tr>
-    <td>.</td>
+    <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
     <td>
       <strong>TB1:</strong><br>
-      <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong><br><br>
+      <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Redacté de manera integral el Startup Profile (sección 1.1) y Solution Profile (sección 1.2), incluyendo la descripción de la startup, antecedentes y problemática, y todo el proceso Lean UX. Desarrollé la documentación técnica del Lean UX Canvas, articulando de forma clara las hipótesis de negocio, assumptions y problem statements. Creé diagramas C4 con documentación técnica detallada para la arquitectura del sistema. Además, transcribí y analicé entrevistas del primer segmento objetivo, adaptando el lenguaje técnico para diferentes audiencias dentro del reporte académico.<br><br>
       <strong>Espinoza Saenz, Christian Renato:</strong><br><br>
       <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong><br><br>
       <strong>Litano Liza, Joel Alexander:</strong><br><br>
       <strong>Isla Quispe, Luis Fernando:</strong><br><br>
     </td>
     <td>
-      <strong>TB1:</strong><br><br>
+      <strong>TB1:</strong> La comunicación escrita demostró versatilidad para dirigirse a múltiples audiencias: académica (profesores y evaluadores), técnica (compañeros de equipo) y empresarial (stakeholders del proyecto). Se evidenció la capacidad de estructurar información compleja de manera coherente y accesible, manteniendo rigor técnico y claridad expositiva en todos los entregables.<br><br>
     </td>
   </tr>
 </table>
