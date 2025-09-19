@@ -239,7 +239,7 @@ del ABET – EAC - Student Outcome 5.
       <strong>Isla Quispe, Luis Fernando:</strong><br><br>
     </td>
     <td>
-      <strong>TB1:</strong> La comunicación oral efectiva fue fundamental para coordinar el trabajo en equipo y validar información con usuarios reales. Se demostró la capacidad de adaptar el mensaje según la audiencia, desde presentaciones técnicas al equipo hasta entrevistas con agricultores, logrando una comunicación bidireccional efectiva que enriqueció el proyecto.<br><br>
+      <strong>TB1:</strong> .<br><br>
     </td>	
   </tr>
   <tr>
@@ -253,7 +253,7 @@ del ABET – EAC - Student Outcome 5.
       <strong>Isla Quispe, Luis Fernando:</strong><br><br>
     </td>
     <td>
-      <strong>TB1:</strong> La comunicación escrita demostró versatilidad para dirigirse a múltiples audiencias: académica (profesores y evaluadores), técnica (compañeros de equipo) y empresarial (stakeholders del proyecto). Se evidenció la capacidad de estructurar información compleja de manera coherente y accesible, manteniendo rigor técnico y claridad expositiva en todos los entregables.<br><br>
+      <strong>TB1:</strong> .<br><br>
     </td>
   </tr>
 </table>
