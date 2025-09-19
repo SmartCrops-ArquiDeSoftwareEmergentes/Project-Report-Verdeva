@@ -10,26 +10,33 @@ workspace "SmartCrops - Verdeva" {
             description "Productores orientados al mercado de exportación con mayor nivel de tecnificación"
         }
 
-        admin = person "Administrador" {
-            description "Persona que se encarga de dar mantenimiento y actualizaciones a Verdeva"
+        // Grupo para Administración
+        adminGroup = group "Administración" {
+            admin = person "Administrador" {
+                description "Persona que se encarga de dar mantenimiento y actualizaciones a Verdeva"
+                tags "admin"
+            }
         }
 
-        // Sistemas Externos
-        izipay = softwareSystem "Izipay" {
-            description "Pasarela de pagos en línea"
+        // Grupo para Sistemas Externos
+        externalGroup = group "Sistemas Externos" {
+            izipay = softwareSystem "Izipay" {
+                description "Pasarela de pagos en línea"
+            }
+
+            firebase = softwareSystem "Firebase" {
+                description "Servicio de autenticación de usuarios"
+            }
+
+            hardware = softwareSystem "Hardware Verdeva" {
+                description "Sensores IoT que capturan datos del cultivo"
+            }
         }
 
-        firebase = softwareSystem "Firebase" {
-            description "Servicio de autenticación de usuarios"
-        }
-
-        hardware = softwareSystem "Hardware Verdeva" {
-            description "Sensores IoT que capturan datos del cultivo"
-        }
-
-        // Sistema principal
-        verdeva = softwareSystem "Verdeva" {
-            description "Plataforma de Gestión y Monitoreo de Cultivos"
+        // Grupo para Sistema Principal
+        mainSystemGroup = group "Sistema Principal" {
+            verdeva = softwareSystem "Verdeva" {
+                description "Plataforma de Gestión y Monitoreo de Cultivos"
 
             landingPage = container "Landing Page" {
                 description "Página web para promoción de Verdeva"
@@ -66,6 +73,7 @@ workspace "SmartCrops - Verdeva" {
             mainframe = container "Mainframe Verdeva" {
                 description "Sistema central que almacena toda la información obtenida"
             }
+        }
         }
 
         // Relaciones a nivel de Contexto (Persona -> Sistema)
@@ -153,6 +161,57 @@ workspace "SmartCrops - Verdeva" {
             include *
             autolayout lr
             title "Deployment Diagram - Verdeva"
+        }
+
+        styles {
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+            
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            
+            # Estilo especial para el administrador
+            element "admin" {
+                background #ff6b6b
+                color #ffffff
+                shape person
+                stroke #d63384
+                strokeWidth 3
+            }
+            
+            # Estilo para las relaciones del administrador
+            relationship "admin->*" {
+                color #ff6b6b
+                thickness 3
+                style dashed
+            }
+            
+            # Estilos para los grupos
+            element "Group:Administración" {
+                background #ffe6e6
+                stroke #ff6b6b
+                strokeWidth 2
+                color #333333
+            }
+            
+            element "Group:Sistemas Externos" {
+                background #e6f3ff
+                stroke #0066cc
+                strokeWidth 2
+                color #333333
+            }
+            
+            element "Group:Sistema Principal" {
+                background #e6ffe6
+                stroke #00cc66
+                strokeWidth 2
+                color #333333
+            }
         }
 
         theme default
