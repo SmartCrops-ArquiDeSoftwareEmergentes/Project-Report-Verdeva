@@ -2664,20 +2664,12 @@ Se identificaron varias relaciones clave entre los distintos bounded contexts. L
 
 <div align = "justify">
 
-+ . <br><br>
+Concluimos que Verdeva representa una solución viable y necesaria para abordar los desafíos críticos del sector agrícola sudamericano, donde los pequeños y medianos productores enfrentan escasez de agua, incremento de precios de fertilizantes y falta de acceso a tecnologías de precisión. A través del análisis de mercado y las entrevistas realizadas, se validó una demanda real por herramientas que automaticen el riego y la fertilización, confirmando que los agricultores están dispuestos a adoptar tecnología accesible y fácil de usar. La propuesta de valor de Verdeva se diferencia de competidores como NetBeat, AgroSmart y Taranis al ofrecer una solución integral y económicamente accesible específicamente diseñada para productores rurales tradicionales, con una arquitectura de software robusta que garantiza alcanzar los objetivos de reducir hasta un 40% el consumo de agua y fertilizantes y aumentar la productividad en aproximadamente un 25%. En conclusión, Verdeva tiene el potencial de transformar las prácticas agrícolas en la región mediante un modelo freemium que democratiza el acceso a la agricultura de precisión, equilibrando la viabilidad comercial con el impacto social y contribuyendo a la sostenibilidad del sector agropecuario.
 
-.
-
-</div>
-
-<br>
-
-## Video About-the-Team
-
-<div align="center">
-
+<br><br>
 
 </div>
+
 
 
 <br>
@@ -2715,17 +2707,5 @@ Se identificaron varias relaciones clave entre los distintos bounded contexts. L
 + Repositorio GitHub de la Aplicación Web: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva)<br><br>
 + Repositorio GitHub de la Aplicación Móvil: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva)<br><br>
 + Landing Page: [Ver Landing Page]()<br><br>
-
-## Needfinding Interviews
-
-
-## Validation Interviews
-
   
 ## Video Exposición del TB1
-
-## Video de Ejecución de la Primera Versión de la Aplicación Móvil
-
-## Video About The-Product:
-
-## Video About The-Team:
