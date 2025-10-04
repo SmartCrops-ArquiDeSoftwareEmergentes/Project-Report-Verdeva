@@ -128,6 +128,62 @@
     - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
     - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
+### [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design-1)
+- [5.1. Bounded Context: Sensors and Systems Setup](#51-bounded-context-sensors-and-systems-setup)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+        - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+        - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+- [5.2. Bounded Context: Plans & Membership Management](#52-bounded-context-plans--membership-management)
+    - [5.2.1. Domain Layer](#521-domain-layer)
+    - [5.2.2. Interface Layer](#522-interface-layer)
+    - [5.2.3. Application Layer](#523-application-layer)
+    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+    - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+        - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+        - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+- [5.3. Bounded Context: User Profile Management](#53-bounded-context-user-profile-management)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+    - [5.3.3. Application Layer](#533-application-layer)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+        - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+        - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+- [5.4. Bounded Context: Automated Irrigation Control](#54-bounded-context-automated-irrigation-control)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+    - [5.4.3. Application Layer](#543-application-layer)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+        - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+        - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
+- [5.5. Bounded Context: Field Registration & Management](#55-bounded-context-field-registration--management)
+    - [5.5.1. Domain Layer](#551-domain-layer)
+    - [5.5.2. Interface Layer](#552-interface-layer)
+    - [5.5.3. Application Layer](#553-application-layer)
+    - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+    - [5.5.5. Bounded Context Software Architecture Component Level Diagrams](#555-bounded-context-software-architecture-component-level-diagrams)
+    - [5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)
+        - [5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)
+        - [5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)
+- [5.6. Bounded Context: Crop Monitoring & Field Data Management](#56-bounded-context-crop-monitoring--field-data-management)
+    - [5.6.1. Domain Layer](#561-domain-layer)
+    - [5.6.2. Interface Layer](#562-interface-layer)
+    - [5.6.3. Application Layer](#563-application-layer)
+    - [5.6.4. Infrastructure Layer](#564-infrastructure-layer)
+    - [5.6.5. Bounded Context Software Architecture Component Level Diagrams](#565-bounded-context-software-architecture-component-level-diagrams)
+    - [5.6.6. Bounded Context Software Architecture Code Level Diagrams](#566-bounded-context-software-architecture-code-level-diagrams)
+        - [5.6.6.1. Bounded Context Domain Layer Class Diagrams](#5661-bounded-context-domain-layer-class-diagrams)
+        - [5.6.6.2. Bounded Context Database Design Diagram](#5662-bounded-context-database-design-diagram)
+
 ### [Conclusiones](#conclusiones-1)
 ### [Bibliografía](#bibliografía-1)
 ### [Anexos](#anexos-1)
@@ -2625,13 +2681,586 @@ Estas relaciones aseguran que cada bounded context mantenga su autonomía mientr
 
 ## 4.3.     *Software Architecture.* 
 ### 4.3.1.  *Software Architecture System Landscape* Diagram. 
+
 ![alt text](<structurizr-verdeva_landscape (1).png>)
 ### 4.3.1.  *Software Architecture Context Level* Diagrams. 
+
 ![alt text](structurizr-verdeva_context.png)
 ### 4.3.2.  *Software Architecture Container Level* Diagrams. 
+
 ![alt text](structurizr-verdeva_container.png)
 ### 4.3.3.  *Software Architecture Deployment* Diagrams. 
+
 ![alt text](structurizr-Deployment-001.png)
+
+
+# Capítulo V: *Tactical-Level Software Design*
+
+<div align="justify">
+
+El diseño táctico de software se enfoca en la implementación detallada de cada bounded context identificado durante la fase estratégica. En este capítulo se especifican las capas de dominio, interfaz, aplicación e infraestructura para cada contexto delimitado del sistema Verdeva, proporcionando una guía técnica para el desarrollo e implementación de la solución.
+
+</div>
+
+## 5.1. Bounded Context: Sensors and Systems Setup
+
+<div align="justify">
+
+El contexto Sensors and Systems Setup administra de manera integral todo el ecosistema relacionado con el registro, instalación y configuración de sensores y dispositivos agrícolas dentro del sistema AgroSense. Este contexto abarca desde el registro inicial de sensores hasta su asignación a zonas específicas del cultivo, incluyendo procesos de calibración y activación para operaciones en campo. Su importancia radica en garantizar que los dispositivos estén configurados correctamente para recopilar datos de alta calidad, permitiendo que el resto de las operaciones del sistema funcionen con máxima eficiencia.
+
+</div>
+
+### 5.1.1. Domain Layer
+
+<div align="justify">
+
+Esta capa contiene las entidades y objetos de valor fundamentales que definen la configuración y operación de sensores y sistemas embebidos desplegados en el terreno agrícola.
+
+**Sensor**: Representa un dispositivo físico instalado en el terreno agrícola. Incluye atributos esenciales como tipo de sensor (temperatura, humedad, pH), ubicación geográfica precisa, estado operativo actual (activo, inactivo, con error), identificador único del dispositivo y su asociación específica con una zona determinada del cultivo.
+
+**SensorConfiguration**: Objeto de valor inmutable que encapsula los parámetros operativos de un sensor, incluyendo frecuencia de lectura, umbrales de activación, unidades de medida y reglas específicas de calibración. Este objeto puede ser aplicado tanto individualmente como por zonas geográficas.
+
+**SensorZone**: Objeto de valor que agrupa sensores ubicados dentro de una misma área geográfica o unidad productiva de cultivo. Facilita la aplicación de configuraciones colectivas y permite un monitoreo organizado por zonas específicas de producción.
+
+**SensorTelemetry**: Entidad que representa una lectura específica tomada por un sensor en un momento determinado. Incluye datos como el valor registrado, unidad de medida, marca temporal precisa, origen de la lectura y estado de integridad de los datos.
+
+**EmbeddedSystem**: Entidad que representa el sistema embebido instalado en campo, responsable de ejecutar lógica autónoma y tomar decisiones locales. Está conectado a uno o varios sensores y sus responsabilidades incluyen: aplicar configuraciones, programar lecturas periódicas, ejecutar diagnósticos automáticos, almacenar telemetría localmente y emitir alertas ante condiciones anómalas. Sus atributos principales incluyen identificador único, versión de firmware, estado operativo, sensores conectados, modo de operación y capacidad de almacenamiento.
+
+**EdgeDatabase**: Objeto de valor que encapsula el almacenamiento local persistente dentro del sistema embebido. Permite guardar configuraciones, telemetría, eventos de error y estados del sistema en contextos donde no existe conexión con la nube. Es fundamental para garantizar resiliencia operativa y sincronización posterior.
+
+**EdgeAPI**: Objeto de valor que representa el punto de comunicación expuesto por el sistema embebido para recibir configuraciones, reportar estado operativo y enviar telemetría hacia el sistema central o recibir comandos remotos. Define contratos claros de entrada y salida para garantizar interoperabilidad con el backend o plataformas intermedias.
+
+</div>
+
+### 5.1.2. Interface Layer
+
+<div align="justify">
+
+Esta capa expone los puntos de acceso que permiten a usuarios o sistemas externos interactuar con la gestión de sensores y zonas, ofreciendo las funcionalidades necesarias para su administración efectiva.
+
+**Sensor Management**: Interfaz que permite la instalación y configuración integral de sensores dentro del sistema. Desde esta interfaz, los usuarios pueden agregar nuevos sensores, configurar sus tipos y parámetros operativos, y visualizar el estado de los dispositivos en tiempo real con actualizaciones dinámicas.
+
+**Sensor Data Visualization**: Proporciona una interfaz especializada para visualizar los datos recopilados por los sensores, incluyendo temperatura, humedad y otros parámetros ambientales críticos. Los usuarios pueden consultar lecturas de sensores individuales y realizar diagnósticos detallados del rendimiento de los dispositivos.
+
+</div>
+
+### 5.1.3. Application Layer
+
+<div align="justify">
+
+Coordina los procesos de negocio relacionados con la gestión de sensores, actuando como intermediaria entre las reglas del dominio y las interfaces de usuario o sistemas externos.
+
+**Install Sensor**: Coordina el proceso completo de agregar nuevos sensores al sistema, asegurando que los dispositivos estén configurados correctamente de acuerdo con las necesidades específicas del campo y los requerimientos operativos.
+
+**Update Sensor Configuration**: Se encarga de modificar los parámetros de sensores existentes, como la frecuencia de medición, configuraciones de calibración y umbrales de activación, manteniendo la consistencia operativa.
+
+**Manage Sensor Zones**: Coordina la asignación estratégica de sensores a zonas geográficas específicas dentro del campo, facilitando la gestión colectiva de dispositivos y optimizando la cobertura de monitoreo.
+
+</div>
+
+### 5.1.4. Infrastructure Layer
+
+<div align="justify">
+
+Esta capa implementa los mecanismos técnicos para la persistencia de datos de sensores y la interacción con sistemas externos, incluyendo bases de datos y redes de dispositivos.
+
+**Sensor Repository**: Implementa el almacenamiento y recuperación eficiente de datos de sensores. Este componente asegura que los sensores sean accesibles y se puedan configurar de manera eficiente, manteniendo la integridad de los datos.
+
+**Sensor Communication Service**: Facilita la comunicación bidireccional entre sensores y el sistema central. Es responsable de transmitir datos de sensores al sistema para su procesamiento y análisis, garantizando la conectividad y confiabilidad de las comunicaciones.
+
+**Configuration Service**: Se encarga de la implementación de configuraciones predeterminadas o personalizadas de sensores, incluyendo calibración y frecuencia de actualización, asegurando que se mantengan según las especificaciones técnicas requeridas.
+
+</div>
+
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+
+Sensors and System Setup Component Diagram:
+
+</div>
+
+### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+
+Sensors and System Setup Domain Layer diagram:
+
+</div>
+
+#### 5.1.6.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+
+Sensors and System Setup database diagram:
+
+</div>
+
+## 5.2. Bounded Context: Plans & Membership Management
+
+<div align="justify">
+
+El contexto Plans & Membership Management se encarga de gestionar los diferentes planes de suscripción que ofrece AgroSense y administrar su relación con los usuarios registrados. Este contexto asegura que los usuarios puedan acceder a diferentes niveles de servicio según sus necesidades agrícolas específicas y el tamaño de sus operaciones, manejando además los procesos de activación, renovación y cancelación de membresías de manera eficiente.
+
+</div>
+
+### 5.2.1. Domain Layer
+
+<div align="justify">
+
+En esta capa se encuentran las entidades y objetos de valor esenciales que definen el manejo integral de planes y membresías dentro del sistema.
+
+**Membership**: Representa la suscripción activa de un usuario, incluyendo información sobre su plan actual, fecha de inicio, fecha de vencimiento y estado operativo (activo, suspendido, cancelado). Mantiene el registro completo del ciclo de vida de la suscripción.
+
+**Plan**: Define los diferentes tipos de planes disponibles en el sistema (por ejemplo, Basic, Premium, Enterprise), especificando características detalladas como límite de sensores permitidos, acceso a reportes especializados, funcionalidades avanzadas disponibles y niveles de soporte técnico.
+
+**SubscriptionHistory**: Objeto de valor que mantiene un registro histórico completo de los cambios de suscripción del usuario a lo largo del tiempo, permitiendo trazabilidad y análisis de patrones de uso.
+
+**PaymentInfo**: Objeto de valor que almacena detalles relacionados con la forma de pago seleccionada y el estado de las transacciones asociadas al plan, incluyendo información de facturación y historial de pagos.
+
+</div>
+
+### 5.2.2. Interface Layer
+
+<div align="justify">
+
+Define las interfaces de comunicación que utilizan otros módulos o clientes externos para interactuar con los servicios de planes y membresías.
+
+**PlanSummary**: Estructura de datos que expone información comprehensiva sobre los planes disponibles, incluyendo nombre del plan, descripción detallada, costo mensual/anual y características principales diferenciadas.
+
+**MembershipStatus**: Estructura que representa el estado actual de la suscripción de un usuario, incluyendo plan activo, fechas relevantes de inicio y vencimiento, y estado actual de pago.
+
+**SubscriptionRecord**: Estructura que lista cronológicamente los cambios de plan de un usuario a lo largo del tiempo, proporcionando visibilidad completa del historial de suscripciones.
+
+</div>
+
+### 5.2.3. Application Layer
+
+<div align="justify">
+
+Esta capa coordina las acciones necesarias para que los usuarios puedan gestionar sus planes de forma correcta, asegurando la interacción apropiada entre la lógica de dominio e infraestructura.
+
+**PlanService**: Servicio de aplicación que permite listar todos los planes disponibles y consultar sus detalles específicos, facilitando la comparación y selección de planes por parte de los usuarios.
+
+**MembershipService**: Servicio responsable de manejar el ciclo completo de suscripción de un usuario: activación inicial, actualización de planes, renovación automática y cancelación de membresías, manteniendo la consistencia de datos.
+
+**SubscriptionHistoryService**: Servicio especializado que consulta y gestiona el historial completo de cambios de suscripción de cada usuario, proporcionando análisis y reportes históricos.
+
+</div>
+
+### 5.2.4. Infrastructure Layer
+
+<div align="justify">
+
+Esta capa se ocupa de la persistencia de datos y la integración con servicios externos relacionados a procesamiento de pagos y gestión de membresías.
+
+**PlanRepository**: Repositorio encargado de almacenar, recuperar y actualizar los planes de suscripción disponibles, manteniendo la información actualizada y accesible.
+
+**MembershipRepository**: Repositorio que gestiona la persistencia de las membresías activas de los usuarios, incluyendo estados, fechas y configuraciones específicas de cada suscripción.
+
+**PaymentGatewayClient**: Cliente que interactúa con sistemas de pago externos para procesar compras, renovaciones automáticas y cancelaciones de membresías, garantizando transacciones seguras.
+
+**SubscriptionHistoryRepository**: Repositorio encargado de almacenar y consultar el historial detallado de cambios de planes de los usuarios, manteniendo trazabilidad completa.
+
+</div>
+
+### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+
+Plans and Membership Component Diagram:
+
+</div>
+
+### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+
+Plans and Membership Domain Layer diagram:
+
+</div>
+
+#### 5.2.6.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+
+Plans and Membership database diagram:
+
+</div>
+
+## 5.3. Bounded Context: User Profile Management
+
+<div align="justify">
+
+El contexto de User Profile Management integra todo lo relacionado con el registro de nuevos usuarios, autenticación segura en el sistema y gestión integral de perfiles personales. Su implementación correcta garantiza que los usuarios tengan acceso seguro y personalizado a todas las funcionalidades del sistema, manteniendo la privacidad y seguridad de la información personal.
+
+</div>
+
+### 5.3.1. Domain Layer
+
+<div align="justify">
+
+En esta capa se modelan las entidades y objetos de valor que permiten representar a los usuarios y sus atributos esenciales dentro del sistema.
+
+**User**: Entidad principal que almacena información completa del usuario, incluyendo nombre completo, correo electrónico, número de teléfono, rol asignado dentro del sistema, preferencias personalizadas y configuraciones específicas de la cuenta.
+
+**Credentials**: Objeto de valor que contiene la información necesaria para la autenticación segura del usuario, incluyendo correo electrónico como identificador, contraseña encriptada utilizando algoritmos seguros, y estado actual de la cuenta (activa, suspendida, bloqueada).
+
+**UserPreferences**: Objeto de valor que administra configuraciones personalizadas del usuario, como preferencias de notificación (email, SMS, push), idioma preferido de la interfaz, zona horaria y configuraciones de privacidad específicas.
+
+</div>
+
+### 5.3.2. Interface Layer
+
+<div align="justify">
+
+Define las estructuras que permiten exponer y capturar la información necesaria para registrar usuarios, autenticarlos de manera segura y gestionar sus perfiles personales.
+
+**RegistrationForm**: Estructura de datos utilizada para capturar toda la información requerida de un nuevo usuario durante el proceso de registro, incluyendo validaciones de formato y unicidad.
+
+**LoginRequest**: Estructura que recibe las credenciales de un usuario que intenta iniciar sesión, incluyendo mecanismos de validación y autenticación multifactor cuando sea requerido.
+
+**ProfileDetails**: Estructura que expone la información personal completa de un usuario registrado, permitiendo su visualización segura y edición controlada según permisos establecidos.
+
+**UpdateProfileRequest**: Estructura que recoge los nuevos datos cuando un usuario desea actualizar su información de perfil o modificar preferencias personales, incluyendo validaciones de integridad.
+
+</div>
+
+### 5.3.3. Application Layer
+
+<div align="justify">
+
+Aquí se orquestan los procesos que permiten a los usuarios registrarse, autenticarse y mantener actualizado su perfil, coordinando la lógica de negocio sin involucrar directamente detalles de infraestructura.
+
+**UserRegistrationService**: Servicio que gestiona el proceso completo de creación de nuevas cuentas, validando la información proporcionada, verificando unicidad de datos y generando credenciales seguras con políticas de contraseña robustas.
+
+**AuthenticationService**: Servicio encargado de autenticar usuarios durante el proceso de login, validando credenciales de manera segura y generando tokens de acceso con tiempo de vida limitado y renovación automática.
+
+**ProfileManagementService**: Servicio que permite a los usuarios consultar y actualizar los datos de su perfil personal de manera segura, manteniendo auditoría de cambios y validación de permisos.
+
+</div>
+
+### 5.3.4. Infrastructure Layer
+
+<div align="justify">
+
+Se ocupa de la persistencia segura de información de usuarios y credenciales, además de manejar la interacción con servicios externos de autenticación y notificaciones.
+
+**UserRepository**: Repositorio encargado de almacenar, recuperar y actualizar de manera segura la información de usuarios registrados, implementando medidas de protección de datos personales.
+
+**CredentialsRepository**: Repositorio responsable de la gestión segura de credenciales asociadas a cada usuario, incluyendo encriptación de contraseñas y manejo de tokens de sesión.
+
+**AuthenticationProvider**: Cliente o adaptador para servicios externos de autenticación, manejo de tokens JWT seguros y integración con proveedores de identidad externos cuando sea necesario.
+
+</div>
+
+### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+
+User Profile Component Diagram:
+
+</div>
+
+### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+
+User Profile Domain Layer diagram:
+
+</div>
+
+#### 5.3.6.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+
+User Profile database diagram:
+
+</div>
+
+## 5.4. Bounded Context: Automated Irrigation Control
+
+<div align="justify">
+
+Este contexto se encarga de la gestión integral y automatización del sistema de riego dentro de AgroSense. La correcta integración de esta capa asegura que los cultivos reciban la cantidad óptima de agua en el momento más oportuno, mejorando significativamente la eficiencia agrícola y reduciendo el desperdicio de recursos hídricos, contribuyendo a una agricultura sostenible.
+
+</div>
+
+### 5.4.1. Domain Layer
+
+<div align="justify">
+
+En esta capa se modelan las entidades y objetos que representan la lógica de negocio para la gestión del riego automatizado, interactuando de manera inteligente con sensores y dispositivos de riego.
+
+**IrrigationZone**: Entidad que representa una zona específica en el campo que puede ser irrigada por un sistema de riego. Contiene atributos detallados como el área total de la zona, tipo de cultivo específico, parámetros de riego necesarios según las características del suelo y requerimientos nutricionales de las plantas.
+
+**IrrigationSystem**: Entidad que gestiona el sistema de riego completo e integrado, desde las válvulas de control hasta los sensores de humedad, controlando la distribución precisa del agua en diferentes zonas del campo según algoritmos de optimización.
+
+**WateringSchedule**: Objeto de valor que define el horario óptimo y la cantidad precisa de agua que se debe aplicar en una zona de riego, calculado en función de los datos de humedad del suelo, tipo de cultivo, condiciones climáticas y etapa de crecimiento.
+
+**SoilMoistureSensor**: Objeto de valor que representa los sensores de humedad instalados estratégicamente en el campo, proporcionando datos en tiempo real de alta precisión para activar o desactivar el riego en las zonas correspondientes de manera automatizada.
+
+</div>
+
+### 5.4.2. Interface Layer
+
+<div align="justify">
+
+Esta capa proporciona las interfaces necesarias para la configuración y monitoreo del sistema de riego automatizado, permitiendo la interacción intuitiva con usuarios y la captura eficiente de datos para el control preciso del riego.
+
+**IrrigationConfiguration**: Estructura de datos que permite a los usuarios definir y configurar las zonas de riego de manera detallada, así como establecer horarios específicos y parámetros técnicos para cada zona según las características del cultivo.
+
+**IrrigationStatus**: Estructura que muestra el estado actual completo de los sistemas de riego, incluyendo la cantidad total de agua distribuida, estado operativo de todos los sensores, zonas activas en tiempo real y eficiencia del sistema.
+
+**WateringRequest**: Estructura que recoge solicitudes específicas para activar o desactivar el riego en una zona determinada, ajustada automáticamente a las condiciones actuales de humedad y las preferencias configuradas por el usuario.
+
+</div>
+
+### 5.4.3. Application Layer
+
+<div align="justify">
+
+Esta capa se encarga de gestionar el flujo de control inteligente del sistema de riego, activando y desactivando el riego según las condiciones ambientales y la configuración del usuario, sin involucrar directamente la lógica de negocio o la infraestructura de fondo.
+
+**IrrigationControlService**: Servicio que orquesta el proceso completo de activación y desactivación del sistema de riego, ajustándose dinámicamente a los parámetros configurados por el usuario y los datos de humedad proporcionados por los sensores en tiempo real.
+
+**WateringScheduleService**: Servicio que gestiona las actualizaciones y consultas sobre los horarios de riego y cantidades de agua requeridas, considerando las zonas específicas, condiciones climáticas actuales y pronósticos meteorológicos.
+
+**SensorMonitoringService**: Servicio que monitorea continuamente los datos de los sensores de humedad y envía notificaciones automáticas o ejecuta acciones directas al sistema de riego para optimizar el uso eficiente del agua y mantener condiciones óptimas del suelo.
+
+</div>
+
+### 5.4.4. Infrastructure Layer
+
+<div align="justify">
+
+En esta capa se encuentran los componentes encargados de la persistencia de datos de riego y la integración con sistemas externos, como sensores de humedad avanzados y válvulas de riego automatizadas.
+
+**IrrigationRepository**: Repositorio encargado de almacenar y recuperar las configuraciones de riego y las definiciones de zonas de irrigación, manteniendo historial de cambios y configuraciones optimizadas.
+
+**SensorDataRepository**: Repositorio que almacena los datos históricos de sensores de humedad y otros datos ambientales relacionados con el sistema de riego, permitiendo análisis de tendencias y optimización predictiva.
+
+**IrrigationDeviceController**: Componente que se encarga de la interacción directa con los dispositivos físicos de riego (válvulas electrónicas, bombas de agua, sensores), activando o desactivando las operaciones basándose en los datos recibidos del sistema de control centralizado.
+
+</div>
+
+### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+
+Automated Irrigation Control Component Diagram:
+
+</div>
+
+### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+
+Automated Irrigation Control Domain Layer diagram:
+
+</div>
+
+#### 5.4.6.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+
+Automated Irrigation Control database diagram:
+
+</div>
+
+## 5.5. Bounded Context: Field Registration & Management
+
+<div align="justify">
+
+Este contexto se encarga de gestionar el registro completo, seguimiento detallado y administración integral de los campos agrícolas dentro de AgroSense. Permite a los usuarios registrar y configurar las propiedades específicas de sus campos, tales como la ubicación geográfica precisa, el tipo de cultivo seleccionado y las características particulares del suelo. Una gestión adecuada de esta información facilita significativamente la toma de decisiones estratégicas en la optimización de recursos y mejora sustancial de la productividad agrícola.
+
+</div>
+
+### 5.5.1. Domain Layer
+
+<div align="justify">
+
+En esta capa se encuentran las entidades y objetos de valor relacionados con el registro y administración integral de campos agrícolas, incluyendo la configuración detallada de cultivos y las características específicas del terreno.
+
+**Field**: Entidad que representa un campo agrícola completo dentro del sistema. Contiene información detallada sobre su ubicación geográfica exacta, tamaño en hectáreas, tipo específico de cultivo y otras características asociadas importantes, como el tipo de suelo predominante, disponibilidad de sistemas de riego y topografía del terreno.
+
+**SoilType**: Objeto de valor que representa el tipo específico de suelo de un campo determinado. Incluye propiedades técnicas como la textura del suelo, nivel de pH, capacidad de retención de agua, contenido de nutrientes y características de drenaje natural.
+
+**Crop**: Entidad que define el tipo específico de cultivo que se está cultivando en un campo. Incluye información técnica sobre las necesidades hídricas específicas, tiempo estimado de cosecha, requerimientos nutricionales detallados y características de crecimiento según la variedad seleccionada.
+
+**FieldConfiguration**: Objeto de valor que guarda la configuración personalizada y optimizada para un campo específico, como las preferencias de riego automatizado, métodos de fertilización recomendados, prácticas agrícolas aplicadas y cronogramas de mantenimiento específicos.
+
+</div>
+
+### 5.5.2. Interface Layer
+
+<div align="justify">
+
+Esta capa permite la interacción eficiente entre el sistema y el usuario para registrar y gestionar los campos agrícolas, proporcionando la interfaz necesaria para la entrada de datos y visualización de información relevante.
+
+**FieldRegistrationForm**: Estructura que permite a los usuarios registrar un nuevo campo de manera completa, incluyendo detalles específicos como la ubicación GPS exacta, el tamaño preciso del terreno y el tipo de cultivo seleccionado con sus características particulares.
+
+**FieldManagementDashboard**: Interfaz que presenta un panel de control integral para gestionar todos los campos registrados, mostrando información clave como el estado actual del cultivo, registros históricos de riego, recomendaciones personalizadas de fertilización y alertas de mantenimiento.
+
+**CropSelectionForm**: Estructura que permite a los usuarios seleccionar el tipo específico de cultivo para un campo registrado, teniendo en cuenta factores críticos como la temporada de siembra, condiciones climáticas locales y requerimientos específicos del tipo de suelo.
+
+</div>
+
+### 5.5.3. Application Layer
+
+<div align="justify">
+
+En esta capa se gestionan los procesos que orquestan las operaciones sobre los campos agrícolas, coordinando eficientemente las actividades entre las entidades de dominio y la infraestructura técnica.
+
+**FieldRegistrationService**: Servicio encargado de gestionar el proceso completo de registro de un nuevo campo, asegurándose de que toda la información necesaria sea ingresada correctamente, validada técnicamente y almacenada de manera segura en el sistema.
+
+**FieldManagementService**: Servicio que coordina las operaciones para administrar los campos de manera integral, incluyendo la actualización de información de cultivos, el seguimiento continuo de las condiciones del campo y la generación de recomendaciones específicas de acciones agrícolas.
+
+**CropManagementService**: Servicio que orquesta el registro y gestión detallada de los cultivos dentro de un campo, actualizando sus características específicas y necesidades según la etapa actual de crecimiento y las condiciones ambientales predominantes.
+
+</div>
+
+### 5.5.4. Infrastructure Layer
+
+<div align="justify">
+
+Esta capa se encarga de los detalles técnicos relacionados con la persistencia segura de los datos de campos y cultivos, así como la integración con sistemas externos para la gestión optimizada de recursos.
+
+**FieldRepository**: Repositorio encargado de almacenar y recuperar la información completa de los campos registrados, incluidos los detalles sobre la ubicación geográfica, el tipo de cultivo especificado y el estado actual de los cultivos con su evolución histórica.
+
+**CropRepository**: Repositorio que gestiona el almacenamiento y recuperación de la información detallada sobre los cultivos, sus características técnicas específicas y el seguimiento continuo de su evolución y desarrollo a lo largo del ciclo de crecimiento.
+
+**SoilDataRepository**: Repositorio que almacena los datos relacionados con las propiedades específicas del suelo, como el tipo de suelo clasificado, capacidad de retención de agua, niveles de nutrientes y características químicas relevantes para la optimización del cultivo.
+
+</div>
+
+### 5.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+
+Field Registration and Management Component Diagram:
+
+</div>
+
+### 5.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+
+Field Registration and Management Domain Layer diagram:
+
+</div>
+
+#### 5.5.6.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+
+Field Registration and Management database diagram:
+
+</div>
+
+## 5.6. Bounded Context: Crop Monitoring & Field Data Management
+
+<div align="justify">
+
+Este contexto está encargado de la recopilación sistemática, monitoreo continuo y análisis avanzado de los datos relacionados con los cultivos y las condiciones del terreno. Permite a los usuarios obtener información detallada y actualizada sobre la salud y el progreso de los cultivos, lo que facilita significativamente la toma de decisiones informadas para mejorar el rendimiento agrícola y optimizar el uso eficiente de recursos disponibles.
+
+</div>
+
+### 5.6.1. Domain Layer
+
+<div align="justify">
+
+En esta capa se encuentran las entidades y objetos de valor que representan los datos recopilados de los cultivos y el campo, así como la lógica especializada que se utiliza para analizarlos y extraer información relevante y accionable.
+
+**CropMonitoringData**: Entidad que almacena los datos recopilados de los sensores relacionados específicamente con el cultivo, como humedad del suelo, temperatura ambiental, niveles de fertilización aplicados y otros indicadores importantes para el seguimiento preciso del desarrollo de los cultivos.
+
+**FieldData**: Entidad que agrupa la información sobre el estado general del campo, incluyendo datos climáticos locales, el tipo específico de cultivo, la actividad de riego registrada y otros parámetros ambientales que afectan directamente el rendimiento y la productividad de la agricultura.
+
+**ClimateData**: Objeto de valor que contiene los datos climáticos recolectados específicamente para un campo, como la temperatura máxima y mínima, humedad relativa del aire, radiación solar recibida y precipitaciones registradas, los cuales son fundamentales para realizar predicciones precisas sobre las condiciones óptimas de crecimiento de los cultivos.
+
+**GrowthStage**: Objeto de valor que representa las diferentes etapas de crecimiento de un cultivo, desde la siembra inicial hasta la cosecha final. Incluye indicadores específicos que permiten determinar con precisión cuándo un cultivo está listo para ser cosechado o si requiere intervenciones específicas como fertilización adicional o tratamientos preventivos.
+
+</div>
+
+### 5.6.2. Interface Layer
+
+<div align="justify">
+
+Esta capa presenta las interfaces que permiten a los usuarios consultar y analizar de manera eficiente los datos relacionados con sus cultivos, facilitando la visualización clara de la información y la toma de decisiones estratégicas basadas en datos.
+
+**CropMonitoringDashboard**: Interfaz que presenta un panel de control completo donde los usuarios pueden visualizar el estado en tiempo real de sus cultivos, incluyendo los datos más relevantes y actualizados, como la humedad actual del suelo, condiciones climáticas predominantes y niveles óptimos de fertilización aplicados.
+
+**FieldDataReport**: Interfaz que permite generar reportes detallados y personalizables sobre el estado integral del campo, incluyendo información histórica sobre el clima, las condiciones del suelo a lo largo del tiempo y el progreso documentado de los cultivos según diferentes períodos de análisis.
+
+**GrowthStageOverview**: Interfaz que proporciona una visión general comprehensiva del progreso de los cultivos según su etapa actual de crecimiento, con recomendaciones específicas y personalizadas sobre las acciones a seguir en cada fase particular del desarrollo del cultivo.
+
+</div>
+
+### 5.6.3. Application Layer
+
+<div align="justify">
+
+La capa de aplicación coordina las operaciones necesarias para acceder y procesar los datos del cultivo y el campo, proporcionando la lógica necesaria para la visualización eficiente y análisis avanzado de la información recopilada.
+
+**CropMonitoringService**: Servicio que gestiona el proceso integral de recolección y análisis de los datos de los cultivos, asegurando que los sensores se comuniquen correctamente con el sistema central y que la información se presente de manera clara y comprensible a los usuarios finales.
+
+**FieldDataAnalysisService**: Servicio encargado de procesar y analizar de manera avanzada los datos recopilados sobre el terreno y los cultivos, generando predicciones precisas y recomendaciones específicas sobre el mejor uso de los recursos agrícolas disponibles y estrategias de optimización.
+
+**GrowthStageAnalysisService**: Servicio que se encarga de analizar el progreso detallado de los cultivos en función de su etapa específica de crecimiento, sugiriendo acciones concretas y oportunas como el riego programado o la fertilización necesaria requeridas en cada fase particular del desarrollo.
+
+</div>
+
+### 5.6.4. Infrastructure Layer
+
+<div align="justify">
+
+Esta capa incluye los componentes que gestionan la persistencia y el acceso eficiente a los datos recopilados sobre los cultivos y las condiciones del campo, así como la integración con sistemas externos especializados de monitoreo agrícola.
+
+**CropMonitoringRepository**: Repositorio encargado de almacenar y recuperar los datos de monitoreo de los cultivos, como la humedad del suelo, temperatura ambiental y otros parámetros clave para el análisis del desarrollo de los cultivos a lo largo del tiempo.
+
+**FieldDataRepository**: Repositorio que almacena los datos relacionados con el campo, incluidos los datos climáticos históricos y actuales, la actividad registrada de los cultivos y tendencias de productividad para análisis comparativos y predictivos.
+
+**ClimateDataRepository**: Repositorio que gestiona el almacenamiento y recuperación de los datos climáticos específicos de un campo, que se utilizan para analizar las condiciones externas que afectan significativamente a los cultivos y para generar pronósticos de crecimiento optimizados.
+
+</div>
+
+### 5.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+<div align="justify">
+
+Crop Monitoring & Field Data Management Component Diagram:
+
+</div>
+
+### 5.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="justify">
+
+Crop Monitoring & Field Data Management Domain Layer diagram:
+
+</div>
+
+#### 5.6.6.2. Bounded Context Database Design Diagram
+
+<div align="justify">
+
+Crop Monitoring & Field Data Management database diagram:
+
+</div>
+
+
 
 # Conclusiones
 
