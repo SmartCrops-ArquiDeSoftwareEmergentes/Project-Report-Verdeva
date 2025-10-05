@@ -304,7 +304,7 @@ Nuestra visión del futuro agrícola es clara: un ecosistema donde cada hectáre
 
 <div align="justify">
 
-**Descripción del Producto:**  Verdeva es una solución tecnológica desarrollada por SmartCrops para optimizar la fertilización agrícola de manera inteligente y sostenible. Diseñada especialmente para pequeños y medianos productores en Sudamérica, integra sensores avanzados con riego por goteo automatizado, permitiendo medir en tiempo real parámetros esenciales del suelo como pH, humedad y nutrientes. Con esta información, Verdeva activa el riego únicamente cuando los cultivos lo requieren, garantizando un uso eficiente de agua y fertilizantes. Además, ofrece una plataforma web y una aplicación móvil con acceso a monitoreo en tiempo real, alertas, reportes y recomendaciones personalizadas, lo que facilita decisiones más informadas y productivas. Así, Terranova impulsa la productividad agrícola y fomenta prácticas sostenibles frente a la crisis climática y la escasez de agua. 
+**Descripción del Producto:**  Verdeva es una solución tecnológica desarrollada por SmartCrops para optimizar la fertilización agrícola de manera inteligente y sostenible. Diseñada especialmente para pequeños y medianos productores en Sudamérica, integra sensores avanzados con riego por goteo automatizado, permitiendo medir en tiempo real parámetros esenciales del suelo como pH, humedad y nutrientes. Con esta información, Verdeva activa el riego únicamente cuando los cultivos lo requieren, garantizando un uso eficiente de agua y fertilizantes. Además, ofrece una plataforma web y una aplicación móvil con acceso a monitoreo en tiempo real, alertas, reportes y recomendaciones personalizadas, lo que facilita decisiones más informadas y productivas. Así, Verdeva impulsa la productividad agrícola y fomenta prácticas sostenibles frente a la crisis climática y la escasez de agua. 
 
 **Monetización:**  Verdeva se comercializará bajo un modelo freemium accesible y escalable. Los agricultores podrán usar sin costo funciones básicas como monitoreo y alertas, mientras que las herramientas avanzadas —análisis históricos, reportes predictivos y asesoría personalizada— estarán disponibles mediante planes de suscripción mensual de bajo costo, ajustados al tamaño del terreno o al número de sensores instalados.
 
@@ -3282,7 +3282,29 @@ Crop Monitoring & Field Data Management database diagram:
 
 # Capítulo VI: *Capítulo VI: Solution UX Design*
 ## 6.1. Style Guidelines
+
+Un manual de estilo es un documento que establece reglas y pautas visuales, organizativas y de redacción con el fin de garantizar la uniformidad y la coherencia en la creación y diseño tanto de materiales comunicativos como de productos digitales. A continuación se exponen las pautas empleadas para la configuración del proyecto.
+
 ### 6.1.1. General Style Guidelines
+
+#### Brand Name
+Verdeva es más que una solución tecnológica: es una promesa de transformación para la agricultura de pequeños y medianos productores en Sudamérica. El nombre evoca innovación, sostenibilidad y precisión, pilares que definen esta herramienta inteligente para el manejo eficiente de la fertilización y el riego agrícola.
+
+Diseñado con un enfoque humano y técnico, Verdeva transmite confianza, modernidad y conexión con la tierra, reflejando el equilibrio entre tecnología avanzada y respeto por el medio ambiente. Su sonoridad es clara y memorable, facilitando su adopción por usuarios tanto en entornos rurales como digitales. Representa el puente entre el conocimiento agronómico y la acción automatizada, acercando a los productores a una agricultura más rentable, eficiente y resiliente frente al cambio climático.
+
+![Brand Name](Images/chapter2/verdeva.jpeg)
+
+#### Typography
+Nunito es una fuente sans serif contemporánea, suave y muy fácil de leer, diseñada para ofrecer una experiencia visual accesible, cercana y profesional. Su uso en esta aplicación responde a la necesidad de equilibrar la tecnología detallada con una interfaz amigable y humana, enfocándose especialmente en los agricultores de pequeña y mediana escala en América del Sur.
+
+![Typography](Images/chapter6/nunito.png)
+
+#### Colors
+La paleta de colores seleccionada para Verdeva se compone de tonos que reflejan los valores importantes de la marca. Verde oscuro como color principal, representa la vida, la agricultura y la sostenibilidad. Marrón medio, como color de soporte con fuerte vínculo con la tierra, el suelo y lo natural. Aporta calidez y autenticidad, generando una conexión emocional con el entorno rural. Gris oscuro, color neutro para texto principal y elementos funcionales. Aporta claridad, contraste y elegancia. Blanco, color de fondo principal. Limpio, moderno y minimalista.
+
+![Colors](Images/chapter6/Colors.png)
+
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
 ### 6.2. Information Architecture
