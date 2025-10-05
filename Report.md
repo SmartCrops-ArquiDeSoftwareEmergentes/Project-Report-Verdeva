@@ -3280,6 +3280,108 @@ Crop Monitoring & Field Data Management database diagram:
 
 </div>
 
+# Capítulo VI: *Capítulo VI: Solution UX Design*
+## 6.1. Style Guidelines
+### 6.1.1. General Style Guidelines
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+### 6.2. Information Architecture
+#### 6.2.1. Labeling Systems
+#### 6.2.2. Searching Systems
+#### 6.2.4. SEO Tags and Meta Tags
+#### 6.2.5. Navigation Systems
+Nos centramos en diseñar un sistema de navegación eficiente, intuitivo y adaptable que permita a los usuarios de Verdeva moverse con facilidad por las distintas funcionalidades de la plataforma. El objetivo es garantizar que los productores puedan gestionar sus campos y cultivos sin esfuerzo, disfrutando de una experiencia de usuario fluida y coherente.
+
+##### Barra de navegación superior
+La barra principal agrupa las funciones clave de Verdeva, incluyendo:  
+- Gestión de campos y parcelas.  
+- Visualización del estado de los cultivos.  
+- Acceso a los dispositivos IoT.  
+- Configuración de alertas y notificaciones.
+
+Cada ícono ha sido diseñado con una lógica visual simple y reconocible, lo que permite que el usuario se desplace fácilmente entre las secciones principales.
+
+##### Navegación jerárquica por niveles
+Verdeva implementa una navegación jerárquica que permite a los usuarios explorar la información de manera estructurada, pasando desde una vista general de todos sus campos hasta los detalles de cada cultivo y sus tareas específicas. Esta organización evita la desorientación y facilita una comprensión clara del estado y las acciones necesarias en cada área productiva.
+
+##### Navegación rápida hacia tareas pendientes
+Mediante un sistema de accesos directos, Verdeva permite al usuario acceder rápidamente a sus tareas pendientes, como:  
+- Riegos programados.  
+- Aplicaciones de fertilizantes.  
+- Revisión de alertas o reportes.  
+
+Estas acciones pueden iniciarse desde un botón flotante o notificaciones contextuales en la barra superior, optimizando el tiempo de respuesta del productor.
+
+##### Menú lateral contextual
+Además de la barra superior, Verdeva incorpora un menú lateral contextual que se adapta dinámicamente según la sección en la que se encuentre el usuario. Este enfoque garantiza que las opciones disponibles siempre sean relevantes, reduciendo la sobrecarga visual y mejorando la eficiencia al acceder a herramientas o configuraciones específicas.
+
+### 6.3. Landing Page UI Design
+#### 6.3.1. Landing Page Wireframe
+A continuación, se presentan los prototipos iniciales de la landing page de Verdeva, diseñados para mostrar la estructura base, la disposición de los elementos y la propuesta visual preliminar.
+
+![Wireframe 1 de la landing page](Images/chapter6/wirefraime%201.png)
+
+![Wireframe 2 de la landing page](Images/chapter6/wireframe%202.png)
+
+![Wireframe 3 de la landing page](Images/chapter6/wireframe3.png)
+
+![Wireframe 4 de la landing page](Images/chapter6/wireframe4.png)
+
+![Wireframe 5 de la landing page](Images/chapter6/wireframe5.png)
+
+#### 6.3.2. Landing Page Mock-up
+A continuación, se presentan los mockups  de la landing page de Verdeva, diseñados para ilustrar la propuesta visual final de la interfaz, incluyendo la disposición de los elementos, el uso de colores, tipografía y estilo gráfico general.
+
+- Web Version: 
+
+![Mockup versión web 1](Images/chapter6/mockupweb1.png)
+
+![Mockup versión web 2](Images/chapter6/mockupweb2.png)
+
+![Mockup versión web 3](Images/chapter6/mockupweb3.png)
+
+![Mockup versión web 4](Images/chapter6/mockupweb4.png)
+
+![Mockup versión web 5](Images/chapter6/mockupweb5.png)
+
+
+-Mobile version:
+
+![Mockup versión mobile 1](Images/chapter6/mockupmo1.png)
+
+![Mockup versión mobile 2](Images/chapter6/mockupmo2.png)
+
+![Mockup versión mobile 3](Images/chapter6/mockupmo3.png)
+
+![Mockup versión mobile 4](Images/chapter6/mockupmo4.png)
+
+![Mockup versión mobile 5](Images/chapter6/mockupmo5.png)
+
+![Mockup versión mobile 6](Images/chapter6/mockupmo6.png)
+
+![Mockup versión mobile 7](Images/chapter6/mockupmo7.png)
+
+![Mockup versión mobile 8](Images/chapter6/mockupmo8.png)
+
+![Mockup versión mobile 9](Images/chapter6/mockupmo9.png)
+
+![Mockup versión mobile 10](Images/chapter6/mockupmo10.png)
+
+![Mockup versión mobile 11](Images/chapter6/mockupmo11.png)
+
+![Mockup versión mobile 12](Images/chapter6/mockupmo12.png)
+
+
+
+
+### 6.4. Applications UX/UI Design
+#### 6.4.1. Applications Wireframes
+#### 6.4.2. Applications Wireflow Diagrams
+#### 6.4.3. Applications Mock-ups
+#### 6.4.4. Applications User Flow Diagrams
+
+### 6.5. Applications Prototyping
+
 
 
 # Conclusiones
