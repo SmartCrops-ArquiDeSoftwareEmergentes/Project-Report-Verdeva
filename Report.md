@@ -2777,6 +2777,7 @@ Esta capa implementa los mecanismos técnicos para la persistencia de datos de s
 <div align="justify">
 
 Sensors and System Setup Component Diagram:
+![alt text](image-5.png)
 
 </div>
 
@@ -2787,6 +2788,7 @@ Sensors and System Setup Component Diagram:
 <div align="justify">
 
 Sensors and System Setup Domain Layer diagram:
+![alt text](image-6.png)
 
 </div>
 
@@ -2795,6 +2797,7 @@ Sensors and System Setup Domain Layer diagram:
 <div align="justify">
 
 Sensors and System Setup database diagram:
+![alt text](image-7.png)
 
 </div>
 
@@ -2871,6 +2874,7 @@ Esta capa se ocupa de la persistencia de datos y la integración con servicios e
 <div align="justify">
 
 Plans and Membership Component Diagram:
+![alt text](image-8.png)
 
 </div>
 
@@ -2881,6 +2885,7 @@ Plans and Membership Component Diagram:
 <div align="justify">
 
 Plans and Membership Domain Layer diagram:
+![alt text](image-9.png)
 
 </div>
 
@@ -2889,6 +2894,7 @@ Plans and Membership Domain Layer diagram:
 <div align="justify">
 
 Plans and Membership database diagram:
+![alt text](image-10.png)
 
 </div>
 
@@ -2963,6 +2969,7 @@ Se ocupa de la persistencia segura de información de usuarios y credenciales, a
 <div align="justify">
 
 User Profile Component Diagram:
+![alt text](image-11.png)
 
 </div>
 
@@ -2973,6 +2980,7 @@ User Profile Component Diagram:
 <div align="justify">
 
 User Profile Domain Layer diagram:
+![alt text](image-12.png)
 
 </div>
 
@@ -2981,6 +2989,7 @@ User Profile Domain Layer diagram:
 <div align="justify">
 
 User Profile database diagram:
+![alt text](image-13.png)
 
 </div>
 
@@ -3055,6 +3064,7 @@ En esta capa se encuentran los componentes encargados de la persistencia de dato
 <div align="justify">
 
 Automated Irrigation Control Component Diagram:
+![alt text](image-14.png)
 
 </div>
 
@@ -3065,6 +3075,7 @@ Automated Irrigation Control Component Diagram:
 <div align="justify">
 
 Automated Irrigation Control Domain Layer diagram:
+![alt text](image-15.png)
 
 </div>
 
@@ -3073,6 +3084,7 @@ Automated Irrigation Control Domain Layer diagram:
 <div align="justify">
 
 Automated Irrigation Control database diagram:
+![alt text](image-16.png)
 
 </div>
 
@@ -3147,6 +3159,7 @@ Esta capa se encarga de los detalles técnicos relacionados con la persistencia 
 <div align="justify">
 
 Field Registration and Management Component Diagram:
+![alt text](image-17.png)
 
 </div>
 
@@ -3157,6 +3170,7 @@ Field Registration and Management Component Diagram:
 <div align="justify">
 
 Field Registration and Management Domain Layer diagram:
+![alt text](image-18.png)
 
 </div>
 
@@ -3165,6 +3179,8 @@ Field Registration and Management Domain Layer diagram:
 <div align="justify">
 
 Field Registration and Management database diagram:
+![alt text](image-19.png)
+
 
 </div>
 
@@ -3239,6 +3255,7 @@ Esta capa incluye los componentes que gestionan la persistencia y el acceso efic
 <div align="justify">
 
 Crop Monitoring & Field Data Management Component Diagram:
+![alt text](image-20.png)
 
 </div>
 
@@ -3249,6 +3266,7 @@ Crop Monitoring & Field Data Management Component Diagram:
 <div align="justify">
 
 Crop Monitoring & Field Data Management Domain Layer diagram:
+![alt text](image-21.png)
 
 </div>
 
@@ -3257,6 +3275,8 @@ Crop Monitoring & Field Data Management Domain Layer diagram:
 <div align="justify">
 
 Crop Monitoring & Field Data Management database diagram:
+![alt text](image-22.png)
+
 
 </div>
 
