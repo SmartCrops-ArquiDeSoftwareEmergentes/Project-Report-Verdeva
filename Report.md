@@ -2682,7 +2682,7 @@ Estas relaciones aseguran que cada bounded context mantenga su autonomía mientr
 ## 4.3.     *Software Architecture.* 
 ### 4.3.1.  *Software Architecture System Landscape* Diagram. 
 
-![alt text](<structurizr-verdeva_landscape (1).png>)
+![alt text](<structurizr-verdeva_landscape.png>)
 ### 4.3.1.  *Software Architecture Context Level* Diagrams. 
 
 ![alt text](structurizr-verdeva_context.png)
@@ -2691,7 +2691,7 @@ Estas relaciones aseguran que cada bounded context mantenga su autonomía mientr
 ![alt text](structurizr-verdeva_container.png)
 ### 4.3.3.  *Software Architecture Deployment* Diagrams. 
 
-![alt text](structurizr-Deployment-001.png)
+![alt text](structurizr-Deployment.png)
 
 
 # Capítulo V: *Tactical-Level Software Design*
@@ -3640,6 +3640,23 @@ Concluimos que Verdeva representa una solución viable y necesaria para abordar 
 
 # Anexos
 
+#### Diagramas:
++ Lean UX Canva: [Ver imagen](<Images/chapter1/Lean Ux Canvas.png>)<br><br>
++ Empathy Mapping del primer segmento: [Ver imagen](<Images/chapter2/empathy map1.jpeg>)<br><br>
++ Empathy Mapping del segundo segmento: [Ver imagen](<Images/chapter2/empathy map2.jpeg>)<br><br>
++ User Journey Mapping del primer segmento: [Ver imagen](<Images/chapter2/userjurneymap1.jpeg.jpeg>)<br><br>
++ User Journey Mapping del segundo segmento: [Ver imagen](<Images/chapter2/userjurneymap2.jpeg.jpeg>)<br><br>
++ As-is Scenario Mapping del primer segmento: [Ver imagen](<Images/chapter2/asis 1.png>)<br><br>
++ As-is Scenario Mapping del segundo segmento: [Ver imagen](<Images/chapter2/asis 2.png>)<br><br>
++ To-Be Scenario Mapping del primer segmento: [Ver imagen](<Images/chapter3/tobe1.png>)<br><br>
++ To-Be Scenario Mapping del segundo segmento: [Ver imagen](<Images/chapter3/tobe2.png>)<br><br>
++ Software Architecture System Landscape Diagram: [Ver imagen](<structurizr-verdeva_landscape.png>)<br><br>
++ Software Architecture Context Level Diagrams: [Ver imagen](<structurizr-verdeva_context.png>)<br><br>
++ Software Architecture Container Level Diagrams: [Ver imagen](<structurizr-verdeva_container.png>)<br><br>
++ Software Architecture Deployment Diagrams: [Ver imagen](<structurizr-Deployment.png>)<br><br>
+
+
+#### Repositorios
 + Repositorio GitHub de la Organización: [Ver Organización](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes)<br><br>
 + Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Project-Report-Verdeva)<br><br>
 + Repositorio GitHub del Backend: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Back-End-Verdeva)<br><br>
