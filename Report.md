@@ -3283,28 +3283,90 @@ Crop Monitoring & Field Data Management database diagram:
 # Capítulo VI: *Capítulo VI: Solution UX Design*
 ## 6.1. Style Guidelines
 
+<div align="justify">
+
 Un manual de estilo es un documento que establece reglas y pautas visuales, organizativas y de redacción con el fin de garantizar la uniformidad y la coherencia en la creación y diseño tanto de materiales comunicativos como de productos digitales. A continuación se exponen las pautas empleadas para la configuración del proyecto.
+
+</div>
 
 ### 6.1.1. General Style Guidelines
 
 #### Brand Name
+<div align="justify">
+
 Verdeva es más que una solución tecnológica: es una promesa de transformación para la agricultura de pequeños y medianos productores en Sudamérica. El nombre evoca innovación, sostenibilidad y precisión, pilares que definen esta herramienta inteligente para el manejo eficiente de la fertilización y el riego agrícola.
 
 Diseñado con un enfoque humano y técnico, Verdeva transmite confianza, modernidad y conexión con la tierra, reflejando el equilibrio entre tecnología avanzada y respeto por el medio ambiente. Su sonoridad es clara y memorable, facilitando su adopción por usuarios tanto en entornos rurales como digitales. Representa el puente entre el conocimiento agronómico y la acción automatizada, acercando a los productores a una agricultura más rentable, eficiente y resiliente frente al cambio climático.
 
 ![Brand Name](Images/chapter2/verdeva.jpeg)
 
+</div>
+
+
 #### Typography
+<div align="justify">
+
 Nunito es una fuente sans serif contemporánea, suave y muy fácil de leer, diseñada para ofrecer una experiencia visual accesible, cercana y profesional. Su uso en esta aplicación responde a la necesidad de equilibrar la tecnología detallada con una interfaz amigable y humana, enfocándose especialmente en los agricultores de pequeña y mediana escala en América del Sur.
 
 ![Typography](Images/chapter6/nunito.png)
 
+</div>
+
 #### Colors
+<div align="justify">
 La paleta de colores seleccionada para Verdeva se compone de tonos que reflejan los valores importantes de la marca. Verde oscuro como color principal, representa la vida, la agricultura y la sostenibilidad. Marrón medio, como color de soporte con fuerte vínculo con la tierra, el suelo y lo natural. Aporta calidez y autenticidad, generando una conexión emocional con el entorno rural. Gris oscuro, color neutro para texto principal y elementos funcionales. Aporta claridad, contraste y elegancia. Blanco, color de fondo principal. Limpio, moderno y minimalista.
+</div>
 
 ![Colors](Images/chapter6/Colors.png)
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
+<div align="justify">
+
+#### Versión web 
+La versión en web de Verdeba implementa de manera uniforme las pautas de diseño y estilo para proporcionar una experiencia clara, útil y accesible desde cualquier navegador. Su estructura adaptable posibilita la adaptación a múltiples tamaños de pantalla, garantizando una navegación sin inconvenientes en computadoras y teléfonos móviles.
+
+La tipografía Nunito, por ser cálida y fácil de leer, es ideal para públicos con diversos grados de experiencia digital. Los tonos de la combinación de colores que abarcan marrones terrosos, verdes intensos y grises sutiles fortalecen la identidad ecológica y agrícola de la marca; por su parte, los espacios vacíos aseguran una lectura ordenada y una interfaz libre de desorden visual.
+
+Cada componente de la interfaz en línea está diseñado para dirigir al usuario intuitivamente, centrando su atención en la claridad, la acción directa y el vínculo emocional con la tecnología y la naturaleza. La combinación de elementos visuales y prácticos tiene como objetivo generar confianza, una sensación de profesionalismo y cercanía con el usuario rural y el técnico.
+
+![Versión web 1](Images/chapter6/mockupweb1.png)
+![Versión web 2](Images/chapter6/mockupweb2.png)
+![Versión web 3](Images/chapter6/mockupweb3.png)
+![Versión web 4](Images/chapter6/mockupweb4.png)
+![Versión web 5](Images/chapter6/mockupweb5.png)
+
+#### Versión móvil
+La aplicación móvil de Verdeba ha sido creada teniendo en cuenta las necesidades del usuario en el entorno: permitir acceso inmediato, operar con una mano y facilitar una navegación sencilla en pantallas más pequeñas. Mantiene todas las directrices visuales —fuentes, tonalidades y diseño— ajustándolas de manera eficaz para dispositivos móviles, asegurando que no se comprometan ni la visibilidad ni el uso.
+
+La experiencia en dispositivos móviles busca ser práctica, eficaz y fácil de usar, posibilitando que los agricultores accedan en tiempo real a información relevante y herramientas para tomar decisiones desde cualquier lugar. Esta edición muestra el compromiso de la marca con una tecnología que es accesible, útil y relacionada con el entorno rural.
+
+![Versión mobile 1](Images/chapter6/mockupmo1.png)
+
+![Versión mobile 2](Images/chapter6/mockupmo2.png)
+
+![Versión mobile 3](Images/chapter6/mockupmo3.png)
+
+![Versión mobile 4](Images/chapter6/mockupmo4.png)
+
+![Versión mobile 5](Images/chapter6/mockupmo5.png)
+
+![Versión mobile 6](Images/chapter6/mockupmo6.png)
+
+![Versión mobile 7](Images/chapter6/mockupmo7.png)
+
+![Versión mobile 8](Images/chapter6/mockupmo8.png)
+
+![Versión mobile 9](Images/chapter6/mockupmo9.png)
+
+![Versión mobile 10](Images/chapter6/mockupmo10.png)
+
+![Versión mobile 11](Images/chapter6/mockupmo11.png)
+
+![Versión mobile 12](Images/chapter6/mockupmo12.png)
+
+</div>
+
+
 
 ### 6.2. Information Architecture
 
