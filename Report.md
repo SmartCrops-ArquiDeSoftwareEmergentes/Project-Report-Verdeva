@@ -3304,14 +3304,144 @@ La paleta de colores seleccionada para Verdeva se compone de tonos que reflejan 
 
 ![Colors](Images/chapter6/Colors.png)
 
-
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
 ### 6.2. Information Architecture
+
+Esta sección define cómo Verdeva organiza, nombra, navega y permite encontrar la información en la **Landing Page**, la **Web App** y la **App móvil**, de modo que productores/agricultores y técnicos de campo localicen lo necesario con el menor esfuerzo
 #### 6.2.1. Labeling Systems
+
+**Principios**
+- **Claridad y brevedad:** 1–3 palabras en menús y chips.
+- **Consistencia:** español neutro; sustantivo para entidades (“Cultivos”), verbo-sustantivo para acciones (“Crear tarea”).
+- **Estados normalizados:** Pendiente | En curso | Vencida | Completada; Prioridad: Alta | Media | Baja.
+
+**Convenciones (alineadas a Verdeva)**
+- Menú principal: **Dashboard**, **Campos**, **Cultivos**, **Dispositivos**, **Tareas**, **Reportes**, **Ayuda**.
+- Tarjeta de **Campo/Parcela**: **Ubicación**, **Cultivos activos**, **Alertas**.
+- Tarjeta de **Cultivo**: **Tipo**, **Fenología**, **Salud**, **Última tarea**.
+- **Tarea**: **Tipo** (Riego | Fertilización | Monitoreo), **Prioridad**, **Vence**, **Responsable**.
+- **Filtros/Chips**: **Estado**, **Prioridad**, **Cultivo**, **Campo**, **Fecha**.
+- **Iconografía**:
+    - Riego 💧, Fertilización 🌿, Sensor IoT 📡, Alerta ⚠️, Reporte 📊, Ubicación 📍.
+- **Glosario in-app** (tooltip): define **Fenología**, **CE**, **NDVI**, etc.
 #### 6.2.2. Searching Systems
+
+**Búsqueda global (omnibox)**
+- Alcance: **Campos/Parcelas**, **Cultivos**, **Tareas/Alertas**, **Dispositivos IoT**, **Reportes**.
+- **Autocompletar** por nombre de campo/cultivo/tarea.
+- **Sinónimos y tolerancia a error:** “abonado” ≈ “fertilización”, “sensor” ≈ “dispositivo”.
+
+**Búsquedas contextuales**
+- En “Campos”, “Cultivos”, “Tareas” y “Dispositivos” con filtros específicos.
+
+**Facetas / Filtros**
+
+- **Entidad:** Campo, Cultivo, Responsable.
+- **Estado/Prioridad:** Pendiente/En curso/Vencida/Completada; Alta/Media/Baja.
+- **Temporal:** Hoy, Últimos 7 días, Mes, Rango.
+- **IoT:** Tipo de sensor (humedad/temperatura/pH/CE), **alertas activas**.
+
+**Ordenamiento**
+- Relevancia (coincidencia + prioridad + vencimiento), **Fecha**, **Urgencia**.
+
+**Resultados**
+- Agrupados por tipo (Tareas / Cultivos / Campos / Dispositivos / Reportes), **resaltado** de coincidencias, y **acciones rápidas** (Abrir | Editar | Completar).
+
+**Vacíos y errores**
+- Sugerencias de filtros cercanos y **atajo para crear** la entidad si no existe.
+
+**Rendimiento y seguridad**
+- Debounce 250–400 ms; paginación/infinite scroll; visibilidad conforme a permisos por rol.
 #### 6.2.4. SEO Tags and Meta Tags
+
+Verdeva implementa una estrategia de SEO para mejorar su visibilidad y posicionamiento en motores de búsqueda, atrayendo a usuarios interesados en la gestión agrícola con IoT. Las meta-etiquetas optimizan la experiencia web y ayudan a que los productores y técnicos encuentren fácilmente información sobre campos, cultivos, tareas y monitoreo.
+
+```
+<title>Verdeva (SmartCrops) - Gestión inteligente de campos y cultivos</title>
+```
+
+<title>Verdeva (SmartCrops): Gestión inteligente de campos y cultivos</title>
+<title>Verdeva (SmartCrops) - Gestión inteligente de campos y cultivos</title>
+**Descripción:** La meta-description resume la solución y el beneficio principal.
+```
+<meta name="description" content="Verdeva optimiza riego, fertilización y monitoreo IoT para aumentar el rendimiento de tus cultivos con tareas y tableros en tiempo real." />
+```
+
+**Palabras clave:** Palabras clave orientativas para mejorar descubribilidad (sin sobrecarga).
+```
+<meta name="keywords" content="agricultura de precisión, gestión de cultivos, riego inteligente, fertilización, IoT agrícola, monitoreo de campos" />
+```
+
+**Autor y derechos de autor:** Identifica autoría y propiedad intelectual.
+```
+<meta name="author" content="Equipo SmartCrops - Verdeva" />
+<meta name="copyright" content="© 2025 SmartCrops" />
+```
+
+**Open Graph (para compartir en redes):** Controla cómo se previsualiza el sitio
+```
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Verdeva: Gestión inteligente de cultivos" />
+<meta property="og:description" content="Riego y fertilización optimizados, sensores IoT y dashboards en tiempo real." />
+<meta property="og:image" content="https://smartcrops.example/og-cover.jpg" />
+<meta property="og:url" content="https://smartcrops.example/" />
+```
+
+**Twitter Cards:** Optimiza la tarjeta en X/Twitter.
+```
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Verdeva: Gestión inteligente de cultivos" />
+<meta name="twitter:description" content="Planifica tareas, integra IoT y decide con datos." />
+<meta name="twitter:image" content="https://smartcrops.example/og-cover.jpg" />
+```
+
+**PWA y mobile:** Preferencias de tema y manifiesto para una buena experiencia en móviles.
+```
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#0E7C86" />
+```
+
+**Robots (áreas privadas de la Web App):** Evita indexar vistas tras login o con datos sensibles.
+```
+<meta name="robots" content="noindex, nofollow" />
+```
+
+**Schema.org (JSON-LD):** Datos estructurados para enriquecer el resultado en buscadores.
+```
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Verdeva",
+  "brand": { "@type": "Organization", "name": "SmartCrops" },
+  "description": "Gestión de campos y cultivos con tareas inteligentes, IoT y dashboards en tiempo real.",
+  "url": "https://smartcrops.example/",
+  "image": "https://smartcrops.example/og-cover.jpg",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+```
+
+**ASO (App Store Optimization) para la app móvil:** Elementos para ficha en tiendas.
+
+```
+App Title: Verdeva – Gestión de Cultivos
+Subtitle (iOS): Riego, tareas e IoT agrícola
+Short description (Play): Gestión de campos, tareas y sensores IoT para mayor rendimiento.
+Full description: Verdeva centraliza la gestión agrícola: crea campos y cultivos, planifica riego y fertilización, recibe alertas de sensores IoT y visualiza KPIs en tiempo real. Prioriza tareas por urgencia y colabora con tu equipo desde el campo.
+Keywords (iOS): agricultura, riego inteligente, cultivos, IoT, fertilización, campo, agro
+Categoría: Productividad / Negocios
+Deep links: verdeva://campo/{id} | verdeva://tarea/{id}
+```
+
 #### 6.2.5. Navigation Systems
+
 Nos centramos en diseñar un sistema de navegación eficiente, intuitivo y adaptable que permita a los usuarios de Verdeva moverse con facilidad por las distintas funcionalidades de la plataforma. El objetivo es garantizar que los productores puedan gestionar sus campos y cultivos sin esfuerzo, disfrutando de una experiencia de usuario fluida y coherente.
 
 ##### Barra de navegación superior
