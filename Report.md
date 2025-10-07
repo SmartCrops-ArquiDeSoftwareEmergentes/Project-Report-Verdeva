@@ -3590,12 +3590,219 @@ A continuación, se presentan los mockups  de la landing page de Verdeva, diseñ
 
 ### 6.4. Applications UX/UI Design
 #### 6.4.1. Applications Wireframes
+
+**App web:**
+
+<br>
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-1.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-2.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-3.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-4.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-5.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-6.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/Wireframe-7.png) 
+
+**App mobile:**
+
+<br>
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireframe-1.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireframe-2.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireframe-3.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireframe-4.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireframe-5.png" alt="Recurso creado en Figma">
+
+</p>
+<br>
+
 #### 6.4.2. Applications Wireflow Diagrams
+
+**App web:**
+<br>
+
+**Wireflow 1:** Como productor, quiero poder registrar campos agrícolas para llevar un control claro de mis terrenos.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/WireFlow-1.png) 
+
+**Wireflow 2:** Como productor, quiero poder visualizar recomendaciones para cada uno de mis campos agrícolas, para tomar decisiones informadas sobre el manejo del cultivo.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/WireFlow-2.png) 
+
+**Wireflow 3:** Como productor, quiero poder acceder a análisis predictivos sobre mis campos agrícolas, para anticiparme a posibles problemas.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/WireFlow-3.png) 
+
+**Wireflow 4:** Como productor, quiero poder adquirir una membresía, para acceder a funciones avanzadas que mejoren la gestión.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/WireFlow-4.png) 
+
+**Wireflow 5:** Como productor, quiero poder agregar un dispositivo IoT nuevo a un cultivo, para mejorar el monitoreo y control.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/WireFlow-5.png) 
+
+
+
+**App mobile:**
+<br>
+
+**Wireflow 6:** Como productor, quiero poder ver datos generales de mis campos para poder tomar decisiones informadas sobre el manejo agrícola.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireflow-1.png" alt="Recurso creado en Figma">
+</p>
+
+**Wireflow 7:** Como productor, quiero poder agregar un nuevo cultivo en uno de mis campos para gestionar su seguimiento y planificación desde la aplicación.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireflow-2.png" alt="Recurso creado en Figma">
+</p>
+
+
+**Wireflow 8:** Como productor, quiero poder eliminar un dispositivo IoT vinculado a mi campo para mantener actualizada la infraestructura.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireflow-3.png" alt="Recurso creado en Figma">
+</p>
+
+
+**Wireflow 9:** Como productor rural, quiero poder recibir notificaciones, para estar al tanto de alertas importantes relacionados con mis campos.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireflow-4.png" alt="Recurso creado en Figma">
+</p>
+
+
+**Wireflow 10:** Como productor, quiero poder eliminar campos agrícolas registrados, para mantener organizada la información de mis terrenos en la aplicación.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobWireflow-5.png" alt="Recurso creado en Figma">
+</p>
+
+
 #### 6.4.3. Applications Mock-ups
+
+**App web:**
+
+<br>
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/MockupWeb-1.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/MockupWeb-2.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/MockupWeb-3.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/MockupWeb-4.png) 
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/MockupWeb-5.png) 
+
+<br>
+
+**App mobile:**
+
+<br>
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MockupMobile-1.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MockupMobile-2.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MockupMobile-3.png" alt="Recurso creado en Figma">
+  <img src="Resources/Chapter%2005/App%20Mobile/MockupMobile-4.png" alt="Recurso creado en Figma">
+
+</p>
+
+<br>
+
 #### 6.4.4. Applications User Flow Diagrams
+
+**App web:**
+
+<br>
+
+**User Flow 1:** Como usuario, quiero poder modificar con libertad mis datos, para mantener mi información actualizada.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/UserFlow-1.png)
+
+**User Flow 2:** Como productor, quiero poder añadir nuevos cultivos registrados, para facilitar la gestión agrícola.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/UserFlow-2.png)
+
+**User Flow 3:** Como productor, quiero poder recibir notificaciones, para estar al tanto de alertas importantes relacionados con mis campos.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Web/UserFlow-3.png" alt="Recurso creado en Figma">
+</p>
+
+
+**User Flow 4:** Como productor, quiero poder eliminar campos agrícolas registrados, para mantener organizada la información de mis terrenos en la aplicación.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/UserFlow-4.png)
+
+**User Flow 5:** Como productor, quiero poder modificar un campo agrícola existente, para corregir o actualizar la información del terreno según sea necesario.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/UserFlow-5.png)
+
+**App mobile:**
+
+<br>
+
+**User Flow 6:** Como productor, quiero poder acceder a análisis predictivos sobre mis campos agrícolas, para anticiparme a posibles problemas.
+
+<p align="center">
+  <img src="Resources/Chapter%2005/App%20Mobile/MobUserFlow-1.png" alt="Recurso creado en Figma">
+</p>
+
+
+**User Flow 7:** Como usuario, quiero poder modificar con libertad mis datos, para mantener mi información actualizada.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Mobile/MobUserFlow-2.png)
+
+
+**User Flow 8:** Como productor rural, quiero poder adquirir una membresía, para acceder a funciones avanzadas que mejoren la gestión.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Mobile/MobUserFlow-3.png)
+
+
+**User Flow 9:** Como productor, quiero poder eliminar un cultivo registrado en mi campo para mantener actualizada la información y evitar confusiones en la gestión agrícola.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Mobile/MobUserFlow-4.png)
+
+
+**User Flow 10:** Como productor, quiero poder registrar campos agrícolas para llevar un control claro de mis terrenos.
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Mobile/MobUserflow-5.png)
+
+<br>
+
 
 ### 6.5. Applications Prototyping
 
+
+**App web:**
+
+<br>
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Web/AppWeb-Prototyping.png) 
+
+**Enlace del Prototipo en Figma:** https://www.figma.com/proto/MIRlv95a1V86XWsO6RXOQe/NutriControl?node-id=240-4103&p=f&t=Qd7XjsL1SgQypE6c-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=240%3A4103
+
+<br>
+
+**App mobile:**
+
+<br>
+
+![Artefacto creado en Figma](Resources/Chapter%2005/App%20Mobile/AppMobilePrototyping.png) 
+
+**Enlace del Prototipo en Figma:** https://www.figma.com/proto/MIRlv95a1V86XWsO6RXOQe/NutriControl?node-id=406-1315&p=f&t=Dd7zkpzAU7ir00AW-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=406%3A1315
+
+<br>
 
 
 # Conclusiones
