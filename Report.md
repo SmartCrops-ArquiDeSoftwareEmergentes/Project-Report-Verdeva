@@ -223,9 +223,16 @@ del ABET – EAC - Student Outcome 5.
       <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong> Se ajustó la exposición de los conceptos clave de las historias de usuario, el backlog del producto, los Modelos de Flujos de Mensajes de Dominio y los Lienzos de Contextos Limitados al grado de conocimiento de la audiencia, garantizando que cada persona pudiera comprender las nociones sin considerar su nivel técnico. <br><br>
       <strong>Litano Liza, Joel Alexander:</strong> Durante el desarrollo del TB1, lideré la presentación del Strategic-Level Domain-Driven Design (sección 4.2), donde comuniqué de manera efectiva los conceptos de EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping. Adapté mi comunicación técnica para explicar a compañeros con diferentes niveles de experiencia en Domain-Driven Design, utilizando ejemplos prácticos del dominio agrícola de Verdeva. Facilité sesiones colaborativas de EventStorming donde guié al equipo en la identificación de eventos de dominio, comandos, agregados y bounded contexts, asegurando que todos comprendieran la metodología y pudieran participar activamente en el proceso de diseño estratégico.<br><br>
       <strong>Isla Quispe, Luis Fernando:</strong>> Durante el desarrollo del TB1, me encargué de la presentación del _Startup Profile_ y _Solution Profile_ del proyecto Verdeva, comunicando de manera clara y estructurada la visión, misión y propuesta de valor de SmartCrops. Expliqué los insumos de la sección 4.1.2 (_Primary Functionality, Quality Attribute Scenarios y Constraints_) a mis compañeros, facilitando la comprensión de conceptos técnicos complejos. Además, adapté mi discurso al momento de exponer ante el profesor y mis compañeros, priorizando la claridad y la conexión entre los atributos de calidad y las decisiones arquitectónicas.<br><br>
+      <strong>TB2:</strong><br>
+      <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Desarrollo de los bounded contexts y actualización del frontend; presentaciones técnicas y coordinación de la integración entre equipos durante TB2.<br><br>
+      <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong> Correcciones de la primera entrega y elaboración de las Style Guidelines generales y específicas para Web, Mobile & Devices; exposición y validación de estándares durante sesiones técnicas.<br><br>
+      <strong>Espinoza Sáenz, Christian Renato:</strong> Desarrollo de wireframes y mockups de la landing page; participación en el deployment y soporte inicial del backend; presentación de avances de diseño y despliegue en demo internas.<br><br>
+      <strong>Isla Quispe, Luis Fernando:</strong> Desarrollo del capítulo de Information Architecture (labeling systems, searching systems, SEO & Meta Tags, Navigation Systems); explicación de criterios de arquitectura de información en sesiones de trabajo.<br><br>
+      <strong>Litano Liza, Joel Alexander:</strong> Desarrollo del capítulo Applications UX/UI Design con enfoque mobile y web; presentación de propuestas de interfaz y criterios de usabilidad aplicados al producto.<br><br>
     </td>
     <td>
       <strong>TB1:</strong> El equipo demostró una comunicación oral efectiva y adaptable durante el desarrollo del TB1, evidenciando la capacidad de transmitir conceptos técnicos complejos a audiencias con diferentes niveles de conocimiento. La diversidad de contribuciones orales, desde la presentación de perfiles de startup hasta la facilitación de sesiones de EventStorming y la conducción de entrevistas con productores rurales, demuestra la habilidad del equipo para adaptar su discurso según el contexto y la audiencia. Cada integrante logró comunicar efectivamente su área de especialización, utilizando ejemplos prácticos y terminología apropiada, lo que facilitó la comprensión y colaboración dentro del equipo multidisciplinario. La capacidad de explicar metodologías técnicas como Domain-Driven Design, Lean UX y arquitectura de software de manera accesible evidencia el dominio conceptual y las competencias comunicativas desarrolladas durante el proyecto.<br><br>
+      <strong>TB2:</strong> Durante TB2 el equipo evidenció coordinación y capacidad comunicativa en la presentación y demostración de componentes técnicos y de diseño: se comunicaron claramente los bounded contexts, las pautas de estilo, los avances en frontend y backend, y la arquitectura de información, facilitando la integración entre disciplinas y la validación temprana de las soluciones.
     </td>	
   </tr>
   <tr>
@@ -237,9 +244,17 @@ del ABET – EAC - Student Outcome 5.
       <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong> Los documentos elaborados, que incluían gráficos y resúmenes nítidos, se diseñaron para ser entendibles en términos amplios, tanto para individuos con un profundo conocimiento técnico como para aquellos sin esta formación. <br><br>
       <strong>Litano Liza, Joel Alexander:</strong> Desarrollé de manera integral la sección 4.2 Strategic-Level Domain-Driven Design, documentando detalladamente el proceso de EventStorming con sus cinco fases (Unstructured Exploration, Timelines, Pain Points, Pivotal Points, Commands), Candidate Context Discovery con sus etapas de identificación de políticas, read models, sistemas externos, agregados y bounded contexts, Domain Message Flows Modeling con cuatro escenarios críticos del sistema, Bounded Context Canvases y Context Mapping. Redacté la documentación técnica utilizando terminología especializada de DDD adaptada al contexto agrícola, estructurando la información de manera jerárquica y clara para facilitar la comprensión tanto de stakeholders técnicos como de miembros del equipo con menor experiencia en metodologías de diseño estratégico.<br><br>
       <strong>Isla Quispe, Luis Fernando:</strong><br>Para la entrega de la sección 4.1 (_Attribute-Driven Design Inputs, Architectural Drivers Backlog, Design Decisions y Quality Attribute Scenario Refinements_), redacté la documentación de forma clara, estructurada y con terminología técnica precisa. Organicé la información en apartados jerarquizados, lo que permitió a mis compañeros comprender fácilmente las relaciones entre los escenarios de atributos de calidad y las decisiones arquitectónicas. Asimismo, adapté la redacción para que sea entendible tanto para un lector técnico (profesor) como para los miembros del equipo con menor experiencia en diseño de software, asegurando que el documento sirva de base para futuras iteraciones.<br>
+      <strong>TB2:</strong><br>
+      <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Documentación y formalización de los bounded contexts en el capítulo V; actualización de contenidos técnicos vinculados al frontend.<br><br>
+      <strong>Chirinos Zúñiga, Rodrigo Manuel:</strong> Revisión y corrección de la primera entrega, elaboración de Style Guidelines y documentación de estándares para Web, Mobile & Devices.<br><br>
+      <strong>Espinoza Sáenz, Christian Renato:</strong> Desarrollo de wireframes y mockups de la landing page, y documentación asociada; soporte y documentación del proceso de deployment y arquitectura backend.<br><br>
+      <strong>Isla Quispe, Luis Fernando:</strong> Redacción del capítulo de Information Architecture incluyendo sistemas de etiquetado, búsqueda, SEO/Meta Tags y sistemas de navegación; documentación técnica y ejemplos aplicados al producto.
+      <br><br>
+      <strong>Litano Liza, Joel Alexander:</strong> Redacción del capítulo Applications UX/UI Design con cobertura del enfoque mobile y web, incluyendo directrices de diseño y patrones de interacción.
     </td>
     <td>
       <strong>TB1:</strong> El equipo demostró excelencia en comunicación escrita técnica, produciendo documentación integral y estructurada que abarca desde la conceptualización del startup hasta el diseño arquitectónico detallado del sistema. La calidad de la documentación generada evidencia la capacidad de cada integrante para adaptar su escritura técnica a diferentes audiencias, desde stakeholders académicos hasta potenciales usuarios finales del sector agrícola. La coherencia en el uso de terminología especializada, la estructuración jerárquica de la información y la claridad en la presentación de conceptos complejos como Domain-Driven Design, arquitectura de software y metodologías ágiles demuestra un alto nivel de competencia en comunicación escrita técnica. El equipo logró crear un documento académico riguroso que sirve tanto como reporte de investigación como guía técnica para futuras iteraciones del proyecto, evidenciando la capacidad de comunicar efectivamente a través de diferentes formatos y niveles de complejidad técnica.<br><br>
+      <strong>TB2:</strong> En TB2 el equipo consolidó y amplió la documentación técnica: se incorporaron los bounded contexts, se publicaron guías de estilo, wireframes y mockups, capítulos de arquitectura de información y diseño UX/UI; además se documentó el proceso de deployment y backend, entregando artefactos escritos que facilitan la implementación y mantenimiento del producto.
     </td>
   </tr>
 </table>
@@ -3308,7 +3323,7 @@ Diseñado con un enfoque humano y técnico, Verdeva transmite confianza, moderni
 
 Nunito es una fuente sans serif contemporánea, suave y muy fácil de leer, diseñada para ofrecer una experiencia visual accesible, cercana y profesional. Su uso en esta aplicación responde a la necesidad de equilibrar la tecnología detallada con una interfaz amigable y humana, enfocándose especialmente en los agricultores de pequeña y mediana escala en América del Sur.
 
-![Typography](Images/chapter6/nunito.png)
+![Typography](Images/chapter6/Nunito.png)
 
 </div>
 
@@ -3586,6 +3601,9 @@ A continuación, se presentan los mockups  de la landing page de Verdeva, diseñ
 ![Mockup versión mobile 12](Images/chapter6/mockupmo12.png)
 
 
+
+Los prototipos fueron elaborados en Figma. El enlace al proyecto es el siguiente:
+https://www.figma.com/design/eWAZhPqWYhBh6791cz56SC/Verdeva?node-id=0-1&t=tay6ewBm7eF7RCzT-1
 
 
 ### 6.4. Applications UX/UI Design
