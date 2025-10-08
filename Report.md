@@ -3308,7 +3308,7 @@ Diseñado con un enfoque humano y técnico, Verdeva transmite confianza, moderni
 
 Nunito es una fuente sans serif contemporánea, suave y muy fácil de leer, diseñada para ofrecer una experiencia visual accesible, cercana y profesional. Su uso en esta aplicación responde a la necesidad de equilibrar la tecnología detallada con una interfaz amigable y humana, enfocándose especialmente en los agricultores de pequeña y mediana escala en América del Sur.
 
-![Typography](Images/chapter6/nunito.png)
+![Typography](Images/chapter6/Nunito.png)
 
 </div>
 
