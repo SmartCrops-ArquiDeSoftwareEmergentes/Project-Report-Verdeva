@@ -3822,6 +3822,161 @@ https://www.figma.com/design/eWAZhPqWYhBh6791cz56SC/Verdeva?node-id=0-1&t=tay6ew
 
 <br>
 
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management
+
+<div align="justify">
+
+En esta sección se documentan las herramientas, convenciones, referencias y ajustes de configuración que el equipo usó durante el desarrollo. Estas prácticas fueron determinantes para asegurar la coherencia técnica, la trazabilidad de cambios y la calidad de las entregas.
+
+</div>
+
+### 7.1.1. Software Development Environment Configuration
+
+<div align="justify">
+
+Aquí se detallan las principales herramientas y servicios empleados para coordinar el trabajo del equipo, diseñar interfaces, desarrollar software y mantener la documentación técnica.
+
+</div>
+
+Project management
+
+- Microsoft 365 (https://www.office.com/): utilizado para la redacción y edición colaborativa de documentos, control de versiones de documentos y organización de plazos y entregables.
+- Google Meet (https://meet.google.com/): plataforma de videoconferencias para reuniones de planificación, demos y sincronización del equipo.
+
+Requirements management
+
+- Trello (https://trello.com/): tablero para gestionar el Product Backlog, priorizar tareas y visualizar el progreso por sprint.
+
+Product UX/UI Design
+
+- UXPressia (https://uxpressia.com/): creación de mapas de empatía, customer journeys y artefactos de research.
+- Figma (https://www.figma.com/): diseño de wireframes, prototipos interactivos y especificaciones de UI para web y móvil.
+- Canva (https://www.canva.com/): producción de recursos gráficos, banners y elementos visuales para comunicación y prototipos.
+
+Software development
+
+- Backend: .NET / ASP.NET Core — desarrollo de una API RESTful para exponer la lógica de negocio y los servicios del sistema.
+- Mobile App: Android Studio (Kotlin) — desarrollo nativo para Android con foco en rendimiento y usabilidad.
+
+Software documentation & modeling
+
+- Vertabelo (https://vertabelo.com/): modelado de bases de datos y diseño del esquema relacional.
+- LucidChart (https://lucid.app/): diagramas UML, diagramas de flujo y wireflows para documentar procesos.
+- Structurizr (https://www.structurizr.com/): elaboración de diagramas C4 para describir la arquitectura del sistema.
+
+### 7.1.2. Source Code Management
+
+<div align="justify">
+
+El equipo empleó GitHub como plataforma de control de versiones. Para organizar el desarrollo y facilitar la colaboración se aplicó el flujo GitFlow, que estructura las ramas y el proceso de liberación de versiones.
+
+</div>
+
+- Repositorios (referencias):
+  - Organization: Ver Organización
+  - Backend Repository: Ver Backend Repository
+  - Report Repository: Ver Report Repository
+  - Frontend Repository: Ver Frontend Repository
+  - LandingPage Repository: Ver LandingPage Repository
+  - MobileApp Repository: Ver MobileApp Repository
+
+GitFlow (modelo de ramas)
+
+- main: rama estable con versiones listas para producción.
+- develop: rama de integración de las nuevas funcionalidades.
+
+Ramas auxiliares:
+
+- feature/* — ramas para nuevas funcionalidades que, al completarse, se integran en develop.
+- release/* — ramas que facilitan pruebas y ajustes antes de publicar una versión estable.
+- hotfix/* — ramas para correcciones críticas que requieren despliegue inmediato en producción.
+
+Convenciones de nomenclatura
+
+- feature/nombre-de-la-caracteristica
+- release/vX.Y.Z
+- hotfix/descripcion-del-error
+
+Convenciones de commit
+
+- Se adoptó Conventional Commits para mensajes de commit, con prefijos como:
+  - feat: nueva característica
+  - fix: corrección de bug
+  - docs: cambios en documentación
+  - chore: tareas de mantenimiento
+
+### 7.1.3. Source Code Style Guide & Conventions
+
+<div align="justify">
+
+Con el objetivo de mantener uniformidad y calidad del código, el equipo siguió convenciones adaptadas a los lenguajes y plataformas empleados. A continuación se resumen las reglas principales.
+
+</div>
+
+General Naming & Language Convention
+
+- Idioma: Inglés para identificadores, mensajes y documentación técnica.
+- Case styles:
+  - camelCase: variables, funciones y métodos.
+  - PascalCase: clases, interfaces y componentes.
+  - kebab-case: nombres de archivos y componentes en plantillas HTML/CSS.
+  - UPPER_SNAKE_CASE: constantes.
+- Evitar abreviaciones y nombres poco descriptivos.
+
+Mobile App (Kotlin con Android Studio)
+
+- Guía: Kotlin Style Guide
+- Convenciones:
+  - Uso de camelCase para variables y funciones.
+  - Clases en PascalCase.
+  - Preferir val sobre var cuando sea posible.
+  - Preferir funciones de extensión y utilidades que mejoren la testabilidad.
+
+Frontend (Vue.js)
+
+- Guía: Vue 3 Style Guide
+- Convenciones:
+  - Componentes en PascalCase.
+  - Props y eventos en camelCase (script) y kebab-case (templates).
+  - Archivos de componente en kebab-case.vue.
+
+Backend (C# con ASP.NET Core)
+
+- Guía: Microsoft C# Coding Conventions
+- Convenciones:
+  - Clases, métodos y propiedades en PascalCase.
+  - Variables locales y parámetros en camelCase.
+  - Uso generalizado de async/await para IO y acceso a recursos.
+  - Inyección de dependencias y evitar "magic strings".
+
+Gherkin (archivos .feature)
+
+- Guía: Gherkin Conventions
+- Convenciones:
+  - Nombres de archivo en snake_case.feature.
+  - Uso de Feature, Scenario, Given, When, Then y And.
+  - Enfocar escenarios en comportamiento observable, no en implementación.
+
+### 7.1.4. Software Deployment Configuration
+
+### 7.2. Solution Implementation
+
+#### 7.2.1. Sprint 1
+##### 7.2.1.1. Sprint Planning 1.
+##### 7.2.1.2. Sprint Backlog 1.
+##### 7.2.1.3. Development Evidence for Sprint Review.
+##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+##### 7.2.1.5. Execution Evidence for Sprint Review.
+##### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+##### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+##### 7.2.1.8. Team Collaboration Insights during Sprint.
+### 7.3. Validation Interviews.
+#### 7.3.1. Diseño de Entrevistas.
+#### 7.3.2. Registro de Entrevistas.
+#### 7.3.3. Evaluaciones según heurísticas.
+### 7.4. Video About-the-Product.
 
 # Conclusiones
 
