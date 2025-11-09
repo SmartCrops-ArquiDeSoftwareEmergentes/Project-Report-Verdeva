@@ -15,34 +15,34 @@
     <strong>Producto: Verdeva</strong>
 </p>
 
-<h3 align="center" >Team Members:</h3>
+<h3 align="center">Integrantes del proyecto</h3>
 <div>
-    <table align="center">
-        <tr>
-            <th style="text-align:center;">Miembro</th>
-            <th style="text-align:center;">Código</th>
-        </tr>
-        <tr>
-            <td>Pinto Fuentes Rivera, Alvaro Felipe </td>
-            <td>U202213384 </td>
-        </tr>
-        <tr>
-            <td>Espinoza Saenz, Christian Renato </td>
-            <td>U202213208 </td>
-        </tr>
-        <tr>
-            <td>Chirinos Zúñiga, Rodrigo Manuel </td>
-            <td>U202217804   </td>
-        </tr>
-        <tr>
-            <td>Litano Liza, Joel Alexander</td>
-            <td>U20181A732  </td>
-        </tr>
-        <tr>
-            <td>Isla Quispe, Luis Fernando </td>
-            <td>U202124146 </td>
-        </tr>
-    </table>
+  <table text-align="center">
+    <tr>
+      <th style="text-align:center;">Miembro</th>
+      <th style="text-align:center;">Código</th>
+    </tr>
+    <tr>
+      <td>Pinto Fuentes Rivera, Alvaro Felipe</td>
+      <td>U202213384</td>
+    </tr>
+    <tr>
+      <td>Espinoza Saenz, Christian Renato</td>
+      <td>U202213208</td>
+    </tr>
+    <tr>
+      <td>Chirinos Zúñiga, Rodrigo Manuel</td>
+      <td>U202217804</td>
+    </tr>
+    <tr>
+      <td>Litano Liza, Joel Alexander</td>
+      <td>U20181A732</td>
+    </tr>
+    <tr>
+      <td>Isla Quispe, Luis Fernando</td>
+      <td>U202124146</td>
+    </tr>
+  </table>
 </div>
 <br>
 <p align="center">
@@ -3961,10 +3961,90 @@ Gherkin (archivos .feature)
 
 ### 7.1.4. Software Deployment Configuration
 
-### 7.2. Solution Implementation
+Resumen
 
+La solución Verdeva se despliega en una arquitectura distribuida en la nube. Actualmente incluye:
+
+- Una Landing Page pública (Netlify).
+- Una Web Application prototipo (Netlify).
+- Un Backend (ASP.NET Core) desplegado en Microsoft Azure.
+- Base de datos gestionada en MongoDB Atlas.
+
+Objetivo de la sección: documentar el entorno de despliegue actual, el proceso de entrega continua y los planes de evolución para integrar dispositivos IoT y escalar la solución.
+
+Entorno de despliegue
+
+1) Landing Page
+
+- Plataforma: Netlify
+- URL pública: https://landingverdeva.netlify.app/
+- Propósito: presentar la propuesta de valor, menú inicial y acceso público al producto.
+- Despliegue: integración continua desde el repositorio mediante GitHub Actions (build + deploy automático).
+
+![Landing Page preview](image-23.png)
+
+2) Frontend Web Application
+
+- Plataforma: Netlify
+- URL pública: https://verdeva.netlify.app/login
+- Propósito: prototipo y maquetación base de la interfaz web del producto.
+- Despliegue: CI/CD con GitHub Actions; cada push a la rama principal genera un build y despliegue automático.
+
+![Web App preview](image-24.png)
+
+3) Backend
+
+- Tecnología: C# con ASP.NET Core (API RESTful)
+- URL de swagger (entorno de staging/producción): https://verdeva-ayagdeb0dceddwgw.canadacentral-01.azurewebsites.net/swagger/index.html
+- Contenerización: imágenes Docker para facilitar portabilidad y despliegue en la nube.
+- Seguridad: credenciales y parámetros sensibles almacenados en variables de entorno y/o servicios de gestión de secretos.
+- Buenas prácticas: se sigue la guía Microsoft C# Coding Conventions para mantener código mantenible.
+
+![Backend preview](image-25.png)
+
+4) Base de datos
+
+- Servicio: MongoDB Atlas (Cloud)
+- Configuración: instancias gestionadas con acceso restringido por IP/credenciales; uso de usuarios con permisos mínimos necesarios.
+
+Proceso de despliegue (resumen)
+
+- Flujo general:
+  1. Desarrollo local y ejecución de pruebas unitarias/integ. 
+  2. Construcción de artefactos (build de frontend / imagen Docker del backend).
+  3. Ejecución de pipelines CI (GitHub Actions) que realizan tests y builds.
+  4. Despliegue automático a Netlify (frontend) y Azure Web App o contenedor registrado (backend).
+  5. Variables de entorno y secretos gestionados fuera del repositorio (Azure Key Vault o variables de GitHub Actions/Azure).
+
+- Notas de seguridad y operativas:
+  - Las credenciales de MongoDB Atlas no deben almacenarse en el código. Usar variables de entorno y servicios de secretos.
+  - Habilitar HTTPS en todos los endpoints públicos.
+  - Monitorización básica (logs de aplicación, métricas de uso) y alertas para fallos críticos.
+
+Planes futuros
+
+- Integración de dispositivos IoT: planificar colas/streaming (MQTT / Kafka) y endpoints seguros para recepción de telemetría.
+- Escalado del backend: configurar autoescalado en Azure, balanceo de carga y cache distribuido (Redis) para cumplir requisitos de rendimiento.
+- Observabilidad: integración con herramientas de monitorización y trazabilidad (Application Insights / Prometheus + Grafana).
+
+### 7.2. Solution Implementation
 #### 7.2.1. Sprint 1
-##### 7.2.1.1. Sprint Planning 1.
+
+Para este primer Sprint hemos definido como objetivo desarrollar las principales pantallas de nuestra aplicación web y la primera versión de nuestro backend.
+
+##### 7.2.1.1. Sprint Planning 1
+
+| Campo | Detalle |
+|---|---|
+| Sprint # | Sprint 1 |
+| Sprint Planning Background | Planificación inicial del equipo para organizar entregables y responsabilidades |
+| Date | 2025-10-28 |
+| Time | 15:00 pm |
+| Location | Virtual por Zoom |
+| Prepared By | Pinto Fuentes Rivera, Alvaro Felipe |
+| Attendees (to planning meeting) | Pinto Fuentes Rivera, Alvaro Felipe; Espinoza Saenz, Christian Renato; Chirinos Zúñiga, Rodrigo Manuel; Litano Liza, Joel Alexander; Isla Quispe, Luis Fernando |
+| Sprint 1 Goal | Desplegar la primera versión de nuestra Landing Page, Aplicación Web y Backend. |
+
 ##### 7.2.1.2. Sprint Backlog 1.
 ##### 7.2.1.3. Development Evidence for Sprint Review.
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
