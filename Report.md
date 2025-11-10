@@ -4046,7 +4046,34 @@ Para este primer Sprint hemos definido como objetivo desarrollar las principales
 | Sprint 1 Goal | Desplegar la primera versión de nuestra Landing Page, Aplicación Web y Backend. |
 
 ##### 7.2.1.2. Sprint Backlog 1.
+A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stories (US) del trabajadas, excluyendo las Technical Stories (TS). Se indica responsable y estimación para cada US. Las US están agrupadas según su contexto (Landing Page, Web Application y Mobile Application).
+
+| Tipo           | User Story ID | Título                                              | Descripción principal                                         | Estimación (Horas) | Responsable(s)                      | Estado   |
+|----------------|--------------|-----------------------------------------------------|---------------------------------------------------------------|--------------------|--------------------------------------|----------|
+| **Landing Page** |              |                                                     |                                                               |                    |                                      |          |
+|                | US-01         | Información de Verdeva        | Implementar sección de información en la landing page          | 2                  | Pinto Fuentes Rivera, Alvaro Felipe	         | Done     |
+|                | US-02         | Características de Verdeva                    | Implementar sección de características en la landing page       | 2                  | Pinto Fuentes Rivera, Alvaro Felipe	                          | Done     |
+|                | US-03         | Sección de planes o membresías                            | Implementar sección de planes en la landing page                       | 2                  | Pinto Fuentes Rivera, Alvaro Felipe	        | Done     |
+| **Web y Mobile Application**  |          |                                                     |                                                               |                    |                                      |          |
+|                | US-04         | Registro de Usuario                            | Crear funcionalidad para el registro del usuario                 | 4                  | Chirinos Zúñiga, Rodrigo Manuel	         | Done     |
+|                | US-05         | Inicio de Sesión                        | Crear funcionalidad para el inicio de sesión               | 4                  | Chirinos Zúñiga, Rodrigo Manuel	         | Done     |
+|                | US-07	         | Adición de Campos Agrícolas	                         | Crear funcionalidad para agregar campos agrícolas               | 4                  | Espinoza Saenz, Christian Renato	         | Done     |
+|                | US-08	         | Edición de Campos Agrícolas                              | Crear funcionalidad para editar los campos agrícolas agregados                        | 5                  | Espinoza Saenz, Christian Renato	         | Done     |
+|                | US-09         | Eliminación de Campos Agrícolas                          | Crear funcionalidad para eliminar campos agrícolas                      | 5                  | Espinoza Saenz, Christian Renato         | Done     |
+|                | US-10         | Registro de Cultivos                           | Crear funcionalidad para el registro de cultivos                       | 5                  | Litano Liza, Joel Alexander         | Done     |
+|                | US-11	         | Edición de Cultivos                                   | Crear funcionalidad para editar los cultivos agregados                        | 4                  | Espinoza Saenz, Christian Renato	         | Done     |
+|                | US-12	         | Eliminación de Cultivos                               | Crear funcionalidad para eliminar cultivos agregados                      | 4                  | Espinoza Saenz, Christian Renato	                         | Done     |
+|                | US-13         | Conectar y Adicionar Dispositivos IOT a mis Cultivos                                | Crear funcionalidad conectar y agregar los sensores a los cultivos respectivos                     | 6                  | Isla Quispe, Luis Fernando	                         | Done     |
+|                | US-14         | Desconectar Dispositivos IOT a mis Cultivos                     |    Crear funcionalidad para desconectar los sensores deseados                        | 6                  | Isla Quispe, Luis Fernando	                         | Done     |
+|                | US-17	         | Recomendaciones y Toma de decisión de los Cultivos                   | Crear funcionalidad para las recomendaciones de la IA                 | 6                  | Pinto Fuentes Rivera, Alvaro Felipe	                         | Done     |
+|                | US-23		         | Configuración de Cuenta	                   | Crear funcionalidad para que el usuario pueda personalizar su cuenta                 | 4                  | Litano Liza, Joel Alexander	                         | Done     |
+
 ##### 7.2.1.3. Development Evidence for Sprint Review.
+
+
+
+
+
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 ##### 7.2.1.5. Execution Evidence for Sprint Review.
 ##### 7.2.1.6. Services Documentation Evidence for Sprint Review.
