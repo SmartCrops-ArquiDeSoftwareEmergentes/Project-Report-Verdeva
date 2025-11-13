@@ -4144,9 +4144,60 @@ La suite de pruebas se compone de dos partes:
 | SmartCrops-ArquiDeSoftwareEmergentes/Back-End-Verdeva | feature/testing-sprint1 | account_settings.feature | US-23                                    | Pruebas BDD para actualización de preferencias y configuración de cuenta del usuario.         | <por completar> | test: add account settings feature             | Added feature file for user account settings update and validation scenarios.    | <por completar>         |
 
 ##### 7.2.1.5. Execution Evidence for Sprint Review.
+Ejecución del Frontend: Durante este sprint se concretó el desarrollo del frontend incluyendo las recomendaciones.
+
+![hola](image-26.png)
+
+Ejecución de la ai api: Durante este sprint se configuró la api key de gemini para ser usada en el frontend.
+
+![alt text](image-27.png)
+
+
+Ejecución del backend: Durante este sprint se completó el desarrollo del backend cubriendo todos los endpoint mencionados en nuestro alcance.
+
+![alt text](image-28.png)
+
+
+Ejecución api edge: Se demostró mediante logs y la herramienta Postman cómo el ESP32 enviaba peticiones a la API Edge.
+
+![alt text](image-29.png)
+
 ##### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Agro Gemini API (AI)
+
+Información básica:
+
+- Nombre: Agro Gemini API
+- Versión: 0.1.0
+- Especificación: OAS 3.1
+- OpenAPI descriptor: /openapi.json
+- Security: default
+- Documentación pública: https://ai-api-pearl-one.vercel.app/docs#/
+
+Endpoints relevantes (referencia de integración):
+
+| Verbo | Ruta | Nombre / Acción |
+|---|---|---|
+| GET | /health | Health, revisar el estado de la api |
+| POST | /v1/agro/ask | Ask, pregunta a la ia |
+| GET | / | Root |
+
 ##### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Firmware en ESP32: El firmware fue compilado y cargado exitosamente en el dispositivo ESP32 físico. API Edge en Azure: La API Edge fue desplegada y está accesible públicamente en Azure, lista para recibir datos de los dispositivos IoT en campo.
+
+Prueba con Postman del Edge:
+Postman Solicitud 
+
+![alt text](image-30.png)
+
+Backend Actualizado: El backend principal fue actualizado en su despliegue de Azure para incluir la lógica de comunicación con la nueva API Edge.
+
 ##### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+En el Sprint 1, la colaboración se centró en la integración de las diferentes capas del proyecto. El equipo de hardware y firmware (liderado por Alvaro) trabajó en estrecha colaboración con el equipo de la API Edge (liderado por Christian) para definir los contratos de datos. A su vez, el equipo de backend (liderado por Rodrigo) coordinó con el equipo Edge para asegurar la correcta recolección de los datos. El esfuerzo conjunto fue clave para superar los desafíos de la integración física y lograr una solución funcional.
+
 ### 7.3. Validation Interviews.
 #### 7.3.1. Diseño de Entrevistas.
 #### 7.3.2. Registro de Entrevistas.
