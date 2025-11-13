@@ -4116,6 +4116,8 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 4270cc4a46a233f518587f9fd04be47e56313029|fix|-|27/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | e24cab6f6a5042431b5a6c2f4fabbc978e64009e|feat: ai logic changed|-|08/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 7831cfd3f3513b9ba723ee3fd4c664384873ccf1|fix: ai language fixed|-|08/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | a3f610883e1f9956fee9107066e0fae5cffa4d59|feat: more consideration of attributes added|-|10/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 89e473cb6a70847b0313b8bab1f04e41e6e06352|feat: attributes logic update|-|10/11/2025|
 
 **Mobile Application:**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
