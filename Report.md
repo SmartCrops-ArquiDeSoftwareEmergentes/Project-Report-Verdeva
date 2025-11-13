@@ -4256,8 +4256,7 @@ Segmento 1: Productores Rurales Tradicionales
     <tr><th style="text-align:left;">Tecnologías</th><td>Zoom, Windows</td></tr>
     <tr><th style="text-align:left;">Browsers</th><td>Google Chrome</td></tr>
     <tr><th style="text-align:left;">Entrevistador</th><td>Alvaro Pinto</td></tr>
-    <tr><th style="text-align:left;">Evidencia</th><td>Entrevista a Darling Fuentes Rivera</td></tr>
-    <tr><th style="text-align:left;">Link</th><td>Microsoft Stream</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQAVws4DynKyTbT1OrQuNm3vAe4Lp8T0WIfwRb6g1LpcKAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UrjG12</td></tr>
     <tr><th style="text-align:left;">Duración</th><td>05:16 min</td></tr>
     <tr>
       <th style="text-align:left; vertical-align:top;">Imagen</th>
