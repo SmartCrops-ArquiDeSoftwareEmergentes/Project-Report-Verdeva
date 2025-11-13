@@ -941,28 +941,33 @@ Se llevará a cabo tres entrevistas por cada segmento, sumando un total de seis.
 <table>
 <colgroup>
 </colgroup>
-<thead>
-  <tr>
-    <th colspan="2"><div align="center">Entrevista #1<br></div></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td>Diego</td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td>Cano Acero</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>23 años</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>La molina</td>
-  </tr>
+  <table>
+    <tr><th style="text-align:left;">Nombre</th><td>Darling</td></tr>
+    <tr><th style="text-align:left;">Apellidos</th><td>Fuentes Rivera</td></tr>
+    <tr><th style="text-align:left;">Edad</th><td>--</td></tr>
+    <tr><th style="text-align:left;">Distrito</th><td>Huancayo</td></tr>
+    <tr><th style="text-align:left;">Aplicaciones Usadas</th><td>Google Chrome, Zoom</td></tr>
+    <tr><th style="text-align:left;">Motivación</th><td>Mejorar el rendimiento de sus cultivos y aprender nuevas tecnologías que faciliten su trabajo.</td></tr>
+    <tr><th style="text-align:left;">Frustración</th><td>No saber con precisión cuánto fertilizante o agua aplicar y enfrentar el alto costo de los insumos.</td></tr>
+    <tr><th style="text-align:left;">Tecnologías</th><td>Zoom, Windows</td></tr>
+    <tr><th style="text-align:left;">Browsers</th><td>Google Chrome</td></tr>
+    <tr><th style="text-align:left;">Entrevistador</th><td>Diego Criollo</td></tr>
+    <tr><th style="text-align:left;">Evidencia</th><td>Entrevista a Darling Fuentes Rivera</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>Microsoft Stream</td></tr>
+    <tr><th style="text-align:left;">Duración</th><td>05:16 min</td></tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Imagen</th>
+      <td>
+        <div style="margin-top:4px; border:1px solid #ccc; width:320px; height:180px; display:flex; align-items:center; justify-content:center; color:#777;">Imagen (zona vacía)</div>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Resumen</th>
+      <td>
+        Darling Fuentes Rivera, agricultora del distrito de Huancayo, señaló que desde el inicio comprendió que Verdeva permite monitorear el estado del suelo y optimizar riego y fertilización. Destacó que las instrucciones y los indicadores visuales facilitaron la conexión de sensores y que los gráficos (humedad, pH, nutrientes) y las recomendaciones resultaron claros y útiles para la toma de decisiones en campo. No experimentó dificultades al configurar alertas ni al activar el riego, y valoró la navegación intuitiva y la claridad de los mensajes de error. También apreció que las diferencias entre funciones gratuitas y de pago estén bien señaladas y consideró el lenguaje de la aplicación accesible para usuarios sin formación técnica. Como sugerencias propuso incorporar un asistente virtual o chat de soporte y añadir una vista predictiva del clima para complementar las recomendaciones de riego.
+      </td>
+    </tr>
+  </table>
   <tr>
     <td>Aplicaciones Usadas</td>
     <td>Zoom</td>
@@ -4228,6 +4233,36 @@ Estas preguntas están diseñadas para evaluar la usabilidad de la plataforma Ve
 
 Segmento 1: Productores Rurales Tradicionales
 
+<div>
+  <h4>Entrevista #1</h4>
+  <table>
+    <tr><th style="text-align:left;">Nombre</th><td>Darling</td></tr>
+    <tr><th style="text-align:left;">Apellidos</th><td>Fuentes Rivera</td></tr>
+    <tr><th style="text-align:left;">Edad</th><td>41 años</td></tr>
+    <tr><th style="text-align:left;">Distrito</th><td>Huancayo</td></tr>
+    <tr><th style="text-align:left;">Aplicaciones Usadas</th><td>Google Chrome, Zoom</td></tr>
+    <tr><th style="text-align:left;">Motivación</th><td>Mejorar el rendimiento de sus cultivos y aprender nuevas tecnologías que faciliten su trabajo.</td></tr>
+    <tr><th style="text-align:left;">Frustración</th><td>No saber con precisión cuánto fertilizante o agua aplicar y enfrentar el alto costo de los insumos.</td></tr>
+    <tr><th style="text-align:left;">Tecnologías</th><td>Zoom, Windows</td></tr>
+    <tr><th style="text-align:left;">Browsers</th><td>Google Chrome</td></tr>
+    <tr><th style="text-align:left;">Entrevistador</th><td>Alvaro Pinto</td></tr>
+    <tr><th style="text-align:left;">Evidencia</th><td>Entrevista a Darling Fuentes Rivera</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>Microsoft Stream</td></tr>
+    <tr><th style="text-align:left;">Duración</th><td>05:16 min</td></tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Imagen</th>
+      <td>
+        <div align="center"><img src="image-33.png" alt="Darling Fuentes Rivera"></div></td>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Resumen</th>
+      <td>
+        Darling Fuentes Rivera, agricultora del distrito de Huancayo, señaló que desde el inicio comprendió que Verdeva permite monitorear el estado del suelo y optimizar riego y fertilización. Destacó que las instrucciones y los indicadores visuales facilitaron la conexión de sensores y que los gráficos (humedad, pH, nutrientes) y las recomendaciones resultaron claros y útiles para la toma de decisiones en campo. No experimentó dificultades al configurar alertas ni al activar el riego, y valoró la navegación intuitiva y la claridad de los mensajes de error. También apreció que las diferencias entre funciones gratuitas y de pago estén bien señaladas y consideró el lenguaje de la aplicación accesible para usuarios sin formación técnica. Como sugerencias propuso incorporar un asistente virtual o chat de soporte y añadir una vista predictiva del clima para complementar las recomendaciones de riego.
+      </td>
+    </tr>
+  </table>
+</div>
 
 Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
 
