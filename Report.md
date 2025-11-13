@@ -4131,7 +4131,7 @@ El objetivo de esta evidencia es demostrar el inicio de la cobertura de testing 
 
 La suite de pruebas se compone de dos partes:
 
-- **Unit Tests:** desarrollados en el proyecto `NutriControl.Application.Test` del repositorio **Back-End-Verdeva**, utilizando el framework **xUnit**, con librerías auxiliares **Moq** y **AutoMapper** para simular dependencias.
+- **Unit Tests:** desarrollados en el proyecto `Verdeva.Application.Test` del repositorio **Back-End-Verdeva**, utilizando el framework **xUnit**, con librerías auxiliares **Moq** y **AutoMapper** para simular dependencias.
     
 - **Integration y Acceptance Tests bajo BDD:** planificados mediante archivos `.feature` escritos en lenguaje **Gherkin**, que describen el comportamiento esperado de los servicios y flujos principales del sistema.  
 
@@ -4222,7 +4222,7 @@ Estas preguntas están diseñadas para evaluar la usabilidad de la plataforma Ve
 
 9. ¿Consideras que el lenguaje utilizado en la aplicación (web y móvil) es claro, especialmente si no tienes experiencia técnica previa?
 
-10. ¿Qué mejoras o funciones adicionales te gustaría que tenga NutriControl para facilitar aún más el cuidado de tus cultivos?
+10. ¿Qué mejoras o funciones adicionales te gustaría que tenga Verdeva para facilitar aún más el cuidado de tus cultivos?
 
 #### 7.3.2. Registro de Entrevistas.
 
@@ -4234,7 +4234,7 @@ Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
 
 #### 7.3.3. Evaluaciones según heurísticas.
 
-En esta sección se resumen las evaluaciones heurísticas realizadas a partir de los hallazgos recogidos durante las entrevistas de validación de NutriControl. Para cada heurística se presenta: una breve descripción, observaciones recogidas, evidencia de los usuarios, nivel de severidad y recomendaciones prácticas.
+En esta sección se resumen las evaluaciones heurísticas realizadas a partir de los hallazgos recogidos durante las entrevistas de validación de Verdeva. Para cada heurística se presenta: una breve descripción, observaciones recogidas, evidencia de los usuarios, nivel de severidad y recomendaciones prácticas.
 
 1) Heurística: Consistencia y estándares
 
