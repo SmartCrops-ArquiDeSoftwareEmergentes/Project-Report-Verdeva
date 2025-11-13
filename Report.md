@@ -4089,6 +4089,12 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 087e67ba880845a57b931384b7f4644b7fab10e9|feat: realtime sensors styles fixed|-|29/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 1086eafdcbe8fbddcf3cd3259e807b8b831f07fa|feat: added first version of ai recommendations|-|30/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 6c7dcb5721cac4a5c9644762bab0c5fc79ac8bad|feat: ai recommendation improved|-|08/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 2d9a1bc14ab278d9979926e548d30d66322aa9b3|feat: sensors recommendations improved|-|10/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 09bd4c4d851ca72665bf88a6f3c6926a709fb7f4|feat: improved ai conexion|-|10/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 071144ed2a60203203d44aa76112cd2b0c722ed7|feat: netflify toml added|-|11/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 639a1ac7401a4b0cebfd44ac4586b7d589307cf4|fix: api integration fixed|-|11/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 071144ed2a60203203d44aa76112cd2b0c722ed7|feat: api integration updated|-|11/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 071144ed2a60203203d44aa76112cd2b0c722ed7|fix: base api fix|-|11/11/2025|
 
 **Api-edge-Verdeva**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
@@ -4115,8 +4121,10 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 4270cc4a46a233f518587f9fd04be47e56313029|fix|-|27/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | e24cab6f6a5042431b5a6c2f4fabbc978e64009e|feat: ai logic changed|-|08/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 7831cfd3f3513b9ba723ee3fd4c664384873ccf1|fix: ai language fixed|-|08/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | a3f610883e1f9956fee9107066e0fae5cffa4d59|feat: more consideration of attributes added|-|10/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 89e473cb6a70847b0313b8bab1f04e41e6e06352|feat: attributes logic update|-|10/11/2025|
 
-**AI-API**
+**Mobile Application:**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 7734c9159ddd3e3f462ad58a823a6ff2ed3fa692|Innitial Commit|-|08/11/2025|
@@ -4127,6 +4135,8 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 4e80f0718ee9b2e1f75ff1faadebd9920afa1b45|feat: added new sensors|-|09/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | c040facafb2a39e755cf1d2ce8caecffd55a92f8|feat: improved sensors data display|-|09/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 45e06acace042cc5d3b33e746469f12fc89a938a|feat: sensors data display and update sign in|-|09/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 325f81bb68fa86e0e3c3f2d7f7d97a9ef5060ed4|feat: Important commit|-|10/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | dcaafc138e824da2480d7f4852fa4b1465998a20|feat: improve logo|-|10/11/2025|
 
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
