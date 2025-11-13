@@ -4084,12 +4084,6 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 087e67ba880845a57b931384b7f4644b7fab10e9|feat: realtime sensors styles fixed|-|29/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 1086eafdcbe8fbddcf3cd3259e807b8b831f07fa|feat: added first version of ai recommendations|-|30/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 6c7dcb5721cac4a5c9644762bab0c5fc79ac8bad|feat: ai recommendation improved|-|08/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 2d9a1bc14ab278d9979926e548d30d66322aa9b3|feat: sensors recommendations improved|-|10/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 09bd4c4d851ca72665bf88a6f3c6926a709fb7f4|feat: improved ai conexion|-|10/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 071144ed2a60203203d44aa76112cd2b0c722ed7|feat: netflify toml added|-|11/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 639a1ac7401a4b0cebfd44ac4586b7d589307cf4|fix: api integration fixed|-|11/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 071144ed2a60203203d44aa76112cd2b0c722ed7|feat: api integration updated|-|11/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 071144ed2a60203203d44aa76112cd2b0c722ed7|fix: base api fix|-|11/11/2025|
 
 **Api-edge-Verdeva**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
@@ -4116,10 +4110,8 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 4270cc4a46a233f518587f9fd04be47e56313029|fix|-|27/10/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | e24cab6f6a5042431b5a6c2f4fabbc978e64009e|feat: ai logic changed|-|08/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 7831cfd3f3513b9ba723ee3fd4c664384873ccf1|fix: ai language fixed|-|08/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | a3f610883e1f9956fee9107066e0fae5cffa4d59|feat: more consideration of attributes added|-|10/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 89e473cb6a70847b0313b8bab1f04e41e6e06352|feat: attributes logic update|-|10/11/2025|
 
-**Mobile Application:**
+**AI-API**
 |Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
 |----|-----|------|-----|----|---|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 7734c9159ddd3e3f462ad58a823a6ff2ed3fa692|Innitial Commit|-|08/11/2025|
@@ -4130,8 +4122,6 @@ A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stor
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 4e80f0718ee9b2e1f75ff1faadebd9920afa1b45|feat: added new sensors|-|09/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | c040facafb2a39e755cf1d2ce8caecffd55a92f8|feat: improved sensors data display|-|09/11/2025|
 |https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 45e06acace042cc5d3b33e746469f12fc89a938a|feat: sensors data display and update sign in|-|09/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | 325f81bb68fa86e0e3c3f2d7f7d97a9ef5060ed4|feat: Important commit|-|10/11/2025|
-|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva| main | dcaafc138e824da2480d7f4852fa4b1465998a20|feat: improve logo|-|10/11/2025|
 
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
@@ -4210,8 +4200,96 @@ En el Sprint 1, la colaboración se centró en la integración de las diferentes
 
 ### 7.3. Validation Interviews.
 #### 7.3.1. Diseño de Entrevistas.
+
+Estas preguntas están diseñadas para evaluar la usabilidad de la plataforma Verdeva desde la perspectiva de los usuarios finales, considerando distintos niveles de tecnificación agrícola. El objetivo es identificar oportunidades de mejora en comprensión, funcionalidad, navegación y percepción general de la solución.
+
+
+1. ¿Pudiste entender desde el inicio para qué sirve Verdeva y cómo puede ayudarte en tu labor agrícola?
+
+2. ¿La plataforma te guió de manera sencilla para conectar los sensores y comenzar a monitorear tu terreno?
+
+3. ¿Sentiste que los datos del suelo (humedad, pH, nutrientes) estaban claros, eran comprensibles y útiles para tomar decisiones?
+
+4. ¿Tuviste dificultades al momento de configurar alertas, activar el riego o interpretar las recomendaciones?
+
+5. ¿Qué tan intuitiva te pareció la navegación entre las secciones del sistema (dashboard, reportes, alertas, configuración, etc.)?
+
+6. ¿La plataforma respondió adecuadamente cuando cometiste un error al ingresar datos o al configurar un sensor?
+
+7. ¿Las recomendaciones y alertas personalizadas fueron fáciles de entender y aplicar en el campo?
+
+8. ¿Te resultó fácil distinguir cuáles funciones están disponibles en el plan gratuito y cuáles requieren suscripción?
+
+9. ¿Consideras que el lenguaje utilizado en la aplicación (web y móvil) es claro, especialmente si no tienes experiencia técnica previa?
+
+10. ¿Qué mejoras o funciones adicionales te gustaría que tenga NutriControl para facilitar aún más el cuidado de tus cultivos?
+
 #### 7.3.2. Registro de Entrevistas.
+
+Segmento 1: Productores Rurales Tradicionales
+
+
+Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
+
+
 #### 7.3.3. Evaluaciones según heurísticas.
+
+En esta sección se resumen las evaluaciones heurísticas realizadas a partir de los hallazgos recogidos durante las entrevistas de validación de NutriControl. Para cada heurística se presenta: una breve descripción, observaciones recogidas, evidencia de los usuarios, nivel de severidad y recomendaciones prácticas.
+
+1) Heurística: Consistencia y estándares
+
+- Descripción: La interfaz debe mantener patrones y convenciones uniformes en todos sus elementos.
+- Observaciones: Los entrevistados perciben coherencia en la navegación y en la disposición del dashboard, reportes y alertas; no obstante, algunas notificaciones resultan poco claras.
+- Evidencia: Valoración positiva de la organización del dashboard y la usabilidad general; varias personas solicitan mayor claridad en las notificaciones y su integración con canales como WhatsApp.
+- Severidad: 2 (Moderado)
+- Recomendaciones:
+  - Estandarizar el aspecto visual de las notificaciones (paleta, iconografía, tono de redacción).
+  - Evaluar canales complementarios (por ejemplo, envío de alertas críticas vía WhatsApp).
+  - Definir y aplicar un sistema de diseño que garantice uniformidad entre secciones.
+
+2) Heurística: Flexibilidad y eficiencia de uso
+
+- Descripción: La plataforma debe permitir adaptar flujos a las necesidades del usuario y acelerar tareas recurrentes.
+- Observaciones: Se resaltó la facilidad para emparejar sensores y la navegación rápida; se propuso permitir personalizaciones por tipo de cultivo y lote, así como compatibilidad con sistemas automatizados existentes.
+- Evidencia: Usuarios destacaron la rapidez para conectar dispositivos y moverse entre funciones; pidieron perfiles por cultivo/lote y soporte para integración con riego automatizado.
+- Severidad: 3 (Alto)
+- Recomendaciones:
+  - Añadir perfiles configurables por lote y tipo de cultivo.
+  - Implementar conectores o adaptadores para sistemas de riego automatizado comunes.
+  - Incluir mecanismos de carga masiva o importación personalizada de datos.
+
+3) Heurística: Diseño estético y minimalista
+
+- Descripción: La interfaz debe evitar información innecesaria y priorizar lo relevante.
+- Observaciones: El diseño limpio y el contraste fueron bien valorados; varias personas sugirieron un modo nocturno para mejorar la usabilidad en condiciones de baja luz.
+- Evidencia: Comentarios positivos sobre la estética, tipografías y contraste; solicitudes recurrentes de un modo oscuro.
+- Severidad: 2 (Moderado)
+- Recomendaciones:
+  - Incorporar un modo nocturno activable desde perfil/configuración.
+  - Mantener un enfoque minimalista, destacando datos críticos mediante colores semánticos.
+
+4) Heurística: Prevención de errores
+
+- Descripción: La interfaz debe reducir la posibilidad de errores y facilitar su corrección.
+- Observaciones: Las validaciones de entrada son útiles, aunque algunos usuarios presentaron dudas iniciales durante la configuración de la aplicación.
+- Evidencia: Se valora la existencia de validaciones y correcciones automáticas; sin embargo, hubo confusión puntual en los primeros pasos de configuración.
+- Severidad: 2 (Moderado)
+- Recomendaciones:
+  - Añadir un asistente interactivo paso a paso para la primera configuración.
+  - Proveer retroalimentación visual clara durante procesos críticos.
+  - Mantener validaciones en tiempo real con mensajes explicativos y accionables.
+
+5) Heurística: Accesibilidad e inclusive design
+
+- Descripción: La experiencia debe ser usable por personas con distintas capacidades y niveles técnicos.
+- Observaciones: Se valoró el lenguaje sencillo y la simplicidad visual; al mismo tiempo se sugirió mejorar contrastes y etiquetado para facilitar la comprensión sin formación técnica.
+- Evidencia: Usuarios indicaron que el lenguaje es comprensible; recomendaron aplicar mejores contrastes y descripciones en gráficos.
+- Severidad: 2 (Moderado)
+- Recomendaciones:
+  - Verificar contraste de texto y controles según WCAG 2.1 (AA).
+  - Añadir descripciones y leyendas en gráficos y elementos interactivos.
+  - Etiquetar formularios e inputs con atributos ARIA adecuados.
+
 ### 7.4. Video About-the-Product.
 
 # Conclusiones
