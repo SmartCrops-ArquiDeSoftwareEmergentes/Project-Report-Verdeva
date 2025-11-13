@@ -4292,6 +4292,11 @@ En esta sección se resumen las evaluaciones heurísticas realizadas a partir de
 
 ### 7.4. Video About-the-Product.
 
+
+![alt text](image-31.png)
+
+Enlace del video en Youtube: https://youtu.be/wySmQKZML6k
+
 # Conclusiones
 
 <br>
