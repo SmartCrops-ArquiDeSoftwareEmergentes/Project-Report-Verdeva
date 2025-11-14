@@ -4363,6 +4363,38 @@ Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
   </table>
 </div>
 
+<div>
+  <h4>Entrevista #2</h4>
+  <table>
+    <tr><th style="text-align:left;">Nombre</th><td>Camila Andrea</td></tr>
+    <tr><th style="text-align:left;">Apellidos</th><td>Rojas Paredes</td></tr>
+    <tr><th style="text-align:left;">Edad</th><td>25 años</td></tr>
+    <tr><th style="text-align:left;">Distrito</th><td>Chao, La Libertad</td></tr>
+    <tr><th style="text-align:left;">Aplicaciones Usadas</th><td>Google Chrome, WhatsApp, Zoom, Microsoft Excel, Power BI</td></tr>
+    <tr><th style="text-align:left;">Motivación</th><td>Consolidar en una sola plataforma los datos de riego, suelo y clima para mejorar la toma de decisiones en arándanos de exportación, reducir el uso ineficiente de agua y fertilizantes, y fortalecer la trazabilidad para auditorías.</td></tr>
+    <tr><th style="text-align:left;">Frustración</th><td>Tener información dispersa entre sensores, equipos manuales, Excel y distintos sistemas no integrados; retrasos entre la medición en campo y la disponibilidad de datos analizables; dificultad para comparar campañas y justificar decisiones técnicas con evidencia consolidada.</td></tr>
+    <tr><th style="text-align:left;">Tecnologías</th><td>Riego por goteo automatizado, sistema de fertirriego, sensores de humedad de suelo, estación meteorológica, laptop con Windows, smartphone Android</td></tr>
+    <tr><th style="text-align:left;">Browsers</th><td>Google Chrome</td></tr>
+    <tr><th style="text-align:left;">Entrevistador</th><td>Joel Litano</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181a732_upc_edu_pe/IQCrLOTLEEm2Q4RHELwNU5w0AUQdpJiON9Pd7FVkYwtlEqo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HqHBxd</td></tr>
+    <tr><th style="text-align:left;">Duración</th><td>16:46 min</td></tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Imagen</th>
+      <td>
+        <div align="center"><img src="entrevistacamilarojas.png" alt="Camila Andrea Rojas Paredes"></div>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Resumen</th>
+      <td>
+        Camila Andrea Rojas Paredes, ingeniera agrónoma de 25 años y responsable de monitoreo e innovación en una operación tecnificada de arándanos en Chao (La Libertad), indicó que comprendió desde el inicio que Verdeva está orientada a monitorear el campo con sensores y apoyar decisiones de riego y fertilización. Percibió clara la guía para la conexión de sensores y consideró que el asistente paso a paso facilita su uso incluso para personal menos familiarizado con tecnología, aunque sugirió aclarar algunos términos como “nodo”. Valoró positivamente la visualización de humedad en gráficos y mapas de color, así como los indicadores de pH y conductividad eléctrica con rangos óptimos y códigos de color. No reportó dificultades importantes al configurar alertas, aunque señaló que las reglas combinadas podrían beneficiarse de ejemplos prácticos. Consideró la navegación del sistema intuitiva, especialmente el dashboard como vista general del día, y destacó la claridad de los mensajes de error y validaciones. Identificó sin problemas la diferencia entre funciones gratuitas y de suscripción, y vería valor en pagar por reportes avanzados, predicciones e integración con herramientas como Excel y Power BI. Opinó que el lenguaje de la aplicación es mayormente claro, con apoyo visual suficiente para usuarios menos técnicos. Como mejoras, propuso un módulo de análisis por campaña, una versión móvil ligera para zonas con baja conectividad, plantillas de perfiles por cultivo y un asistente contextual dentro de la aplicación. Calificó la experiencia general con un 9/10 y afirmó que recomendaría Verdeva a productores tecnificados que buscan aprovechar mejor sus sensores y fortalecer la trazabilidad para exportación.
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
 #### 7.3.3. Evaluaciones según heurísticas.
 
 En esta sección se resumen las evaluaciones heurísticas realizadas a partir de los hallazgos recogidos durante las entrevistas de validación de Verdeva. Para cada heurística se presenta: una breve descripción, observaciones recogidas, evidencia de los usuarios, nivel de severidad y recomendaciones prácticas.
