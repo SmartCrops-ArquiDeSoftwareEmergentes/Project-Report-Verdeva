@@ -4395,6 +4395,66 @@ Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
 
 
 
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"><div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Diego</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>24 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Mejorar la eficiencia en el uso de insumos (agua y fertilizantes), reducir costos operativos y optimizar la trazabilidad para cumplir normativas y obtener certificaciones.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>NLa falta de automatización, el uso de métodos manuales en riego y fertilización, y la ausencia de herramientas digitales que integren datos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Riego por goteo con activación y dosificación manual. No se usan sensores ni sistemas automatizados para monitoreo o ajuste del riego.</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Rodrigo Chirinos</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="Entrevista-validación-Diego.png" alt="Diego"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/IQAy8Ul3_zjDT56U4gVsHD6cAYxTFuhKEqZOMFzz4S2RyM0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fFV2i0" title="Title">Ver Entrevista</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>5:42</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Diego percibió de inmediato que la herramienta le brinda información precisa y le ayuda a gestionar mejor el uso del agua, mitigando así su molestia por no contar con soluciones digitales adecuadas. Si bien el proceso de vinculación le resultó operativo, insiste en que debe ser extremadamente simple. Considera provechosos los datos de humedad y pH. Destacó la facilidad para desplazarse por la plataforma y la capacidad del sistema para corregir datos mal ingresados. Como principales mejoras, solicita incorporar unas integraciones con otras aplicaciones.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+
 #### 7.3.3. Evaluaciones según heurísticas.
 
 En esta sección se resumen las evaluaciones heurísticas realizadas a partir de los hallazgos recogidos durante las entrevistas de validación de Verdeva. Para cada heurística se presenta: una breve descripción, observaciones recogidas, evidencia de los usuarios, nivel de severidad y recomendaciones prácticas.
