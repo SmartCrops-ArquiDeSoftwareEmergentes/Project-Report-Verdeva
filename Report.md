@@ -4303,6 +4303,38 @@ Segmento 1: Productores Rurales Tradicionales
   </table>
 </div>
 
+
+<div>
+  <h4>Entrevista #3</h4>
+  <table>
+    <tr><th style="text-align:left;">Nombre</th><td>Jose</td></tr>
+    <tr><th style="text-align:left;">Apellidos</th><td>Isla Samaniego</td></tr>
+    <tr><th style="text-align:left;">Edad</th><td>54 años</td></tr>
+    <tr><th style="text-align:left;">Distrito</th><td>San Miguel</td></tr>
+    <tr><th style="text-align:left;">Aplicaciones Usadas</th><td>Presencial</td></tr>
+    <tr><th style="text-align:left;">Motivación</th><td>Mejorar el rendimiento de sus cultivos, ahorrar agua y fertilizantes, y aumentar la producción para vender más.</td></tr>
+    <tr><th style="text-align:left;">Frustración</th><td>Dificultades para identificar la cantidad exacta de agua y fertilizante que debe aplicar. También presenta problemas evaluando el estado actual de sus cultivos al momento y debe esperar a que se terminen de cultivar.</td></tr>
+    <tr><th style="text-align:left;">Tecnologías</th><td>Windows, celular básico</td></tr>
+    <tr><th style="text-align:left;">Browsers</th><td>Google Chrome</td></tr>
+    <tr><th style="text-align:left;">Entrevistador</th><td>Luis Isla</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/IQBPNzGrp7hfQIWNveTT3vbdAbwDpUp5TM302mmdF8rOvAg?e=cMbo74</td></tr>
+    <tr><th style="text-align:left;">Duración</th><td>8:04</td></tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Imagen</th>
+       <td>
+        <div align="center"><img src="entrevistajoseisla.png" alt="Diego Cano"></div></td>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Resumen</th>
+      <td>
+        osé Isla es un agricultor de 54 años, con más de 20 años de experiencia en la agricultura. Comprende lo útil que esta aplicación puede resultar para el monitoreo de sus cultivos. Menciona que la interfaz le resulta muy amigable al momento de navegar y que la información mostrada es clara y precisa. También agradece las notificaciones de error al introducir algún dato, ya que le ayudan a evitar problemas y completar los registros correctamente. Las recomendaciones y el análisis predictivo le parecen muy útiles, pues le permiten tomar acciones tanto preventivas como correctivas. Asimismo, indica que entiende correctamente las membresías, sus diferencias y en qué casos conviene pasar de un plan a otro. La funcionalidad de los sensores en los cultivos le resulta especialmente valiosa, ya que le permite mantener un control preciso y en tiempo real del estado de sus campos; además, gracias a las recomendaciones generadas puede saber de manera más clara qué acciones tomar. Considera que no tendría ningún tipo de dificultad al utilizar la herramienta en un entorno real. Como sugerencia, propone incluir la posibilidad de acceder a más tipos de sensores que puedan apoyar no solo en la parte del cultivo, sino también en etapas posteriores del proceso agrícola.
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
 
 <div>
