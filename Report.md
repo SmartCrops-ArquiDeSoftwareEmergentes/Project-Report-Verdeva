@@ -4273,8 +4273,67 @@ Segmento 1: Productores Rurales Tradicionales
   </table>
 </div>
 
+<div>
+  <h4>Entrevista #2</h4>
+  <table>
+    <tr><th style="text-align:left;">Nombre</th><td>Diego</td></tr>
+    <tr><th style="text-align:left;">Apellidos</th><td>Cano Acero</td></tr>
+    <tr><th style="text-align:left;">Edad</th><td>23 años</td></tr>
+    <tr><th style="text-align:left;">Distrito</th><td>La Molina</td></tr>
+    <tr><th style="text-align:left;">Aplicaciones Usadas</th><td>Zoom, Celular, Laptop, Sensores de pH</td></tr>
+    <tr><th style="text-align:left;">Motivación</th><td>Mejorar la calidad del cultivo, optimizar el uso del agua y garantizar la producción de arándanos de alta calidad.</td></tr>
+    <tr><th style="text-align:left;">Frustración</th><td>Dificultad al aplicar teorías agrícolas a condiciones reales; el impacto del cambio climático (exceso de calor) en la calidad del cultivo; mala conectividad; falta de intercambio de información sobre plagas.</td></tr>
+    <tr><th style="text-align:left;">Tecnologías</th><td>Riego por goteo, Fertirriego, Sensores de pH y Riego</td></tr>
+    <tr><th style="text-align:left;">Browsers</th><td>Google Chrome</td></tr>
+    <tr><th style="text-align:left;">Entrevistador</th><td>Christian Espinoza</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQCg6ThB-bT5QqumhUdj_DX8AcpqpCiWwg51l-Z4_UaEsbs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RIq4Rh</td></tr>
+    <tr><th style="text-align:left;">Duración</th><td>9:40</td></tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Imagen</th>
+       <td>
+        <div align="center"><img src="entrevistadiegocano.png" alt="Diego Cano"></div></td>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Resumen</th>
+      <td>
+        Diego Cano, agricultor técnico de 23 años que cultiva arándanos en 3 hectáreas, comprende que la solución brinda retroalimentación en tiempo real, esencial para la calidad del cultivo. Señala que el proceso de conexión de sensores es funcional, aunque busca robustez ante la mala conectividad. Destaca que los datos de pH y humedad son precisos y útiles para ajustar el fertirriego. Anticipa que no tendría problemas en configurar alertas ni aplicar las recomendaciones, ya que la plataforma actúa como un filtro de seguridad contra errores de dosificación. Valora la navegación intuitiva y la transparencia en la diferenciación de funciones de pago. Sugiere dos mejoras críticas: una herramienta de Alerta Cooperativa de Plagas para compartir información con agricultores cercanos y optimizar las herramientas para baja conectividad en el campo.
+      </td>
+    </tr>
+  </table>
+</div>
+
 Segmento 2: Productores Tecnificados de Cultivos de Alto Valor
 
+<div>
+  <h4>Entrevista #1</h4>
+  <table>
+    <tr><th style="text-align:left;">Nombre</th><td>Álvaro</td></tr>
+    <tr><th style="text-align:left;">Apellidos</th><td>Acero</td></tr>
+    <tr><th style="text-align:left;">Edad</th><td>25 años</td></tr>
+    <tr><th style="text-align:left;">Distrito</th><td>Ica</td></tr>
+    <tr><th style="text-align:left;">Aplicaciones Usadas</th><td>Excel, WhatsApp</td></tr>
+    <tr><th style="text-align:left;">Motivación</th><td>Optimizar la producción agrícola, asegurar el bienestar de los cultivos y mejorar el uso del agua.</td></tr>
+    <tr><th style="text-align:left;">Frustración</th><td>No contar con herramientas digitales de precisión, depender de experiencia/criterios subjetivos, y las variaciones climáticas que afectan la producción.</td></tr>
+    <tr><th style="text-align:left;">Tecnologías</th><td>Riego por goteo (programación manual), Fertirriego, Excel para trazabilidad.</td></tr>
+    <tr><th style="text-align:left;">Browsers</th><td>Uso ocasional de Chrome</td></tr>
+    <tr><th style="text-align:left;">Entrevistador</th><td>Christian Espinoza</td></tr>
+    <tr><th style="text-align:left;">Link</th><td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213208_upc_edu_pe/IQDpaxKVEygCQKfoCMsw4DsPAdonh6saR2BX8tL5Jdn-vwo?e=bWolFd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td></tr>
+    <tr><th style="text-align:left;">Duración</th><td>7:12</td></tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Imagen</th>
+     <td>
+        <div align="center"><img src="entrevistaaceroalvaro.png" alt="Alvaro Acero"></div></td>
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align:left; vertical-align:top;">Resumen</th>
+      <td>
+        Álvaro Acero, encargado operativo y técnico en Ica (35 hectáreas de papa, maíz y espárrago), comprendió rápidamente que la solución sirve para darle datos exactos y optimizar el uso del agua, abordando su frustración por la falta de herramientas digitales. Encontró el proceso de conexión funcional, pero enfatiza que necesita que sea muy práctico. Considera que los datos de humedad y pH son útiles, aunque deben estar contextualizados para su cultivo (si el valor es bueno o malo para su papa). Valoró que la navegación sea intuitiva y que la plataforma corrija errores ingresados. Como sugerencias clave, necesita una función de predicción climática integrada para sugerir ajustes de riego preventivo, y un módulo de Trazabilidad para reemplazar Excel y centralizar todo el registro de labores.
+      </td>
+    </tr>
+  </table>
+</div>
 
 #### 7.3.3. Evaluaciones según heurísticas.
 
