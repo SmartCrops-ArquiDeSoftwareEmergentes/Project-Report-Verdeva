@@ -4202,11 +4202,154 @@ Postman Solicitud
 
 ![alt text](image-30.png)
 
-Backend Actualizado: El backend principal fue actualizado en su despliegue de Azure para incluir la lógica de comunicación con la nueva API Edge.
-
 ##### 7.2.1.8. Team Collaboration Insights during Sprint.
 
-En el Sprint 1, la colaboración se centró en la integración de las diferentes capas del proyecto. El equipo de hardware y firmware (liderado por Alvaro) trabajó en estrecha colaboración con el equipo de la API Edge (liderado por Christian) para definir los contratos de datos. A su vez, el equipo de backend (liderado por Rodrigo) coordinó con el equipo Edge para asegurar la correcta recolección de los datos. El esfuerzo conjunto fue clave para superar los desafíos de la integración física y lograr una solución funcional.
+En el Sprint 1, la colaboración se centró en la integración de las diferentes capas del proyecto. El equipo de hardware y firmware (liderado por Alvaro) trabajó en estrecha colaboración con el equipo de la API Edge (liderado por Christian) para definir los contratos de datos. A su vez, el equipo de backend (liderado por Rodrigo) coordinó con el equipo Edge para asegurar la correcta recolección de los datos. El esfuerzo conjunto fue clave para superar los desafíos de la integración física y lograr una solución funcional. 
+
+#### 7.2.2. Sprint 2
+
+Para este segundo Sprint hemos definido como objetivo finalizar con las implementaciones que se tomaron desde el inicio del proyecto, dejando todo listo para esta entrega final.
+
+##### 7.2.2.1. Sprint Planning 2
+
+| Campo | Detalle |
+|---|---|
+| Sprint # | Sprint 2 |
+| Sprint Planning Background | Planificación inicial del equipo para organizar entregables y responsabilidades |
+| Date | 2025-11-15 |
+| Time | 15:00 pm |
+| Location | Virtual por Zoom |
+| Prepared By | Pinto Fuentes Rivera, Alvaro Felipe |
+| Attendees (to planning meeting) | Pinto Fuentes Rivera, Alvaro Felipe; Espinoza Saenz, Christian Renato; Chirinos Zúñiga, Rodrigo Manuel; Litano Liza, Joel Alexander; Isla Quispe, Luis Fernando |
+| Sprint 1 Goal | Desplegar la primera versión de nuestra Landing Page, Aplicación Web y Backend. |
+
+##### 7.2.2.2. Sprint Backlog 2.
+A continuación se presenta el Sprint Backlog 2, que incluye todas las User Stories (US) del trabajadas, excluyendo las Technical Stories (TS). Se indica responsable y estimación para cada US. Las US están agrupadas según su contexto (Landing Page, Web Application y Mobile Application).
+
+| Tipo                         | User Story ID | Título                                               | Descripción principal                                                          | Estimación (Horas) | Responsable(s)                      | Estado |
+| ---------------------------- | ------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------ | ----------------------------------- | ------ |
+| **Landing Page**             |               |                                                      |                                                                                |                    |                                     |        |
+|                              | US-01         | Información de Verdeva                               | Implementar sección de información en la landing page                          | 2                  | Pinto Fuentes Rivera, Alvaro Felipe | Done   |
+|                              | US-02         | Características de Verdeva                           | Implementar sección de características en la landing page                      | 2                  | Pinto Fuentes Rivera, Alvaro Felipe | Done   |
+|                              | US-03         | Sección de planes o membresías                       | Implementar sección de planes en la landing page                               | 2                  | Pinto Fuentes Rivera, Alvaro Felipe | Done   |
+| **Web y Mobile Application** |               |                                                      |                                                                                |                    |                                     |        |
+|                              | US-04         | Registro de Usuario                                  | Crear funcionalidad para el registro del usuario                               | 4                  | Chirinos Zúñiga, Rodrigo Manuel     | Done   |
+|                              | US-05         | Inicio de Sesión                                     | Crear funcionalidad para el inicio de sesión                                   | 4                  | Chirinos Zúñiga, Rodrigo Manuel     | Done   |
+|                              | US-07         | Adición de Campos Agrícolas                          | Crear funcionalidad para agregar campos agrícolas                              | 4                  | Espinoza Saenz, Christian Renato    | Done   |
+|                              | US-08         | Edición de Campos Agrícolas                          | Crear funcionalidad para editar los campos agrícolas agregados                 | 5                  | Espinoza Saenz, Christian Renato    | Done   |
+|                              | US-09         | Eliminación de Campos Agrícolas                      | Crear funcionalidad para eliminar campos agrícolas                             | 5                  | Espinoza Saenz, Christian Renato    | Done   |
+|                              | US-10         | Registro de Cultivos                                 | Crear funcionalidad para el registro de cultivos                               | 5                  | Litano Liza, Joel Alexander         | Done   |
+|                              | US-11         | Edición de Cultivos                                  | Crear funcionalidad para editar los cultivos agregados                         | 4                  | Espinoza Saenz, Christian Renato    | Done   |
+|                              | US-12         | Eliminación de Cultivos                              | Crear funcionalidad para eliminar cultivos agregados                           | 4                  | Espinoza Saenz, Christian Renato    | Done   |
+|                              | US-13         | Conectar y Adicionar Dispositivos IOT a mis Cultivos | Crear funcionalidad conectar y agregar los sensores a los cultivos respectivos | 6                  | Isla Quispe, Luis Fernando          | Done   |
+|                              | US-14         | Desconectar Dispositivos IOT a mis Cultivos          | Crear funcionalidad para desconectar los sensores deseados                     | 6                  | Isla Quispe, Luis Fernando          | Done   |
+|                              | US-17         | Recomendaciones y Toma de decisión de los Cultivos   | Crear funcionalidad para las recomendaciones de la IA                          | 6                  | Pinto Fuentes Rivera, Alvaro Felipe | Done   |
+|                              | US-23         | Configuración de Cuenta                              | Crear funcionalidad para que el usuario pueda personalizar su cuenta           | 4                  | Litano Liza, Joel Alexander         | Done   |
+
+##### 7.2.2.3. Development Evidence for Sprint Review.
+
+**Landing Page:**
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Landing-Page-Verdeva| main | d10ad8ba2655b3197904edd40aca24e5b912771e|chore: initial commit|-|09/10/2025|
+
+**Web Application:**
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva| main | 3a4303fe77e6b90d488b25ba4417ee425976f92c|feat: ai chat implementation added|-|29/11/2025|
+
+**Api-edge-Verdeva**
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Api-edge-Verdeva| main | 4f98991ca3396826004fa59890ad3962c7485c6e|test: add fields_crops.feature|-|13/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Api-edge-Verdeva| main | df33033671141bb5e704b7d028816045117eefff|test: add devices_iot.feature|-|13/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Api-edge-Verdeva| main | fc4cdde4b75f471d65f2eccbccaaf4e8c49dd95d|Update devices_iot.feature|-|13/11/2025|
+
+**AI-API**
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 08b31958581eb39fb020b9c4b368ff1ae11508d0|test: add reccomendations.feature|-|13/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 6625086cf06820cfdc917055ee39823282943a32|feat: ai chatbox added
+|-|29/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/AI-API| main | 08b31958581eb39fb020b9c4b368ff1ae11508d0feat: ai chat improved
+|-|29/11/2025|
+
+
+**BACK-END**
+|Repository| Branch| Commit Id| Commit Message |Commit Message Body| Commited on (Date)|
+|----|-----|------|-----|----|---|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Back-End-Verdeva| main | b6d5c6099154ffb0a5b9f3124e0bacc3226e8712|test: add auth.feature|-|13/11/2025|
+|https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Back-End-Verdeva| main | 6c715ff5709bf30b790afca7103e4d8a1d0cc469|test: add account_settings.feature|-|13/11/2025|
+
+##### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+En esta sección se presenta el conjunto de **Unit Tests, Integration Tests** y **Acceptance Tests** automatizados desarrollados para los **Web Services** relacionados con las _User Stories_ implementadas durante el **Sprint 2** del proyecto **Verdeva**.
+
+El objetivo de esta evidencia es demostrar el inicio de la cobertura de testing automatizado en los diferentes niveles de la arquitectura del sistema, garantizando la correcta validación de las funcionalidades implementadas en los repositorios de backend y servicios API.
+
+La suite de pruebas se compone de dos partes:
+
+- **Unit Tests:** desarrollados en el proyecto `Verdeva.Application.Test` del repositorio **Back-End-Verdeva**, utilizando el framework **xUnit**, con librerías auxiliares **Moq** y **AutoMapper** para simular dependencias.
+    
+- **Integration y Acceptance Tests bajo BDD:** planificados mediante archivos `.feature` escritos en lenguaje **Gherkin**, que describen el comportamiento esperado de los servicios y flujos principales del sistema.  
+
+| **Repository**                                        | **Branch**              | **Archivo .feature**     | **User Story Relacionada(s)**            | **Descripción principal**                                                                     | **Commit Id**                            | **Commit Message**                             | **Commit Message Body**                                                          | **Committed on (Date)** |
+| ----------------------------------------------------- | ----------------------- | ------------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
+| SmartCrops-ArquiDeSoftwareEmergentes/Api-edge-Verdeva | feature/testing-sprint1 | auth.feature             | US-04, US-05                             | Pruebas BDD para el registro e inicio de sesión de usuarios en la API de autenticación.       | b6d5c6099154ffb0a5b9f3124e0bacc3226e8712 | test: add auth.feature for user login/register | Added feature file for user registration and login scenarios (BDD).              | 13/11/2025              |
+| SmartCrops-ArquiDeSoftwareEmergentes/Api-edge-Verdeva | feature/testing-sprint1 | fields_crops.feature     | US-07, US-08, US-09, US-10, US-11, US-12 | Pruebas BDD de gestión de campos agrícolas y cultivos (registro, edición, eliminación).       | 4f98991ca3396826004fa59890ad3962c7485c6e | test: add fields and crops feature scenarios   | Added CRUD feature tests for fields and crops endpoints.                         | 13/11/2025              |
+| SmartCrops-ArquiDeSoftwareEmergentes/Api-edge-Verdeva | feature/testing-sprint1 | devices_iot.feature      | US-13, US-14                             | Pruebas BDD para conexión y desconexión de dispositivos IoT asociados a cultivos.             | df33033671141bb5e704b7d028816045117eefff | test: add IoT device connection feature        | Added BDD scenarios for connecting and disconnecting IoT sensors.                | 13/11/2025              |
+| SmartCrops-ArquiDeSoftwareEmergentes/AI-API           | feature/testing-sprint1 | recommendations.feature  | US-17                                    | Pruebas BDD del endpoint de IA que entrega recomendaciones direccionales basadas en sensores. | 08b31958581eb39fb020b9c4b368ff1ae11508d0 | test: add AI recommendations feature           | Added feature file for AI recommendation endpoint with valid and invalid inputs. | 13/11/2025              |
+| SmartCrops-ArquiDeSoftwareEmergentes/Back-End-Verdeva | feature/testing-sprint1 | account_settings.feature | US-23                                    | Pruebas BDD para actualización de preferencias y configuración de cuenta del usuario.         | 6c715ff5709bf30b790afca7103e4d8a1d0cc469 | test: add account settings feature             | Added feature file for user account settings update and validation scenarios.    | 13/11/2025              |
+
+##### 7.2.2.5. Execution Evidence for Sprint Review.
+
+Ejecución del Frontend: Durante este sprint se concretó el desarrollo del frontend incluyendo las recomendaciones.
+
+![hola](image-26.png)
+
+Ejecución de la ai api: Durante este sprint se configuró la api key de gemini para ser usada en el frontend.
+
+![alt text](image-27.png)
+
+
+Ejecución del backend: Durante este sprint se completó el desarrollo del backend cubriendo todos los endpoint mencionados en nuestro alcance.
+
+![alt text](image-28.png)
+
+
+Ejecución api edge: Se demostró mediante logs y la herramienta Postman cómo el ESP32 enviaba peticiones a la API Edge.
+
+![alt text](image-29.png)
+
+
+##### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Agro Gemini API (AI)
+
+Información básica:
+
+- Nombre: Agro Gemini API
+- Versión: 0.1.0
+- Especificación: OAS 3.1
+- OpenAPI descriptor: /openapi.json
+- Security: default
+- Documentación pública: https://ai-api-pearl-one.vercel.app/docs#/
+
+Endpoints relevantes (referencia de integración):
+
+| Verbo | Ruta | Nombre / Acción |
+|---|---|---|
+| GET | /health | Health, revisar el estado de la api |
+| POST | /v1/agro/ask | Ask, pregunta a la ia |
+| GET | / | Root |
+
+##### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+##### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+En el Sprint 2, la colaboración se centró en terminar cada producto del proyecto, por ejemplo para la sección de recomendaciones con IA, se desarrolló e implementó un chatbox. Además, se hicieron sus respectivos test de funcionamiento. 
 
 ### 7.3. Validation Interviews.
 #### 7.3.1. Diseño de Entrevistas.
