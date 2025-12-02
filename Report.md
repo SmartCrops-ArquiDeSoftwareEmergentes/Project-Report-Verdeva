@@ -184,6 +184,56 @@
         - [5.6.6.1. Bounded Context Domain Layer Class Diagrams](#5661-bounded-context-domain-layer-class-diagrams)
         - [5.6.6.2. Bounded Context Database Design Diagram](#5662-bounded-context-database-design-diagram)
 
+### [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design-1)
+- [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+- [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.2. Labeling Systems](#622-labeling-systems)
+    - [6.2.3. Searching Systems](#623-searching-systems)
+    - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
+    - [6.2.5. Navigation Systems](#625-navigation-systems)
+- [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+- [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+    - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+    - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+- [6.5. Applications Prototyping](#65-applications-prototyping)
+
+### [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment-1)
+- [7.1. Software Configuration Management](#71-software-configuration-management)
+    - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+    - [7.1.2. Source Code Management](#712-source-code-management)
+    - [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)
+    - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+- [7.2. Solution Implementation](#72-solution-implementation)
+    - [7.2.1. Sprint 1](#721-sprint-1)
+        - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+        - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+        - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+        - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+        - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+        - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+        - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+        - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+    - [7.2.2. Sprint 2](#722-sprint-2)
+        - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
+        - [7.2.2.2. Sprint Backlog 2](#7222-sprint-backlog-2)
+        - [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+        - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+        - [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+        - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+        - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+        - [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
+- [7.3. Validation Interviews](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+    - [7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-según-heurísticas)
+- [7.4. Video About-the-Product](#74-video-about-the-product)
+
 ### [Conclusiones](#conclusiones-1)
 ### [Bibliografía](#bibliografía-1)
 ### [Anexos](#anexos-1)
@@ -4344,6 +4394,31 @@ Endpoints relevantes (referencia de integración):
 | GET | / | Root |
 
 ##### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Firmware en ESP32: El firmware fue compilado y cargado exitosamente en el dispositivo ESP32 físico. API Edge en Azure: La API Edge fue desplegada y está accesible públicamente en Azure, lista para recibir datos de los dispositivos IoT en campo.
+
+Prueba con Postman del Edge:
+Postman Solicitud 
+
+![alt text](image-30.png)
+
+API Central "Agro Gemini" Desplegada (en Vercel): La API principal, que actúa como el backend inteligente y maneja la lógica de negocio, ha sido desplegada exitosamente en la plataforma Vercel. Su documentación pública, accesible en ai-api-pearl-one.vercel.app/docs#/default.
+
+Endpoints Operacionales:
+
+GET /health: Verifica el estado de disponibilidad del servicio.
+
+POST /v1/agro/ask: Punto de entrada para consultas de datos puntuales (Ej: promedios, valores específicos).
+
+POST /v1/agro/chat: Punto de entrada para la interacción conversacional continua con la IA.
+
+GET /v1/agro/history y /v1/agro/history/{chat_id}: Recuperan el historial de conversaciones.
+
+GET /v1/agro/sensors/history y /v1/agro/stats: Ofrecen acceso a datos brutos e indicadores clave de los sensores IoT.
+
+GET /v1/agro/search: Permite manejar las búsquedas dentro de la aplicación.
+
+![api deploy evidence](deployevidenceapi.png)
 
 
 
