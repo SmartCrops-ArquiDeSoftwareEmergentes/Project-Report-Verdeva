@@ -4221,7 +4221,7 @@ Para este segundo Sprint hemos definido como objetivo finalizar con las implemen
 | Location | Virtual por Zoom |
 | Prepared By | Pinto Fuentes Rivera, Alvaro Felipe |
 | Attendees (to planning meeting) | Pinto Fuentes Rivera, Alvaro Felipe; Espinoza Saenz, Christian Renato; Chirinos Zúñiga, Rodrigo Manuel; Litano Liza, Joel Alexander; Isla Quispe, Luis Fernando |
-| Sprint 1 Goal | Desplegar la primera versión de nuestra Landing Page, Aplicación Web y Backend. |
+| Sprint 2 Goal | Terminar de desarrollar e implementar todos nuestros productos. |
 
 ##### 7.2.2.2. Sprint Backlog 2.
 A continuación se presenta el Sprint Backlog 2, que incluye todas las User Stories (US) del trabajadas, excluyendo las Technical Stories (TS). Se indica responsable y estimación para cada US. Las US están agrupadas según su contexto (Landing Page, Web Application y Mobile Application).
