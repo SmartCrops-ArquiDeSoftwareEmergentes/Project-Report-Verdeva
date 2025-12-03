@@ -3,19 +3,22 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <br><img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br>
     <br>
-    <strong>Ingeniería de Software - 2025-02</strong><br>
+    <strong>Ingeniería de Software</strong><br>
     <br>
-    <strong>Arquitecturas De Software Emergentes - 14653</strong><br>  
+    <strong>1ASI0728 Arquitecturas de Software Emergentes</strong><br>
     <br>
-    <strong>Profesor: Richard Leonardo Berrocal Navarro </strong><br>
-    <br> <strong>INFORME DE TB1</strong> 
-</p>
-<p align="center">
-    <strong>Startup: SmartCrops</strong><br>
-    <strong>Producto: Verdeva</strong>
+    <strong>202520</strong><br>
+    <br>
+    <strong>NRC: 14653</strong><br>
+    <br>
+    <strong>Profesor: Richard Leonardo Berrocal Navarro</strong><br>
+    <br>
+    <strong>Informe del Trabajo Final</strong><br>
+    <br>
+    <strong>Nombre del Producto: Verdeva</strong>
 </p>
 
-<h3 align="center">Integrantes del proyecto</h3>
+<h3 align="center">Integrantes:</h3>
 <div>
   <table text-align="center">
     <tr>
@@ -46,7 +49,7 @@
 </div>
 <br>
 <p align="center">
-    <strong>SEPTIEMBRE 2025 </strong>
+    <strong>Diciembre de 2025</strong>
 </p>
 <br>
 
