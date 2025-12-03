@@ -4749,19 +4749,26 @@ En esta sección se resumen las evaluaciones heurísticas realizadas a partir de
 
 Enlace del video en Youtube: https://youtu.be/wySmQKZML6k
 
+
+
+
 # Conclusiones
 
 <br>
 
 <div align = "justify">
 
-Concluimos que Verdeva representa una solución viable y necesaria para abordar los desafíos críticos del sector agrícola sudamericano, donde los pequeños y medianos productores enfrentan escasez de agua, incremento de precios de fertilizantes y falta de acceso a tecnologías de precisión. A través del análisis de mercado y las entrevistas realizadas, se validó una demanda real por herramientas que automaticen el riego y la fertilización, confirmando que los agricultores están dispuestos a adoptar tecnología accesible y fácil de usar. La propuesta de valor de Verdeva se diferencia de competidores como NetBeat, AgroSmart y Taranis al ofrecer una solución integral y económicamente accesible específicamente diseñada para productores rurales tradicionales, con una arquitectura de software robusta que garantiza alcanzar los objetivos de reducir hasta un 40% el consumo de agua y fertilizantes y aumentar la productividad en aproximadamente un 25%. En conclusión, Verdeva tiene el potencial de transformar las prácticas agrícolas en la región mediante un modelo freemium que democratiza el acceso a la agricultura de precisión, equilibrando la viabilidad comercial con el impacto social y contribuyendo a la sostenibilidad del sector agropecuario.
+El desarrollo e implementación de Verdeva representa un logro significativo en la transformación digital del sector agrícola sudamericano, demostrando la viabilidad de integrar tecnologías emergentes de IoT, inteligencia artificial y arquitecturas de software modernas para resolver problemáticas críticas como la escasez hídrica, el incremento de costos de fertilizantes y el limitado acceso a tecnologías de precisión. A lo largo del proyecto, se implementó exitosamente una arquitectura distribuida basada en Domain-Driven Design, desplegada en Microsoft Azure, que integra un backend en ASP.NET Core, una API Edge para dispositivos IoT ESP32, un motor de IA basado en Google Gemini, y aplicaciones frontend web (Vue.js) y móvil (Android/Kotlin). El equipo aplicó rigurosamente metodologías ágiles y prácticas de DevOps, evolucionando desde un MVP funcional (Sprint 1) hasta un producto completo con chatbot conversacional, visualización de datos históricos, notificaciones push y reportes predictivos (Sprint 2), generando documentación técnica integral que garantiza mantenibilidad y escalabilidad del producto.
+
+En conclusión, Verdeva constituye un caso de estudio integral de ingeniería de software aplicada a problemas reales con impacto social y ambiental. Las validaciones con usuarios confirmaron la efectividad de la solución, alcanzando la propuesta de valor de reducir hasta 40% el consumo de agua y fertilizantes e incrementar 25% la productividad mediante automatización inteligente de riego. El modelo freemium implementado garantiza accesibilidad para pequeños productores mientras asegura viabilidad comercial sostenible. Los resultados obtenidos validan la hipótesis de que la tecnología IoT inteligente y accesible puede democratizar la agricultura de precisión, empoderando a productores de cualquier escala para optimizar recursos críticos, aumentar su competitividad y contribuir a la sostenibilidad del sector agropecuario frente a los desafíos del cambio climático y la volatilidad de precios de insumos.
 
 <br><br>
 
 </div>
 
+### Video About-the-Team
 
+Enlace del video:  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQArPEu4MnXqTKMAjN2THp43AVXzJ-H-KGblbaRVeLbMzkM?e=xUKR5S&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <br>
 
@@ -4815,3 +4822,17 @@ Concluimos que Verdeva representa una solución viable y necesaria para abordar 
 + Repositorio GitHub de la Aplicación Web: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva)<br><br>
 + Repositorio GitHub de la Aplicación Móvil: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva)<br><br>
 + Landing Page: [Ver Landing Page]()<br><br>
+
+
+
+### Video About-the-Product.
+
+https://youtu.be/wySmQKZML6k
+
+### Video about-the-team:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQArPEu4MnXqTKMAjN2THp43AVXzJ-H-KGblbaRVeLbMzkM?e=xUKR5S&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### Video exposición trabajo final:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQDbdLjPFcDuT7YH87bKzFgIAZ61F3coCgHzdiSpmmofmLI?e=azn3jq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
