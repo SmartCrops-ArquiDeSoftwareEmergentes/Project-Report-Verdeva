@@ -245,16 +245,13 @@
 
 # Student Outcome
 
-**ABET – EAC – Student Outcome 5**
+**ABET – EAC – Student Outcome 3**
 
 <div align="justify">
-    Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.<br><br>
+    Criterio: La capacidad de comunicarse efectivamente con un rango de audiencias.<br><br>
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
 </div>    
 
 <div align="justify">
@@ -268,7 +265,7 @@ del ABET – EAC - Student Outcome 5.
     <th>Conclusiones</th>
   </tr>
   <tr>
-    <td>Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
+    <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería de software</td>
     <td>
       <strong>TB1:</strong><br>
       <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Durante el desarrollo del TB1, me encargué de la presentación del Startup Profile y Solution Profile del proyecto Verdeva, comunicando de manera clara y estructurada la visión, misión y propuesta de valor de SmartCrops. Facilité sesiones de trabajo colaborativo para el desarrollo del Lean UX Canvas, donde expliqué conceptos técnicos de manera accesible para todos los miembros del equipo. Además, conduje la entrevista con productores rurales tradicionales, adaptando mi comunicación al contexto y nivel educativo del entrevistado para obtener información valiosa sobre sus necesidades reales.<br><br>
@@ -289,7 +286,7 @@ del ABET – EAC - Student Outcome 5.
     </td>	
   </tr>
   <tr>
-    <td>Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+    <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto de ingeniería de software</td>
     <td>
       <strong>TB1:</strong><br>
       <strong>Pinto Fuentes Rivera, Alvaro Felipe:</strong> Redacté de manera integral el Startup Profile (sección 1.1) y Solution Profile (sección 1.2), incluyendo la descripción de la startup, antecedentes y problemática, y todo el proceso Lean UX. Desarrollé la documentación técnica del Lean UX Canvas, articulando de forma clara las hipótesis de negocio, assumptions y problem statements. Creé diagramas C4 con documentación técnica detallada para la arquitectura del sistema. Además, transcribí y analicé entrevistas del primer segmento objetivo, adaptando el lenguaje técnico para diferentes audiencias dentro del reporte académico.<br><br>
