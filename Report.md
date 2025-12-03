@@ -4815,5 +4815,3 @@ Concluimos que Verdeva representa una solución viable y necesaria para abordar 
 + Repositorio GitHub de la Aplicación Web: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/Front-End-Verdeva)<br><br>
 + Repositorio GitHub de la Aplicación Móvil: [Ver Repositorio](https://github.com/SmartCrops-ArquiDeSoftwareEmergentes/App-Mobile-Verdeva)<br><br>
 + Landing Page: [Ver Landing Page]()<br><br>
-  
-## Video Exposición del TB1
